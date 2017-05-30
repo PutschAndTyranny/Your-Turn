@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>ES_Animation</name>
+    <name>ES_P1_Animation</name>
     <events>
         <event-group description="" sid="334510886822392" title="Animation">
             <sub-events>
@@ -10,8 +10,8 @@
                         <condition id="-1" name="Every tick" sid="341701130255464" type="System" />
                     </conditions>
                     <actions>
-                        <action id="-4" name="Set position to another object" sid="381122870244279" type="Player_Animation">
-                            <param id="0" name="Object">Player</param>
+                        <action id="-4" name="Set position to another object" sid="381122870244279" type="P1_Animation">
+                            <param id="0" name="Object">P1_Collider</param>
                             <param id="1" name="Image point (optional)">&quot;Sprite&quot;</param>
                         </action>
                     </actions>
@@ -27,7 +27,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="7" name="Set mirrored" sid="128247935092405" type="Player_Animation">
+                                <action id="7" name="Set mirrored" sid="128247935092405" type="P1_Animation">
                                     <param id="0" name="State">1</param>
                                 </action>
                             </actions>
@@ -41,7 +41,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="7" name="Set mirrored" sid="229593022521430" type="Player_Animation">
+                                <action id="7" name="Set mirrored" sid="229593022521430" type="P1_Animation">
                                     <param id="0" name="State">0</param>
                                 </action>
                             </actions>
@@ -130,10 +130,10 @@
                                     <sub-events>
                                         <event-block sid="578131160487662">
                                             <conditions>
-                                                <condition behavior="Platform" id="3" name="Is jumping" sid="593253114988987" type="Player" />
+                                                <condition behavior="Platform" id="3" name="Is jumping" sid="593253114988987" type="P1_Collider" />
                                             </conditions>
                                             <actions>
-                                                <action id="4" name="Set animation" sid="260840987174347" type="Player_Animation">
+                                                <action id="4" name="Set animation" sid="260840987174347" type="P1_Animation">
                                                     <param id="0" name="Animation">&quot;T_Jump&quot;</param>
                                                     <param id="1" name="From">1</param>
                                                 </action>
@@ -141,10 +141,10 @@
                                         </event-block>
                                         <event-block sid="449878577556895">
                                             <conditions>
-                                                <condition behavior="Platform" id="4" name="Is falling" sid="340794270979270" type="Player" />
+                                                <condition behavior="Platform" id="4" name="Is falling" sid="340794270979270" type="P1_Collider" />
                                             </conditions>
                                             <actions>
-                                                <action id="4" name="Set animation" sid="190580276259956" type="Player_Animation">
+                                                <action id="4" name="Set animation" sid="190580276259956" type="P1_Animation">
                                                     <param id="0" name="Animation">&quot;T_Fall&quot;</param>
                                                     <param id="1" name="From">1</param>
                                                 </action>
@@ -152,11 +152,11 @@
                                         </event-block>
                                         <event-block sid="799191084821140">
                                             <conditions>
-                                                <condition behavior="Platform" id="2" name="Is on floor" sid="161542991472041" type="Player" />
-                                                <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="225000398800409" type="Player" />
+                                                <condition behavior="Platform" id="2" name="Is on floor" sid="161542991472041" type="P1_Collider" />
+                                                <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="225000398800409" type="P1_Collider" />
                                             </conditions>
                                             <actions>
-                                                <action id="4" name="Set animation" sid="775671056052327" type="Player_Animation">
+                                                <action id="4" name="Set animation" sid="775671056052327" type="P1_Animation">
                                                     <param id="0" name="Animation">&quot;T_Idle&quot;</param>
                                                     <param id="1" name="From">1</param>
                                                 </action>
@@ -164,11 +164,11 @@
                                         </event-block>
                                         <event-block sid="873010467961627">
                                             <conditions>
-                                                <condition behavior="Platform" id="2" name="Is on floor" sid="623846573222423" type="Player" />
-                                                <condition behavior="Platform" id="0" name="Is moving" sid="453409680785666" type="Player" />
+                                                <condition behavior="Platform" id="2" name="Is on floor" sid="623846573222423" type="P1_Collider" />
+                                                <condition behavior="Platform" id="0" name="Is moving" sid="453409680785666" type="P1_Collider" />
                                             </conditions>
                                             <actions>
-                                                <action id="4" name="Set animation" sid="865595976445873" type="Player_Animation">
+                                                <action id="4" name="Set animation" sid="865595976445873" type="P1_Animation">
                                                     <param id="0" name="Animation">&quot;T_Run&quot;</param>
                                                     <param id="1" name="From">1</param>
                                                 </action>
@@ -176,21 +176,21 @@
                                         </event-block>
                                         <event-block sid="809711427614605">
                                             <conditions>
-                                                <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="355180247859745" type="Player" />
+                                                <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="355180247859745" type="P1_Collider" />
                                             </conditions>
                                             <actions />
                                             <sub-events>
                                                 <event-block any="1" sid="221245986493934">
                                                     <conditions>
-                                                        <condition behavior="Platform" id="10" name="Is by wall" sid="283828681321958" type="Player">
+                                                        <condition behavior="Platform" id="10" name="Is by wall" sid="283828681321958" type="P1_Collider">
                                                             <param id="0" name="Side">0</param>
                                                         </condition>
-                                                        <condition behavior="Platform" id="10" name="Is by wall" sid="724329883068746" type="Player">
+                                                        <condition behavior="Platform" id="10" name="Is by wall" sid="724329883068746" type="P1_Collider">
                                                             <param id="0" name="Side">1</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
-                                                        <action id="4" name="Set animation" sid="287673889365570" type="Player_Animation">
+                                                        <action id="4" name="Set animation" sid="287673889365570" type="P1_Animation">
                                                             <param id="0" name="Animation">&quot;T_Wallslide&quot;</param>
                                                             <param id="1" name="From">1</param>
                                                         </action>
@@ -212,10 +212,10 @@
                                     <sub-events>
                                         <event-block sid="885205999525163">
                                             <conditions>
-                                                <condition behavior="Platform" id="3" name="Is jumping" sid="994345481737820" type="Player" />
+                                                <condition behavior="Platform" id="3" name="Is jumping" sid="994345481737820" type="P1_Collider" />
                                             </conditions>
                                             <actions>
-                                                <action id="4" name="Set animation" sid="625747380291157" type="Player_Animation">
+                                                <action id="4" name="Set animation" sid="625747380291157" type="P1_Animation">
                                                     <param id="0" name="Animation">&quot;S_Jump&quot;</param>
                                                     <param id="1" name="From">1</param>
                                                 </action>
@@ -223,10 +223,10 @@
                                         </event-block>
                                         <event-block sid="222344627671132">
                                             <conditions>
-                                                <condition behavior="Platform" id="4" name="Is falling" sid="700645934521208" type="Player" />
+                                                <condition behavior="Platform" id="4" name="Is falling" sid="700645934521208" type="P1_Collider" />
                                             </conditions>
                                             <actions>
-                                                <action id="4" name="Set animation" sid="739749305754324" type="Player_Animation">
+                                                <action id="4" name="Set animation" sid="739749305754324" type="P1_Animation">
                                                     <param id="0" name="Animation">&quot;S_Fall&quot;</param>
                                                     <param id="1" name="From">1</param>
                                                 </action>
@@ -234,11 +234,11 @@
                                         </event-block>
                                         <event-block sid="485816138875231">
                                             <conditions>
-                                                <condition behavior="Platform" id="2" name="Is on floor" sid="894281726710319" type="Player" />
-                                                <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="254395388050635" type="Player" />
+                                                <condition behavior="Platform" id="2" name="Is on floor" sid="894281726710319" type="P1_Collider" />
+                                                <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="254395388050635" type="P1_Collider" />
                                             </conditions>
                                             <actions>
-                                                <action id="4" name="Set animation" sid="216885785517479" type="Player_Animation">
+                                                <action id="4" name="Set animation" sid="216885785517479" type="P1_Animation">
                                                     <param id="0" name="Animation">&quot;S_Idle&quot;</param>
                                                     <param id="1" name="From">1</param>
                                                 </action>
@@ -246,11 +246,11 @@
                                         </event-block>
                                         <event-block sid="715527884117952">
                                             <conditions>
-                                                <condition behavior="Platform" id="2" name="Is on floor" sid="413767821206588" type="Player" />
-                                                <condition behavior="Platform" id="0" name="Is moving" sid="344572553453210" type="Player" />
+                                                <condition behavior="Platform" id="2" name="Is on floor" sid="413767821206588" type="P1_Collider" />
+                                                <condition behavior="Platform" id="0" name="Is moving" sid="344572553453210" type="P1_Collider" />
                                             </conditions>
                                             <actions>
-                                                <action id="4" name="Set animation" sid="851632409750361" type="Player_Animation">
+                                                <action id="4" name="Set animation" sid="851632409750361" type="P1_Animation">
                                                     <param id="0" name="Animation">&quot;S_Run&quot;</param>
                                                     <param id="1" name="From">1</param>
                                                 </action>
@@ -258,21 +258,21 @@
                                         </event-block>
                                         <event-block sid="152882439205117">
                                             <conditions>
-                                                <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="952374991911549" type="Player" />
+                                                <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="952374991911549" type="P1_Collider" />
                                             </conditions>
                                             <actions />
                                             <sub-events>
                                                 <event-block any="1" sid="458257112256431">
                                                     <conditions>
-                                                        <condition behavior="Platform" id="10" name="Is by wall" sid="493889700964026" type="Player">
+                                                        <condition behavior="Platform" id="10" name="Is by wall" sid="493889700964026" type="P1_Collider">
                                                             <param id="0" name="Side">0</param>
                                                         </condition>
-                                                        <condition behavior="Platform" id="10" name="Is by wall" sid="394936099563051" type="Player">
+                                                        <condition behavior="Platform" id="10" name="Is by wall" sid="394936099563051" type="P1_Collider">
                                                             <param id="0" name="Side">1</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
-                                                        <action id="4" name="Set animation" sid="757057525109751" type="Player_Animation">
+                                                        <action id="4" name="Set animation" sid="757057525109751" type="P1_Animation">
                                                             <param id="0" name="Animation">&quot;S_Wallslide&quot;</param>
                                                             <param id="1" name="From">1</param>
                                                         </action>

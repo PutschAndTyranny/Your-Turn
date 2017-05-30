@@ -110,7 +110,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Player" uid="188">
+                <instance type="P1_Collider" uid="188">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -303,7 +303,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Player_Animation" uid="212">
+                <instance type="P1_Animation" uid="212">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

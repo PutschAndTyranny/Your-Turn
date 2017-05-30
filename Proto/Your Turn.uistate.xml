@@ -11,9 +11,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="4">Intro</layout>
-        <layout active="1" order="5">Level 1</layout>
+        <layout order="5">Level 1</layout>
         <layout order="6">Level 2</layout>
-        <event-sheet order="0">ES_Main</event-sheet>
+        <layout order="7">Sandbox</layout>
+        <event-sheet active="1" order="0">ES_Main</event-sheet>
         <event-sheet order="1">ES_Variables</event-sheet>
         <event-sheet order="2">ES_P1_Runner</event-sheet>
         <event-sheet order="3">ES_P2_Shooter</event-sheet>
@@ -31,10 +32,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Tools/" />
         <folder expanded="0" path="object-folder/Floor/" />
         <folder expanded="0" path="object-folder/TXT/" />
-        <folder expanded="1" path="object-folder/P2_Shooter/" />
-        <folder expanded="0" path="object-folder/P1_Runner/" />
+        <folder expanded="0" path="object-folder/P2_Shooter/" />
+        <folder expanded="1" path="object-folder/P1_Runner/" />
         <folder expanded="0" path="layout-folder/" />
-        <folder expanded="0" path="event-folder/" />
+        <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
@@ -68,8 +69,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Smoke/" />
         <folder expanded="1" path="animation-folder/ViewCenter/" />
         <folder expanded="1" path="animation-folder/Player_Cursor/" />
-        <folder expanded="1" path="animation-folder/Player/" />
-        <folder expanded="1" path="animation-folder/Player_Animation/" />
+        <folder expanded="1" path="animation-folder/P1_Collider/" />
+        <folder expanded="1" path="animation-folder/P1_Animation/" />
+        <folder expanded="1" path="animation-folder/P1_Hitbox/" />
         <folder expanded="1" path="animation-folder/Timer/" />
     </folders-expanded>
 </c2uistate>

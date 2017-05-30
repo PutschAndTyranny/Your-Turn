@@ -27,7 +27,7 @@
                 </event-block>
                 <event-block sid="562712876365427">
                     <conditions>
-                        <condition id="0" name="On collision with another object" sid="462994528402016" type="Player">
+                        <condition id="0" name="On collision with another object" sid="462994528402016" type="P1_Collider">
                             <param id="0" name="Object">LD_StepFloor</param>
                         </condition>
                     </conditions>
@@ -60,7 +60,7 @@
                 </event-block>
                 <event-block sid="647413959326539">
                     <conditions>
-                        <condition id="1" name="Is overlapping another object" sid="634678296858914" type="Player_Animation">
+                        <condition id="1" name="Is overlapping another object" sid="634678296858914" type="P1_Animation">
                             <param id="0" name="Object">LD_StepFloor</param>
                         </condition>
                     </conditions>
@@ -359,7 +359,7 @@
                 </event-block>
                 <event-block sid="433968000204034">
                     <conditions>
-                        <condition id="0" name="On collision with another object" sid="466087950756173" type="Player">
+                        <condition id="0" name="On collision with another object" sid="466087950756173" type="P1_Collider">
                             <param id="0" name="Object">LD_Platform</param>
                         </condition>
                     </conditions>
@@ -392,7 +392,7 @@
                 </event-block>
                 <event-block sid="116239429265721">
                     <conditions>
-                        <condition id="1" name="Is overlapping another object" sid="982467494176734" type="Player_Animation">
+                        <condition id="1" name="Is overlapping another object" sid="982467494176734" type="P1_Animation">
                             <param id="0" name="Object">LD_Platform</param>
                         </condition>
                     </conditions>

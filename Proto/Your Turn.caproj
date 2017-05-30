@@ -684,7 +684,7 @@
             </object-type>
         </object-folder>
         <object-folder name="P1_Runner">
-            <object-type name="Player" sid="101403435179678">
+            <object-type name="P1_Collider" sid="101403435179678">
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable name="State" sid="946286947713092" type="string" />
@@ -698,8 +698,9 @@
                     </behavior-type>
                 </behaviors>
                 <container>
-                    <type>Player</type>
-                    <type>Player_Animation</type>
+                    <type>P1_Collider</type>
+                    <type>P1_Animation</type>
+                    <type>P1_Hitbox</type>
                 </container>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="stand" pingpong="0" repeatcount="1" repeatto="0" sid="4459791424309521" speed="5">
@@ -709,11 +710,12 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="Player_Animation" sid="821382101078355">
+            <object-type name="P1_Animation" sid="821382101078355">
                 <plugin id="Sprite" />
                 <container>
-                    <type>Player</type>
-                    <type>Player_Animation</type>
+                    <type>P1_Collider</type>
+                    <type>P1_Animation</type>
+                    <type>P1_Hitbox</type>
                 </container>
                 <animation-folder>
                     <animation framecount="12" loop="1" name="T_Run" pingpong="0" repeatcount="1" repeatto="0" sid="443541828289931" speed="30">
@@ -1950,6 +1952,26 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="P1_Hitbox" sid="460417982098866">
+                <plugin id="Sprite" />
+                <container>
+                    <type>P1_Collider</type>
+                    <type>P1_Animation</type>
+                    <type>P1_Hitbox</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="608289205877230" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.09375" y="0" />
+                                <point x="0.875" y="0" />
+                                <point x="0.875" y="0.875" />
+                                <point x="0.09375" y="0.875" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-type name="Colider" sid="6240819493895153">
             <plugin id="TiledBg" />
@@ -2007,7 +2029,7 @@
         <event-sheet>ES_Objects.xml</event-sheet>
         <event-sheet>ES_Main.xml</event-sheet>
         <event-sheet>ES_LevelTimer.xml</event-sheet>
-        <event-sheet>ES_Animation.xml</event-sheet>
+        <event-sheet>ES_P1_Animation.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="10" />

@@ -37,28 +37,28 @@
                                             <sub-events>
                                                 <event-block sid="485910536066337">
                                                     <conditions>
-                                                        <condition behavior="Platform" id="10" inverted="1" name="Is by wall" sid="311049297568239" type="Player">
+                                                        <condition behavior="Platform" id="10" inverted="1" name="Is by wall" sid="311049297568239" type="P1_Collider">
                                                             <param id="0" name="Side">0</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
-                                                        <action behavior="Platform" id="7" name="Simulate control" sid="256640867854817" type="Player">
+                                                        <action behavior="Platform" id="7" name="Simulate control" sid="256640867854817" type="P1_Collider">
                                                             <param id="0" name="Control">1</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="769826400917889">
                                                     <conditions>
-                                                        <condition behavior="Platform" id="10" name="Is by wall" sid="599518311873202" type="Player">
+                                                        <condition behavior="Platform" id="10" name="Is by wall" sid="599518311873202" type="P1_Collider">
                                                             <param id="0" name="Side">0</param>
                                                         </condition>
-                                                        <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="319612624892543" type="Player" />
+                                                        <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="319612624892543" type="P1_Collider" />
                                                     </conditions>
                                                     <actions>
                                                         <action id="-16" name="Wait" sid="852590904202225" type="System">
                                                             <param id="0" name="Seconds">0.15</param>
                                                         </action>
-                                                        <action behavior="Platform" id="7" name="Simulate control" sid="159938267215551" type="Player">
+                                                        <action behavior="Platform" id="7" name="Simulate control" sid="159938267215551" type="P1_Collider">
                                                             <param id="0" name="Control">1</param>
                                                         </action>
                                                     </actions>
@@ -68,7 +68,7 @@
                                                         <condition id="-22" name="Else" sid="813791645748916" type="System" />
                                                     </conditions>
                                                     <actions>
-                                                        <action behavior="Platform" id="7" name="Simulate control" sid="696317840654603" type="Player">
+                                                        <action behavior="Platform" id="7" name="Simulate control" sid="696317840654603" type="P1_Collider">
                                                             <param id="0" name="Control">1</param>
                                                         </action>
                                                     </actions>
@@ -85,28 +85,28 @@
                                             <sub-events>
                                                 <event-block sid="353644525615563">
                                                     <conditions>
-                                                        <condition behavior="Platform" id="10" inverted="1" name="Is by wall" sid="739283386846354" type="Player">
+                                                        <condition behavior="Platform" id="10" inverted="1" name="Is by wall" sid="739283386846354" type="P1_Collider">
                                                             <param id="0" name="Side">1</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
-                                                        <action behavior="Platform" id="7" name="Simulate control" sid="311905290606041" type="Player">
+                                                        <action behavior="Platform" id="7" name="Simulate control" sid="311905290606041" type="P1_Collider">
                                                             <param id="0" name="Control">0</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="531254741704302">
                                                     <conditions>
-                                                        <condition behavior="Platform" id="10" name="Is by wall" sid="679496895562778" type="Player">
+                                                        <condition behavior="Platform" id="10" name="Is by wall" sid="679496895562778" type="P1_Collider">
                                                             <param id="0" name="Side">1</param>
                                                         </condition>
-                                                        <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="390403152468966" type="Player" />
+                                                        <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="390403152468966" type="P1_Collider" />
                                                     </conditions>
                                                     <actions>
                                                         <action id="-16" name="Wait" sid="738147846103078" type="System">
                                                             <param id="0" name="Seconds">0.15</param>
                                                         </action>
-                                                        <action behavior="Platform" id="7" name="Simulate control" sid="521401333613739" type="Player">
+                                                        <action behavior="Platform" id="7" name="Simulate control" sid="521401333613739" type="P1_Collider">
                                                             <param id="0" name="Control">0</param>
                                                         </action>
                                                     </actions>
@@ -116,7 +116,7 @@
                                                         <condition id="-22" name="Else" sid="700439237289033" type="System" />
                                                     </conditions>
                                                     <actions>
-                                                        <action behavior="Platform" id="7" name="Simulate control" sid="853966452672286" type="Player">
+                                                        <action behavior="Platform" id="7" name="Simulate control" sid="853966452672286" type="P1_Collider">
                                                             <param id="0" name="Control">0</param>
                                                         </action>
                                                     </actions>
@@ -130,7 +130,7 @@
                                                 </condition>
                                             </conditions>
                                             <actions>
-                                                <action behavior="Platform" id="7" name="Simulate control" sid="914470342420104" type="Player">
+                                                <action behavior="Platform" id="7" name="Simulate control" sid="914470342420104" type="P1_Collider">
                                                     <param id="0" name="Control">2</param>
                                                 </action>
                                             </actions>
@@ -142,14 +142,14 @@
                                                 </condition>
                                             </conditions>
                                             <actions>
-                                                <action behavior="Platform" id="7" name="Simulate control" sid="450276962912583" type="Player">
+                                                <action behavior="Platform" id="7" name="Simulate control" sid="450276962912583" type="P1_Collider">
                                                     <param id="0" name="Control">2</param>
                                                 </action>
                                             </actions>
                                         </event-block>
                                         <event-block sid="177891151640608">
                                             <conditions>
-                                                <condition behavior="Platform" id="3" name="Is jumping" sid="496620327545414" type="Player" />
+                                                <condition behavior="Platform" id="3" name="Is jumping" sid="496620327545414" type="P1_Collider" />
                                             </conditions>
                                             <actions />
                                             <sub-events>
@@ -160,8 +160,8 @@
                                                         </condition>
                                                     </conditions>
                                                     <actions>
-                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="774550062885849" type="Player">
-                                                            <param id="0" name="Vector Y">Player.Platform.VectorY+abs(Player.Platform.VectorY/1.9)</param>
+                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="774550062885849" type="P1_Collider">
+                                                            <param id="0" name="Vector Y">P1_Collider.Platform.VectorY+abs(P1_Collider.Platform.VectorY/1.9)</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -169,7 +169,7 @@
                                         </event-block>
                                         <event-block sid="819638467308373">
                                             <conditions>
-                                                <condition behavior="Platform" id="10" name="Is by wall" sid="606918431874785" type="Player">
+                                                <condition behavior="Platform" id="10" name="Is by wall" sid="606918431874785" type="P1_Collider">
                                                     <param id="0" name="Side">1</param>
                                                 </condition>
                                             </conditions>
@@ -177,7 +177,7 @@
                                             <sub-events>
                                                 <event-block sid="612578671503406">
                                                     <conditions>
-                                                        <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="421762012227561" type="Player" />
+                                                        <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="421762012227561" type="P1_Collider" />
                                                     </conditions>
                                                     <actions />
                                                     <sub-events>
@@ -186,10 +186,10 @@
                                                                 <condition id="2" name="Key is down" sid="546106603669941" type="Keyboard">
                                                                     <param id="0" name="Key">39 (Right arrow)</param>
                                                                 </condition>
-                                                                <condition behavior="Platform" id="3" inverted="1" name="Is jumping" sid="774123402890358" type="Player" />
+                                                                <condition behavior="Platform" id="3" inverted="1" name="Is jumping" sid="774123402890358" type="P1_Collider" />
                                                             </conditions>
                                                             <actions>
-                                                                <action behavior="Platform" id="9" name="Set vector Y" sid="824135287711502" type="Player">
+                                                                <action behavior="Platform" id="9" name="Set vector Y" sid="824135287711502" type="P1_Collider">
                                                                     <param id="0" name="Vector Y">Move_Wall_Y</param>
                                                                 </action>
                                                             </actions>
@@ -201,13 +201,13 @@
                                                                         </condition>
                                                                     </conditions>
                                                                     <actions>
-                                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="395842889637668" type="Player">
+                                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="395842889637668" type="P1_Collider">
                                                                             <param id="0" name="Vector Y">Move_WallJump_Y_Down</param>
                                                                         </action>
-                                                                        <action behavior="Platform" id="1" name="Set max speed" sid="502120096184736" type="Player">
+                                                                        <action behavior="Platform" id="1" name="Set max speed" sid="502120096184736" type="P1_Collider">
                                                                             <param id="0" name="Max Speed">300</param>
                                                                         </action>
-                                                                        <action behavior="Platform" id="8" name="Set vector X" sid="191392701796252" type="Player">
+                                                                        <action behavior="Platform" id="8" name="Set vector X" sid="191392701796252" type="P1_Collider">
                                                                             <param id="0" name="Vector X">-300</param>
                                                                         </action>
                                                                     </actions>
@@ -216,10 +216,10 @@
                                                         </event-block>
                                                         <event-block sid="359632373029568">
                                                             <conditions>
-                                                                <condition behavior="Platform" id="3" inverted="1" name="Is jumping" sid="934714883363704" type="Player" />
+                                                                <condition behavior="Platform" id="3" inverted="1" name="Is jumping" sid="934714883363704" type="P1_Collider" />
                                                             </conditions>
                                                             <actions>
-                                                                <action behavior="Platform" id="9" name="Set vector Y" sid="876236055402310" type="Player">
+                                                                <action behavior="Platform" id="9" name="Set vector Y" sid="876236055402310" type="P1_Collider">
                                                                     <param id="0" name="Vector Y">Move_Wall_Y</param>
                                                                 </action>
                                                             </actions>
@@ -231,13 +231,13 @@
                                                                         </condition>
                                                                     </conditions>
                                                                     <actions>
-                                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="449080589916805" type="Player">
+                                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="449080589916805" type="P1_Collider">
                                                                             <param id="0" name="Vector Y">Move_WallJump_Y_Down</param>
                                                                         </action>
-                                                                        <action behavior="Platform" id="1" name="Set max speed" sid="981893141061051" type="Player">
+                                                                        <action behavior="Platform" id="1" name="Set max speed" sid="981893141061051" type="P1_Collider">
                                                                             <param id="0" name="Max Speed">300</param>
                                                                         </action>
-                                                                        <action behavior="Platform" id="8" name="Set vector X" sid="613865350306039" type="Player">
+                                                                        <action behavior="Platform" id="8" name="Set vector X" sid="613865350306039" type="P1_Collider">
                                                                             <param id="0" name="Vector X">-300</param>
                                                                         </action>
                                                                     </actions>
@@ -262,40 +262,40 @@
                                                                     <sub-events>
                                                                         <event-block any="1" sid="527406379804621">
                                                                             <conditions>
-                                                                                <condition id="-7" name="Compare instance variable" sid="250363320048735" type="Player">
+                                                                                <condition id="-7" name="Compare instance variable" sid="250363320048735" type="P1_Collider">
                                                                                     <param id="0" name="Instance variable">State</param>
                                                                                     <param id="1" name="Comparison">0</param>
                                                                                     <param id="2" name="Value">&quot;Basic&quot;</param>
                                                                                 </condition>
                                                                             </conditions>
                                                                             <actions>
-                                                                                <action behavior="Platform" id="9" name="Set vector Y" sid="918240291921149" type="Player">
+                                                                                <action behavior="Platform" id="9" name="Set vector Y" sid="918240291921149" type="P1_Collider">
                                                                                     <param id="0" name="Vector Y">Move_WallJump_Y_NotDown</param>
                                                                                 </action>
-                                                                                <action behavior="Platform" id="1" name="Set max speed" sid="114614009645905" type="Player">
+                                                                                <action behavior="Platform" id="1" name="Set max speed" sid="114614009645905" type="P1_Collider">
                                                                                     <param id="0" name="Max Speed">Move_Basic_MaxSpeed</param>
                                                                                 </action>
-                                                                                <action behavior="Platform" id="8" name="Set vector X" sid="652008814561830" type="Player">
+                                                                                <action behavior="Platform" id="8" name="Set vector X" sid="652008814561830" type="P1_Collider">
                                                                                     <param id="0" name="Vector X">-475</param>
                                                                                 </action>
                                                                             </actions>
                                                                         </event-block>
                                                                         <event-block any="1" sid="350981411098065">
                                                                             <conditions>
-                                                                                <condition id="-7" name="Compare instance variable" sid="659934271729979" type="Player">
+                                                                                <condition id="-7" name="Compare instance variable" sid="659934271729979" type="P1_Collider">
                                                                                     <param id="0" name="Instance variable">State</param>
                                                                                     <param id="1" name="Comparison">0</param>
                                                                                     <param id="2" name="Value">&quot;Slow&quot;</param>
                                                                                 </condition>
                                                                             </conditions>
                                                                             <actions>
-                                                                                <action behavior="Platform" id="9" name="Set vector Y" sid="843312442806451" type="Player">
+                                                                                <action behavior="Platform" id="9" name="Set vector Y" sid="843312442806451" type="P1_Collider">
                                                                                     <param id="0" name="Vector Y">Move_WallJump_Y_NotDown</param>
                                                                                 </action>
-                                                                                <action behavior="Platform" id="1" name="Set max speed" sid="469754645505358" type="Player">
+                                                                                <action behavior="Platform" id="1" name="Set max speed" sid="469754645505358" type="P1_Collider">
                                                                                     <param id="0" name="Max Speed">Move_Slow_MaxSpeed</param>
                                                                                 </action>
-                                                                                <action behavior="Platform" id="8" name="Set vector X" sid="921421310402577" type="Player">
+                                                                                <action behavior="Platform" id="8" name="Set vector X" sid="921421310402577" type="P1_Collider">
                                                                                     <param id="0" name="Vector X">-475</param>
                                                                                 </action>
                                                                             </actions>
@@ -310,7 +310,7 @@
                                         </event-block>
                                         <event-block sid="382565676208504">
                                             <conditions>
-                                                <condition behavior="Platform" id="10" name="Is by wall" sid="407505408441359" type="Player">
+                                                <condition behavior="Platform" id="10" name="Is by wall" sid="407505408441359" type="P1_Collider">
                                                     <param id="0" name="Side">0</param>
                                                 </condition>
                                             </conditions>
@@ -318,7 +318,7 @@
                                             <sub-events>
                                                 <event-block sid="216449202653484">
                                                     <conditions>
-                                                        <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="895286341770427" type="Player" />
+                                                        <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="895286341770427" type="P1_Collider" />
                                                     </conditions>
                                                     <actions />
                                                     <sub-events>
@@ -327,10 +327,10 @@
                                                                 <condition id="2" name="Key is down" sid="688753080242623" type="Keyboard">
                                                                     <param id="0" name="Key">37 (Left arrow)</param>
                                                                 </condition>
-                                                                <condition behavior="Platform" id="3" inverted="1" name="Is jumping" sid="328555416688364" type="Player" />
+                                                                <condition behavior="Platform" id="3" inverted="1" name="Is jumping" sid="328555416688364" type="P1_Collider" />
                                                             </conditions>
                                                             <actions>
-                                                                <action behavior="Platform" id="9" name="Set vector Y" sid="321492972353598" type="Player">
+                                                                <action behavior="Platform" id="9" name="Set vector Y" sid="321492972353598" type="P1_Collider">
                                                                     <param id="0" name="Vector Y">Move_Wall_Y</param>
                                                                 </action>
                                                             </actions>
@@ -342,13 +342,13 @@
                                                                         </condition>
                                                                     </conditions>
                                                                     <actions>
-                                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="704681539268454" type="Player">
+                                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="704681539268454" type="P1_Collider">
                                                                             <param id="0" name="Vector Y">Move_WallJump_Y_Down</param>
                                                                         </action>
-                                                                        <action behavior="Platform" id="1" name="Set max speed" sid="327851509591675" type="Player">
+                                                                        <action behavior="Platform" id="1" name="Set max speed" sid="327851509591675" type="P1_Collider">
                                                                             <param id="0" name="Max Speed">300</param>
                                                                         </action>
-                                                                        <action behavior="Platform" id="8" name="Set vector X" sid="756845365477212" type="Player">
+                                                                        <action behavior="Platform" id="8" name="Set vector X" sid="756845365477212" type="P1_Collider">
                                                                             <param id="0" name="Vector X">300</param>
                                                                         </action>
                                                                     </actions>
@@ -357,10 +357,10 @@
                                                         </event-block>
                                                         <event-block sid="354069026434901">
                                                             <conditions>
-                                                                <condition behavior="Platform" id="3" inverted="1" name="Is jumping" sid="998434637228941" type="Player" />
+                                                                <condition behavior="Platform" id="3" inverted="1" name="Is jumping" sid="998434637228941" type="P1_Collider" />
                                                             </conditions>
                                                             <actions>
-                                                                <action behavior="Platform" id="9" name="Set vector Y" sid="334147307727618" type="Player">
+                                                                <action behavior="Platform" id="9" name="Set vector Y" sid="334147307727618" type="P1_Collider">
                                                                     <param id="0" name="Vector Y">Move_Wall_Y</param>
                                                                 </action>
                                                             </actions>
@@ -372,13 +372,13 @@
                                                                         </condition>
                                                                     </conditions>
                                                                     <actions>
-                                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="731860859396717" type="Player">
+                                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="731860859396717" type="P1_Collider">
                                                                             <param id="0" name="Vector Y">Move_WallJump_Y_Down</param>
                                                                         </action>
-                                                                        <action behavior="Platform" id="1" name="Set max speed" sid="800771371871599" type="Player">
+                                                                        <action behavior="Platform" id="1" name="Set max speed" sid="800771371871599" type="P1_Collider">
                                                                             <param id="0" name="Max Speed">300</param>
                                                                         </action>
-                                                                        <action behavior="Platform" id="8" name="Set vector X" sid="613266029771610" type="Player">
+                                                                        <action behavior="Platform" id="8" name="Set vector X" sid="613266029771610" type="P1_Collider">
                                                                             <param id="0" name="Vector X">300</param>
                                                                         </action>
                                                                     </actions>
@@ -400,13 +400,13 @@
                                                                         </condition>
                                                                     </conditions>
                                                                     <actions>
-                                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="838116463921207" type="Player">
+                                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="838116463921207" type="P1_Collider">
                                                                             <param id="0" name="Vector Y">Move_WallJump_Y_NotDown</param>
                                                                         </action>
-                                                                        <action behavior="Platform" id="1" name="Set max speed" sid="571003574198261" type="Player">
+                                                                        <action behavior="Platform" id="1" name="Set max speed" sid="571003574198261" type="P1_Collider">
                                                                             <param id="0" name="Max Speed">Move_Basic_MaxSpeed</param>
                                                                         </action>
-                                                                        <action behavior="Platform" id="8" name="Set vector X" sid="539495572522397" type="Player">
+                                                                        <action behavior="Platform" id="8" name="Set vector X" sid="539495572522397" type="P1_Collider">
                                                                             <param id="0" name="Vector X">475</param>
                                                                         </action>
                                                                     </actions>
@@ -419,47 +419,47 @@
                                         </event-block>
                                         <event-block sid="204724458598450">
                                             <conditions>
-                                                <condition behavior="Platform" id="2" name="Is on floor" sid="186762271674323" type="Player" />
+                                                <condition behavior="Platform" id="2" name="Is on floor" sid="186762271674323" type="P1_Collider" />
                                             </conditions>
                                             <actions>
-                                                <action behavior="Platform" id="3" name="Set deceleration" sid="257217009897303" type="Player">
+                                                <action behavior="Platform" id="3" name="Set deceleration" sid="257217009897303" type="P1_Collider">
                                                     <param id="0" name="Deceleration">3000</param>
                                                 </action>
-                                                <action behavior="Platform" id="1" name="Set max speed" sid="412201197310521" type="Player">
+                                                <action behavior="Platform" id="1" name="Set max speed" sid="412201197310521" type="P1_Collider">
                                                     <param id="0" name="Max Speed">Move_Basic_MaxSpeed</param>
                                                 </action>
                                             </actions>
                                             <sub-events>
                                                 <event-block any="1" sid="503817552850544">
                                                     <conditions>
-                                                        <condition id="-7" name="Compare instance variable" sid="156757466710399" type="Player">
+                                                        <condition id="-7" name="Compare instance variable" sid="156757466710399" type="P1_Collider">
                                                             <param id="0" name="Instance variable">State</param>
                                                             <param id="1" name="Comparison">0</param>
                                                             <param id="2" name="Value">&quot;Basic&quot;</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
-                                                        <action behavior="Platform" id="3" name="Set deceleration" sid="712474108701476" type="Player">
+                                                        <action behavior="Platform" id="3" name="Set deceleration" sid="712474108701476" type="P1_Collider">
                                                             <param id="0" name="Deceleration">3000</param>
                                                         </action>
-                                                        <action behavior="Platform" id="1" name="Set max speed" sid="530857695900646" type="Player">
+                                                        <action behavior="Platform" id="1" name="Set max speed" sid="530857695900646" type="P1_Collider">
                                                             <param id="0" name="Max Speed">Move_Basic_MaxSpeed</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block any="1" sid="299427544012139">
                                                     <conditions>
-                                                        <condition id="-7" name="Compare instance variable" sid="736448572412248" type="Player">
+                                                        <condition id="-7" name="Compare instance variable" sid="736448572412248" type="P1_Collider">
                                                             <param id="0" name="Instance variable">State</param>
                                                             <param id="1" name="Comparison">0</param>
                                                             <param id="2" name="Value">&quot;Slow&quot;</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
-                                                        <action behavior="Platform" id="3" name="Set deceleration" sid="385161306621080" type="Player">
+                                                        <action behavior="Platform" id="3" name="Set deceleration" sid="385161306621080" type="P1_Collider">
                                                             <param id="0" name="Deceleration">3000</param>
                                                         </action>
-                                                        <action behavior="Platform" id="1" name="Set max speed" sid="749053286034807" type="Player">
+                                                        <action behavior="Platform" id="1" name="Set max speed" sid="749053286034807" type="P1_Collider">
                                                             <param id="0" name="Max Speed">Move_Slow_MaxSpeed</param>
                                                         </action>
                                                     </actions>
@@ -475,13 +475,13 @@
                                                 <event-block sid="270921283659540">
                                                     <conditions>
                                                         <condition id="-8" name="Compare two values" sid="942320017970533" type="System">
-                                                            <param id="0" name="First value">abs(Player.Platform.VectorX)</param>
+                                                            <param id="0" name="First value">abs(P1_Collider.Platform.VectorX)</param>
                                                             <param id="1" name="Comparison">2</param>
                                                             <param id="2" name="Second value">300</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
-                                                        <action behavior="Platform" id="3" name="Set deceleration" sid="993076267920347" type="Player">
+                                                        <action behavior="Platform" id="3" name="Set deceleration" sid="993076267920347" type="P1_Collider">
                                                             <param id="0" name="Deceleration">Move_Deceleration_StandJump</param>
                                                         </action>
                                                     </actions>
@@ -489,13 +489,13 @@
                                                 <event-block sid="526299222021531">
                                                     <conditions>
                                                         <condition id="-8" name="Compare two values" sid="342035049745636" type="System">
-                                                            <param id="0" name="First value">abs(Player.Platform.VectorX)</param>
+                                                            <param id="0" name="First value">abs(P1_Collider.Platform.VectorX)</param>
                                                             <param id="1" name="Comparison">4</param>
                                                             <param id="2" name="Second value">300</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
-                                                        <action behavior="Platform" id="3" name="Set deceleration" sid="999422606052716" type="Player">
+                                                        <action behavior="Platform" id="3" name="Set deceleration" sid="999422606052716" type="P1_Collider">
                                                             <param id="0" name="Deceleration">Move_Jump_Deceleration</param>
                                                         </action>
                                                     </actions>
@@ -504,20 +504,20 @@
                                         </event-block>
                                         <event-block disabled="1" sid="328293035305377">
                                             <conditions>
-                                                <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="556683450305884" type="Player" />
+                                                <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="556683450305884" type="P1_Collider" />
                                             </conditions>
                                             <actions />
                                             <sub-events>
                                                 <event-block disabled="1" sid="262137354370022">
                                                     <conditions>
                                                         <condition id="-8" name="Compare two values" sid="481889205239405" type="System">
-                                                            <param id="0" name="First value">abs(Player.Platform.VectorX)</param>
+                                                            <param id="0" name="First value">abs(P1_Collider.Platform.VectorX)</param>
                                                             <param id="1" name="Comparison">2</param>
                                                             <param id="2" name="Second value">400</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
-                                                        <action behavior="Platform" id="1" name="Set max speed" sid="786376791091541" type="Player">
+                                                        <action behavior="Platform" id="1" name="Set max speed" sid="786376791091541" type="P1_Collider">
                                                             <param id="0" name="Max Speed">1200</param>
                                                         </action>
                                                     </actions>
@@ -525,14 +525,14 @@
                                                 <event-block disabled="1" sid="990825123559473">
                                                     <conditions>
                                                         <condition id="-8" name="Compare two values" sid="685235841859873" type="System">
-                                                            <param id="0" name="First value">abs(Player.Platform.VectorX)</param>
+                                                            <param id="0" name="First value">abs(P1_Collider.Platform.VectorX)</param>
                                                             <param id="1" name="Comparison">2</param>
                                                             <param id="2" name="Second value">100</param>
                                                         </condition>
-                                                        <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="478807275284001" type="Player" />
+                                                        <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="478807275284001" type="P1_Collider" />
                                                     </conditions>
                                                     <actions>
-                                                        <action behavior="Platform" id="2" name="Set acceleration" sid="998341586071085" type="Player">
+                                                        <action behavior="Platform" id="2" name="Set acceleration" sid="998341586071085" type="P1_Collider">
                                                             <param id="0" name="Acceleration">1000</param>
                                                         </action>
                                                     </actions>
@@ -540,13 +540,13 @@
                                                 <event-block disabled="1" sid="926832372864447">
                                                     <conditions>
                                                         <condition id="-8" name="Compare two values" sid="943589012277686" type="System">
-                                                            <param id="0" name="First value">abs(Player.Platform.VectorX)</param>
+                                                            <param id="0" name="First value">abs(P1_Collider.Platform.VectorX)</param>
                                                             <param id="1" name="Comparison">4</param>
                                                             <param id="2" name="Second value">100</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
-                                                        <action behavior="Platform" id="2" name="Set acceleration" sid="108385402992862" type="Player">
+                                                        <action behavior="Platform" id="2" name="Set acceleration" sid="108385402992862" type="P1_Collider">
                                                             <param id="0" name="Acceleration">900</param>
                                                         </action>
                                                     </actions>
@@ -556,13 +556,13 @@
                                         <event-block sid="611346841541106">
                                             <conditions>
                                                 <condition id="-8" name="Compare two values" sid="703912215746635" type="System">
-                                                    <param id="0" name="First value">Player.Platform.Acceleration</param>
+                                                    <param id="0" name="First value">P1_Collider.Platform.Acceleration</param>
                                                     <param id="1" name="Comparison">4</param>
                                                     <param id="2" name="Second value">3000</param>
                                                 </condition>
                                             </conditions>
                                             <actions>
-                                                <action behavior="Platform" id="5" name="Set gravity" sid="160405325210925" type="Player">
+                                                <action behavior="Platform" id="5" name="Set gravity" sid="160405325210925" type="P1_Collider">
                                                     <param id="0" name="Gravity">810</param>
                                                 </action>
                                             </actions>
@@ -572,17 +572,17 @@
                                                 <condition id="-22" name="Else" sid="103371835622262" type="System" />
                                             </conditions>
                                             <actions>
-                                                <action behavior="Platform" id="5" name="Set gravity" sid="726485669749753" type="Player">
+                                                <action behavior="Platform" id="5" name="Set gravity" sid="726485669749753" type="P1_Collider">
                                                     <param id="0" name="Gravity">1000</param>
                                                 </action>
                                             </actions>
                                         </event-block>
                                         <event-block sid="534420771423170">
                                             <conditions>
-                                                <condition behavior="Platform" id="4" name="Is falling" sid="599073321580231" type="Player" />
+                                                <condition behavior="Platform" id="4" name="Is falling" sid="599073321580231" type="P1_Collider" />
                                             </conditions>
                                             <actions>
-                                                <action behavior="Platform" id="5" name="Set gravity" sid="783810215376336" type="Player">
+                                                <action behavior="Platform" id="5" name="Set gravity" sid="783810215376336" type="P1_Collider">
                                                     <param id="0" name="Gravity">1750</param>
                                                 </action>
                                             </actions>
@@ -628,28 +628,28 @@
                                             <sub-events>
                                                 <event-block sid="323989605372837">
                                                     <conditions>
-                                                        <condition behavior="Platform" id="10" inverted="1" name="Is by wall" sid="236703452215579" type="Player">
+                                                        <condition behavior="Platform" id="10" inverted="1" name="Is by wall" sid="236703452215579" type="P1_Collider">
                                                             <param id="0" name="Side">0</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
-                                                        <action behavior="Platform" id="7" name="Simulate control" sid="842144950509161" type="Player">
+                                                        <action behavior="Platform" id="7" name="Simulate control" sid="842144950509161" type="P1_Collider">
                                                             <param id="0" name="Control">1</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="249328830970409">
                                                     <conditions>
-                                                        <condition behavior="Platform" id="10" name="Is by wall" sid="673335942710205" type="Player">
+                                                        <condition behavior="Platform" id="10" name="Is by wall" sid="673335942710205" type="P1_Collider">
                                                             <param id="0" name="Side">0</param>
                                                         </condition>
-                                                        <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="305696894955629" type="Player" />
+                                                        <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="305696894955629" type="P1_Collider" />
                                                     </conditions>
                                                     <actions>
                                                         <action id="-16" name="Wait" sid="817912253758516" type="System">
                                                             <param id="0" name="Seconds">0.15</param>
                                                         </action>
-                                                        <action behavior="Platform" id="7" name="Simulate control" sid="764429961388938" type="Player">
+                                                        <action behavior="Platform" id="7" name="Simulate control" sid="764429961388938" type="P1_Collider">
                                                             <param id="0" name="Control">1</param>
                                                         </action>
                                                     </actions>
@@ -659,7 +659,7 @@
                                                         <condition id="-22" name="Else" sid="437128256936761" type="System" />
                                                     </conditions>
                                                     <actions>
-                                                        <action behavior="Platform" id="7" name="Simulate control" sid="352024096103839" type="Player">
+                                                        <action behavior="Platform" id="7" name="Simulate control" sid="352024096103839" type="P1_Collider">
                                                             <param id="0" name="Control">1</param>
                                                         </action>
                                                     </actions>
@@ -679,28 +679,28 @@
                                             <sub-events>
                                                 <event-block sid="751474101184322">
                                                     <conditions>
-                                                        <condition behavior="Platform" id="10" inverted="1" name="Is by wall" sid="697783006003912" type="Player">
+                                                        <condition behavior="Platform" id="10" inverted="1" name="Is by wall" sid="697783006003912" type="P1_Collider">
                                                             <param id="0" name="Side">1</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
-                                                        <action behavior="Platform" id="7" name="Simulate control" sid="518869015478807" type="Player">
+                                                        <action behavior="Platform" id="7" name="Simulate control" sid="518869015478807" type="P1_Collider">
                                                             <param id="0" name="Control">0</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="669425154620346">
                                                     <conditions>
-                                                        <condition behavior="Platform" id="10" name="Is by wall" sid="357823669613341" type="Player">
+                                                        <condition behavior="Platform" id="10" name="Is by wall" sid="357823669613341" type="P1_Collider">
                                                             <param id="0" name="Side">1</param>
                                                         </condition>
-                                                        <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="828539002944544" type="Player" />
+                                                        <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="828539002944544" type="P1_Collider" />
                                                     </conditions>
                                                     <actions>
                                                         <action id="-16" name="Wait" sid="779860753117541" type="System">
                                                             <param id="0" name="Seconds">0.15</param>
                                                         </action>
-                                                        <action behavior="Platform" id="7" name="Simulate control" sid="563783887260951" type="Player">
+                                                        <action behavior="Platform" id="7" name="Simulate control" sid="563783887260951" type="P1_Collider">
                                                             <param id="0" name="Control">0</param>
                                                         </action>
                                                     </actions>
@@ -710,7 +710,7 @@
                                                         <condition id="-22" name="Else" sid="893803155473313" type="System" />
                                                     </conditions>
                                                     <actions>
-                                                        <action behavior="Platform" id="7" name="Simulate control" sid="591746825879273" type="Player">
+                                                        <action behavior="Platform" id="7" name="Simulate control" sid="591746825879273" type="P1_Collider">
                                                             <param id="0" name="Control">0</param>
                                                         </action>
                                                     </actions>
@@ -725,7 +725,7 @@
                                                 </condition>
                                             </conditions>
                                             <actions>
-                                                <action behavior="Platform" id="7" name="Simulate control" sid="979155618119251" type="Player">
+                                                <action behavior="Platform" id="7" name="Simulate control" sid="979155618119251" type="P1_Collider">
                                                     <param id="0" name="Control">2</param>
                                                 </action>
                                             </actions>
@@ -738,14 +738,14 @@
                                                 </condition>
                                             </conditions>
                                             <actions>
-                                                <action behavior="Platform" id="7" name="Simulate control" sid="681188320838601" type="Player">
+                                                <action behavior="Platform" id="7" name="Simulate control" sid="681188320838601" type="P1_Collider">
                                                     <param id="0" name="Control">2</param>
                                                 </action>
                                             </actions>
                                         </event-block>
                                         <event-block sid="872627474392027">
                                             <conditions>
-                                                <condition behavior="Platform" id="3" name="Is jumping" sid="473802539320023" type="Player" />
+                                                <condition behavior="Platform" id="3" name="Is jumping" sid="473802539320023" type="P1_Collider" />
                                             </conditions>
                                             <actions />
                                             <sub-events>
@@ -757,8 +757,8 @@
                                                         </condition>
                                                     </conditions>
                                                     <actions>
-                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="548925399986743" type="Player">
-                                                            <param id="0" name="Vector Y">Player.Platform.VectorY+abs(Player.Platform.VectorY/1.9)</param>
+                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="548925399986743" type="P1_Collider">
+                                                            <param id="0" name="Vector Y">P1_Collider.Platform.VectorY+abs(P1_Collider.Platform.VectorY/1.9)</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -766,7 +766,7 @@
                                         </event-block>
                                         <event-block sid="702565093384900">
                                             <conditions>
-                                                <condition behavior="Platform" id="10" name="Is by wall" sid="973174843487343" type="Player">
+                                                <condition behavior="Platform" id="10" name="Is by wall" sid="973174843487343" type="P1_Collider">
                                                     <param id="0" name="Side">1</param>
                                                 </condition>
                                             </conditions>
@@ -774,7 +774,7 @@
                                             <sub-events>
                                                 <event-block sid="647812757247277">
                                                     <conditions>
-                                                        <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="650611283507345" type="Player" />
+                                                        <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="650611283507345" type="P1_Collider" />
                                                     </conditions>
                                                     <actions />
                                                     <sub-events>
@@ -786,10 +786,10 @@
                                                                     <param id="2" name="Comparison">4</param>
                                                                     <param id="3" name="Value">15</param>
                                                                 </condition>
-                                                                <condition behavior="Platform" id="3" inverted="1" name="Is jumping" sid="583939210879538" type="Player" />
+                                                                <condition behavior="Platform" id="3" inverted="1" name="Is jumping" sid="583939210879538" type="P1_Collider" />
                                                             </conditions>
                                                             <actions>
-                                                                <action behavior="Platform" id="9" name="Set vector Y" sid="810339993466713" type="Player">
+                                                                <action behavior="Platform" id="9" name="Set vector Y" sid="810339993466713" type="P1_Collider">
                                                                     <param id="0" name="Vector Y">Move_Wall_Y</param>
                                                                 </action>
                                                             </actions>
@@ -802,13 +802,13 @@
                                                                         </condition>
                                                                     </conditions>
                                                                     <actions>
-                                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="852032528694922" type="Player">
+                                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="852032528694922" type="P1_Collider">
                                                                             <param id="0" name="Vector Y">Move_WallJump_Y_Down</param>
                                                                         </action>
-                                                                        <action behavior="Platform" id="1" name="Set max speed" sid="939960803390138" type="Player">
+                                                                        <action behavior="Platform" id="1" name="Set max speed" sid="939960803390138" type="P1_Collider">
                                                                             <param id="0" name="Max Speed">300</param>
                                                                         </action>
-                                                                        <action behavior="Platform" id="8" name="Set vector X" sid="389036685155987" type="Player">
+                                                                        <action behavior="Platform" id="8" name="Set vector X" sid="389036685155987" type="P1_Collider">
                                                                             <param id="0" name="Vector X">-300</param>
                                                                         </action>
                                                                     </actions>
@@ -817,10 +817,10 @@
                                                         </event-block>
                                                         <event-block sid="883183571360960">
                                                             <conditions>
-                                                                <condition behavior="Platform" id="3" inverted="1" name="Is jumping" sid="901595732463950" type="Player" />
+                                                                <condition behavior="Platform" id="3" inverted="1" name="Is jumping" sid="901595732463950" type="P1_Collider" />
                                                             </conditions>
                                                             <actions>
-                                                                <action behavior="Platform" id="9" name="Set vector Y" sid="464373673154816" type="Player">
+                                                                <action behavior="Platform" id="9" name="Set vector Y" sid="464373673154816" type="P1_Collider">
                                                                     <param id="0" name="Vector Y">Move_Wall_Y</param>
                                                                 </action>
                                                             </actions>
@@ -833,13 +833,13 @@
                                                                         </condition>
                                                                     </conditions>
                                                                     <actions>
-                                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="311590412833283" type="Player">
+                                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="311590412833283" type="P1_Collider">
                                                                             <param id="0" name="Vector Y">Move_WallJump_Y_Down</param>
                                                                         </action>
-                                                                        <action behavior="Platform" id="1" name="Set max speed" sid="519594637057305" type="Player">
+                                                                        <action behavior="Platform" id="1" name="Set max speed" sid="519594637057305" type="P1_Collider">
                                                                             <param id="0" name="Max Speed">300</param>
                                                                         </action>
-                                                                        <action behavior="Platform" id="8" name="Set vector X" sid="946276296489830" type="Player">
+                                                                        <action behavior="Platform" id="8" name="Set vector X" sid="946276296489830" type="P1_Collider">
                                                                             <param id="0" name="Vector X">-300</param>
                                                                         </action>
                                                                     </actions>
@@ -865,13 +865,13 @@
                                                                         </condition>
                                                                     </conditions>
                                                                     <actions>
-                                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="759507654019278" type="Player">
+                                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="759507654019278" type="P1_Collider">
                                                                             <param id="0" name="Vector Y">Move_WallJump_Y_NotDown</param>
                                                                         </action>
-                                                                        <action behavior="Platform" id="1" name="Set max speed" sid="649113488907039" type="Player">
+                                                                        <action behavior="Platform" id="1" name="Set max speed" sid="649113488907039" type="P1_Collider">
                                                                             <param id="0" name="Max Speed">Move_Basic_MaxSpeed</param>
                                                                         </action>
-                                                                        <action behavior="Platform" id="8" name="Set vector X" sid="164262327698298" type="Player">
+                                                                        <action behavior="Platform" id="8" name="Set vector X" sid="164262327698298" type="P1_Collider">
                                                                             <param id="0" name="Vector X">-475</param>
                                                                         </action>
                                                                     </actions>
@@ -884,7 +884,7 @@
                                         </event-block>
                                         <event-block sid="454987419750668">
                                             <conditions>
-                                                <condition behavior="Platform" id="10" name="Is by wall" sid="575207220916828" type="Player">
+                                                <condition behavior="Platform" id="10" name="Is by wall" sid="575207220916828" type="P1_Collider">
                                                     <param id="0" name="Side">0</param>
                                                 </condition>
                                             </conditions>
@@ -892,7 +892,7 @@
                                             <sub-events>
                                                 <event-block sid="325652980672932">
                                                     <conditions>
-                                                        <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="798142259001566" type="Player" />
+                                                        <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="798142259001566" type="P1_Collider" />
                                                     </conditions>
                                                     <actions />
                                                     <sub-events>
@@ -904,10 +904,10 @@
                                                                     <param id="2" name="Comparison">2</param>
                                                                     <param id="3" name="Value">-15</param>
                                                                 </condition>
-                                                                <condition behavior="Platform" id="3" inverted="1" name="Is jumping" sid="275016224378991" type="Player" />
+                                                                <condition behavior="Platform" id="3" inverted="1" name="Is jumping" sid="275016224378991" type="P1_Collider" />
                                                             </conditions>
                                                             <actions>
-                                                                <action behavior="Platform" id="9" name="Set vector Y" sid="183057018430287" type="Player">
+                                                                <action behavior="Platform" id="9" name="Set vector Y" sid="183057018430287" type="P1_Collider">
                                                                     <param id="0" name="Vector Y">Move_Wall_Y</param>
                                                                 </action>
                                                             </actions>
@@ -920,13 +920,13 @@
                                                                         </condition>
                                                                     </conditions>
                                                                     <actions>
-                                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="676744855741265" type="Player">
+                                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="676744855741265" type="P1_Collider">
                                                                             <param id="0" name="Vector Y">Move_WallJump_Y_Down</param>
                                                                         </action>
-                                                                        <action behavior="Platform" id="1" name="Set max speed" sid="792321068621792" type="Player">
+                                                                        <action behavior="Platform" id="1" name="Set max speed" sid="792321068621792" type="P1_Collider">
                                                                             <param id="0" name="Max Speed">300</param>
                                                                         </action>
-                                                                        <action behavior="Platform" id="8" name="Set vector X" sid="619795288997536" type="Player">
+                                                                        <action behavior="Platform" id="8" name="Set vector X" sid="619795288997536" type="P1_Collider">
                                                                             <param id="0" name="Vector X">300</param>
                                                                         </action>
                                                                     </actions>
@@ -935,10 +935,10 @@
                                                         </event-block>
                                                         <event-block sid="254061788951793">
                                                             <conditions>
-                                                                <condition behavior="Platform" id="3" inverted="1" name="Is jumping" sid="387757373990841" type="Player" />
+                                                                <condition behavior="Platform" id="3" inverted="1" name="Is jumping" sid="387757373990841" type="P1_Collider" />
                                                             </conditions>
                                                             <actions>
-                                                                <action behavior="Platform" id="9" name="Set vector Y" sid="418723060502778" type="Player">
+                                                                <action behavior="Platform" id="9" name="Set vector Y" sid="418723060502778" type="P1_Collider">
                                                                     <param id="0" name="Vector Y">Move_Wall_Y</param>
                                                                 </action>
                                                             </actions>
@@ -951,13 +951,13 @@
                                                                         </condition>
                                                                     </conditions>
                                                                     <actions>
-                                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="518826503656060" type="Player">
+                                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="518826503656060" type="P1_Collider">
                                                                             <param id="0" name="Vector Y">Move_WallJump_Y_Down</param>
                                                                         </action>
-                                                                        <action behavior="Platform" id="1" name="Set max speed" sid="267897812847802" type="Player">
+                                                                        <action behavior="Platform" id="1" name="Set max speed" sid="267897812847802" type="P1_Collider">
                                                                             <param id="0" name="Max Speed">300</param>
                                                                         </action>
-                                                                        <action behavior="Platform" id="8" name="Set vector X" sid="472765685531744" type="Player">
+                                                                        <action behavior="Platform" id="8" name="Set vector X" sid="472765685531744" type="P1_Collider">
                                                                             <param id="0" name="Vector X">300</param>
                                                                         </action>
                                                                     </actions>
@@ -983,13 +983,13 @@
                                                                         </condition>
                                                                     </conditions>
                                                                     <actions>
-                                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="542906941848054" type="Player">
+                                                                        <action behavior="Platform" id="9" name="Set vector Y" sid="542906941848054" type="P1_Collider">
                                                                             <param id="0" name="Vector Y">Move_WallJump_Y_NotDown</param>
                                                                         </action>
-                                                                        <action behavior="Platform" id="1" name="Set max speed" sid="293455092146783" type="Player">
+                                                                        <action behavior="Platform" id="1" name="Set max speed" sid="293455092146783" type="P1_Collider">
                                                                             <param id="0" name="Max Speed">Move_Basic_MaxSpeed</param>
                                                                         </action>
-                                                                        <action behavior="Platform" id="8" name="Set vector X" sid="565875774067763" type="Player">
+                                                                        <action behavior="Platform" id="8" name="Set vector X" sid="565875774067763" type="P1_Collider">
                                                                             <param id="0" name="Vector X">475</param>
                                                                         </action>
                                                                     </actions>
@@ -1002,13 +1002,13 @@
                                         </event-block>
                                         <event-block sid="756459712664078">
                                             <conditions>
-                                                <condition behavior="Platform" id="2" name="Is on floor" sid="898486879162066" type="Player" />
+                                                <condition behavior="Platform" id="2" name="Is on floor" sid="898486879162066" type="P1_Collider" />
                                             </conditions>
                                             <actions>
-                                                <action behavior="Platform" id="3" name="Set deceleration" sid="410473533046217" type="Player">
+                                                <action behavior="Platform" id="3" name="Set deceleration" sid="410473533046217" type="P1_Collider">
                                                     <param id="0" name="Deceleration">8000</param>
                                                 </action>
-                                                <action behavior="Platform" id="1" name="Set max speed" sid="500892304268738" type="Player">
+                                                <action behavior="Platform" id="1" name="Set max speed" sid="500892304268738" type="P1_Collider">
                                                     <param id="0" name="Max Speed">Move_Basic_MaxSpeed</param>
                                                 </action>
                                             </actions>
@@ -1022,13 +1022,13 @@
                                                 <event-block sid="800821016971788">
                                                     <conditions>
                                                         <condition id="-8" name="Compare two values" sid="945611746078770" type="System">
-                                                            <param id="0" name="First value">abs(Player.Platform.VectorX)</param>
+                                                            <param id="0" name="First value">abs(P1_Collider.Platform.VectorX)</param>
                                                             <param id="1" name="Comparison">2</param>
                                                             <param id="2" name="Second value">300</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
-                                                        <action behavior="Platform" id="3" name="Set deceleration" sid="654157954503467" type="Player">
+                                                        <action behavior="Platform" id="3" name="Set deceleration" sid="654157954503467" type="P1_Collider">
                                                             <param id="0" name="Deceleration">Move_Deceleration_StandJump</param>
                                                         </action>
                                                     </actions>
@@ -1036,13 +1036,13 @@
                                                 <event-block sid="926151678440611">
                                                     <conditions>
                                                         <condition id="-8" name="Compare two values" sid="457177426250154" type="System">
-                                                            <param id="0" name="First value">abs(Player.Platform.VectorX)</param>
+                                                            <param id="0" name="First value">abs(P1_Collider.Platform.VectorX)</param>
                                                             <param id="1" name="Comparison">4</param>
                                                             <param id="2" name="Second value">300</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
-                                                        <action behavior="Platform" id="3" name="Set deceleration" sid="189006011391817" type="Player">
+                                                        <action behavior="Platform" id="3" name="Set deceleration" sid="189006011391817" type="P1_Collider">
                                                             <param id="0" name="Deceleration">Move_Jump_Deceleration</param>
                                                         </action>
                                                     </actions>
@@ -1051,20 +1051,20 @@
                                         </event-block>
                                         <event-block sid="843536773200879">
                                             <conditions>
-                                                <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="585672981519129" type="Player" />
+                                                <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="585672981519129" type="P1_Collider" />
                                             </conditions>
                                             <actions />
                                             <sub-events>
                                                 <event-block sid="234985618935519">
                                                     <conditions>
                                                         <condition id="-8" name="Compare two values" sid="773114828126838" type="System">
-                                                            <param id="0" name="First value">abs(Player.Platform.VectorX)</param>
+                                                            <param id="0" name="First value">abs(P1_Collider.Platform.VectorX)</param>
                                                             <param id="1" name="Comparison">2</param>
                                                             <param id="2" name="Second value">400</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
-                                                        <action behavior="Platform" id="1" name="Set max speed" sid="735214589139536" type="Player">
+                                                        <action behavior="Platform" id="1" name="Set max speed" sid="735214589139536" type="P1_Collider">
                                                             <param id="0" name="Max Speed">1400</param>
                                                         </action>
                                                     </actions>
@@ -1072,13 +1072,13 @@
                                                 <event-block sid="233734256563013">
                                                     <conditions>
                                                         <condition id="-8" name="Compare two values" sid="245223778653875" type="System">
-                                                            <param id="0" name="First value">abs(Player.Platform.VectorX)</param>
+                                                            <param id="0" name="First value">abs(P1_Collider.Platform.VectorX)</param>
                                                             <param id="1" name="Comparison">2</param>
                                                             <param id="2" name="Second value">150</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
-                                                        <action behavior="Platform" id="2" name="Set acceleration" sid="681581342273038" type="Player">
+                                                        <action behavior="Platform" id="2" name="Set acceleration" sid="681581342273038" type="P1_Collider">
                                                             <param id="0" name="Acceleration">1200</param>
                                                         </action>
                                                     </actions>
@@ -1088,13 +1088,13 @@
                                         <event-block sid="530655321605222">
                                             <conditions>
                                                 <condition id="-8" name="Compare two values" sid="195569295458340" type="System">
-                                                    <param id="0" name="First value">Player.Platform.Acceleration</param>
+                                                    <param id="0" name="First value">P1_Collider.Platform.Acceleration</param>
                                                     <param id="1" name="Comparison">4</param>
                                                     <param id="2" name="Second value">3000</param>
                                                 </condition>
                                             </conditions>
                                             <actions>
-                                                <action behavior="Platform" id="5" name="Set gravity" sid="105748313130584" type="Player">
+                                                <action behavior="Platform" id="5" name="Set gravity" sid="105748313130584" type="P1_Collider">
                                                     <param id="0" name="Gravity">810</param>
                                                 </action>
                                             </actions>
@@ -1104,17 +1104,17 @@
                                                 <condition id="-22" name="Else" sid="106762247711240" type="System" />
                                             </conditions>
                                             <actions>
-                                                <action behavior="Platform" id="5" name="Set gravity" sid="584609343530712" type="Player">
+                                                <action behavior="Platform" id="5" name="Set gravity" sid="584609343530712" type="P1_Collider">
                                                     <param id="0" name="Gravity">1000</param>
                                                 </action>
                                             </actions>
                                         </event-block>
                                         <event-block sid="865178508553771">
                                             <conditions>
-                                                <condition behavior="Platform" id="4" name="Is falling" sid="679619996701568" type="Player" />
+                                                <condition behavior="Platform" id="4" name="Is falling" sid="679619996701568" type="P1_Collider" />
                                             </conditions>
                                             <actions>
-                                                <action behavior="Platform" id="5" name="Set gravity" sid="528215037674088" type="Player">
+                                                <action behavior="Platform" id="5" name="Set gravity" sid="528215037674088" type="P1_Collider">
                                                     <param id="0" name="Gravity">1750</param>
                                                 </action>
                                             </actions>
@@ -1154,6 +1154,17 @@
                 <action id="-9" name="Set value" sid="345950466541160" type="System">
                     <param id="0" name="Variable">Gamepad_P1</param>
                     <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="336323126388353">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="654917970585965" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="566891588184867" type="P1_Hitbox">
+                    <param id="0" name="Object">P1_Collider</param>
+                    <param id="1" name="Image point (optional)">0</param>
                 </action>
             </actions>
         </event-block>

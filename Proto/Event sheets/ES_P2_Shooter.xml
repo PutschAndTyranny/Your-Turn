@@ -493,7 +493,7 @@
                 <event-block sid="636899760816890">
                     <conditions>
                         <condition id="0" name="On collision with another object" sid="550991014712927" type="Player_Projectile_Slow">
-                            <param id="0" name="Object">Player_Animation</param>
+                            <param id="0" name="Object">P1_Animation</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -511,7 +511,7 @@
                             <param id="1" name="Type">0</param>
                             <param id="2" name="Tag">&quot;Slow&quot;</param>
                         </action>
-                        <action id="-10" name="Set value" sid="806066663496525" type="Player">
+                        <action id="-10" name="Set value" sid="806066663496525" type="P1_Collider">
                             <param id="0" name="Instance variable">State</param>
                             <param id="1" name="Value">&quot;Slow&quot;</param>
                         </action>
@@ -525,7 +525,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-10" name="Set value" sid="887692328965398" type="Player">
+                        <action id="-10" name="Set value" sid="887692328965398" type="P1_Collider">
                             <param id="0" name="Instance variable">State</param>
                             <param id="1" name="Value">&quot;Basic&quot;</param>
                         </action>
