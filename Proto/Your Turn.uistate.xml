@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="6">Intro</layout>
+        <layout order="7">Sandbox</layout>
+        <layout order="10">Level 1</layout>
+        <layout order="11">Level 2</layout>
+        <event-sheet order="0">ES_Main</event-sheet>
+        <event-sheet order="1">ES_Variables</event-sheet>
+        <event-sheet order="2">ES_P1_Runner</event-sheet>
+        <event-sheet active="1" order="3">ES_P2_Shooter</event-sheet>
+        <event-sheet order="4">ES_Intro</event-sheet>
+        <event-sheet order="5">ES_Objects</event-sheet>
+        <event-sheet order="8">ES_LevelTimer</event-sheet>
+        <event-sheet order="9">ES_Score</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/Objects/" />
+        <folder expanded="0" path="object-folder/Tools/" />
+        <folder expanded="0" path="object-folder/Floor/" />
+        <folder expanded="0" path="object-folder/TXT/" />
+        <folder expanded="1" path="object-folder/P2_Shooter/" />
+        <folder expanded="1" path="object-folder/P1_Runner/" />
+        <folder expanded="0" path="layout-folder/" />
+        <folder expanded="0" path="event-folder/" />
+        <folder expanded="0" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="1" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/LD_StepFloor_Sprite/" />
+        <folder expanded="1" path="animation-folder/LD_DeathZone/" />
+        <folder expanded="1" path="animation-folder/LD_Start/" />
+        <folder expanded="1" path="animation-folder/LD_Turret/" />
+        <folder expanded="1" path="animation-folder/LD_TurretProjectile/" />
+        <folder expanded="1" path="animation-folder/LD_Victory/" />
+        <folder expanded="1" path="animation-folder/LD_StepFloor/" />
+        <folder expanded="1" path="animation-folder/LD_Platform/" />
+        <folder expanded="1" path="animation-folder/LD_Platform_Sprite/" />
+        <folder expanded="1" path="animation-folder/TS_Floor_01/" />
+        <folder expanded="1" path="animation-folder/TS_Floor_03/" />
+        <folder expanded="1" path="animation-folder/TS_Floor_04/" />
+        <folder expanded="1" path="animation-folder/TS_Floor_06/" />
+        <folder expanded="1" path="animation-folder/TS_Floor_02/" />
+        <folder expanded="1" path="animation-folder/TS_Floor_05/" />
+        <folder expanded="1" path="animation-folder/TS_Floor_08/" />
+        <folder expanded="1" path="animation-folder/TS_Floor_07/" />
+        <folder expanded="1" path="animation-folder/TS_Floor_09/" />
+        <folder expanded="1" path="animation-folder/Corner_BottomLeft/" />
+        <folder expanded="1" path="animation-folder/Corner_BottomRight/" />
+        <folder expanded="1" path="animation-folder/Corner_TopLeft/" />
+        <folder expanded="1" path="animation-folder/Corner_TopRight/" />
+        <folder expanded="1" path="animation-folder/Player_Projectile_Damage/" />
+        <folder expanded="1" path="animation-folder/Player_Projectile_Slow/" />
+        <folder expanded="1" path="animation-folder/Player_Projectile_Vision/" />
+        <folder expanded="1" path="animation-folder/Player_Turret/" />
+        <folder expanded="1" path="animation-folder/Smoke/" />
+        <folder expanded="1" path="animation-folder/ViewCenter/" />
+        <folder expanded="1" path="animation-folder/Player_Cursor/" />
+        <folder expanded="1" path="animation-folder/Player/" />
+        <folder expanded="1" path="animation-folder/Player_Animation/" />
+        <folder expanded="1" path="animation-folder/Timer/" />
+    </folders-expanded>
+</c2uistate>

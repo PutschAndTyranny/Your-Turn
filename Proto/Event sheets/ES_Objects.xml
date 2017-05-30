@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>ES_Objects</name>
+    <events>
+        <event-group description="" sid="910370614084511" title="2StepFloor">
+            <sub-events>
+                <event-block sid="174403742689501">
+                    <conditions>
+                        <condition id="-18" name="On created" sid="672598285275172" type="LD_StepFloor_Sprite" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="101641625322767" type="LD_StepFloor_Sprite">
+                            <param id="0" name="Animation">LD_StepFloor.AnimationName</param>
+                            <param id="1" name="From">0</param>
+                        </action>
+                        <action id="2" name="Stop" sid="112534299648342" type="LD_StepFloor_Sprite" />
+                    </actions>
+                </event-block>
+                <event-block sid="170945170571484">
+                    <conditions>
+                        <condition id="-18" name="On created" sid="795573999048742" type="LD_StepFloor" />
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Stop" sid="159888025770937" type="LD_StepFloor" />
+                    </actions>
+                </event-block>
+                <event-block sid="562712876365427">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="462994528402016" type="Player">
+                            <param id="0" name="Object">LD_StepFloor</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="111709319146432">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="676536028120854" type="LD_StepFloor">
+                                    <param id="0" name="Instance variable">IsChanging</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Timer" id="0" name="Start timer" sid="767182718042961" type="LD_StepFloor">
+                                    <param id="0" name="Duration">1.0</param>
+                                    <param id="1" name="Type">0</param>
+                                    <param id="2" name="Tag">&quot;Down&quot;</param>
+                                </action>
+                                <action behavior="Sine" id="0" name="Set active" sid="452890762837041" type="LD_StepFloor_Sprite">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="755107354480876" type="LD_StepFloor">
+                                    <param id="0" name="Instance variable">IsChanging</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="647413959326539">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="634678296858914" type="Player_Animation">
+                            <param id="0" name="Object">LD_StepFloor</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="660396443477493">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="903200708402753" type="LD_StepFloor">
+                                    <param id="0" name="Instance variable">IsChanging</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Timer" id="0" name="Start timer" sid="597579738035812" type="LD_StepFloor">
+                                    <param id="0" name="Duration">1.0</param>
+                                    <param id="1" name="Type">0</param>
+                                    <param id="2" name="Tag">&quot;Down&quot;</param>
+                                </action>
+                                <action behavior="Sine" id="0" name="Set active" sid="248840071350682" type="LD_StepFloor_Sprite">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="467443245183876" type="LD_StepFloor">
+                                    <param id="0" name="Instance variable">IsChanging</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="111185360536184">
+                    <conditions>
+                        <condition behavior="Timer" id="0" name="On timer" sid="426430681825748" type="LD_StepFloor">
+                            <param id="0" name="Tag">&quot;Down&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="640121651563572" type="LD_StepFloor">
+                            <param id="0" name="Frame number">Self.AnimationFrame+1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="810117656559783" type="LD_StepFloor_Sprite">
+                            <param id="0" name="Frame number">Self.AnimationFrame+1</param>
+                        </action>
+                        <action behavior="Sine" id="0" name="Set active" sid="537729712139426" type="LD_StepFloor_Sprite">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="117952270862667" type="LD_StepFloor">
+                            <param id="0" name="Instance variable">IsChanging</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="395628268156797">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="990935876755597" type="LD_StepFloor">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Solid" id="0" name="Set enabled" sid="563537384498135" type="LD_StepFloor">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="428017010880808">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="292335895056225" type="LD_StepFloor_Sprite">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="931922026512730" type="LD_StepFloor_Sprite">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="765101396380143" title="Platform">
+            <sub-events>
+                <event-block sid="315966336907242">
+                    <conditions>
+                        <condition id="-18" name="On created" sid="805403764836604" type="LD_Platform_Sprite" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="263251787375970">
+                            <conditions>
+                                <condition id="-6" name="Compare height" sid="812556985732681" type="LD_Platform">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Height">32</param>
+                                </condition>
+                                <condition id="-5" name="Compare width" sid="961586139115662" type="LD_Platform">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Width">64</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="624039923750352" type="LD_Platform_Sprite">
+                                    <param id="0" name="Animation">&quot;H_Two&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="2" name="Stop" sid="173074142926130" type="LD_Platform_Sprite" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="916475405461522">
+                            <conditions>
+                                <condition id="-6" name="Compare height" sid="998188348542319" type="LD_Platform">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Height">32</param>
+                                </condition>
+                                <condition id="-5" name="Compare width" sid="717285423487853" type="LD_Platform">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Width">96</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="327115235329750" type="LD_Platform_Sprite">
+                                    <param id="0" name="Animation">&quot;H_Three&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="2" name="Stop" sid="370239605531553" type="LD_Platform_Sprite" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="230961781307815">
+                            <conditions>
+                                <condition id="-6" name="Compare height" sid="450371005984522" type="LD_Platform">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Height">32</param>
+                                </condition>
+                                <condition id="-5" name="Compare width" sid="322600104595495" type="LD_Platform">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Width">128</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="550853910424351" type="LD_Platform_Sprite">
+                                    <param id="0" name="Animation">&quot;H_Four&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="2" name="Stop" sid="988845722713840" type="LD_Platform_Sprite" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="882468989558454">
+                            <conditions>
+                                <condition id="-6" name="Compare height" sid="136783982900495" type="LD_Platform">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Height">32</param>
+                                </condition>
+                                <condition id="-5" name="Compare width" sid="950159866952331" type="LD_Platform">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Width">160</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="611784972747737" type="LD_Platform_Sprite">
+                                    <param id="0" name="Animation">&quot;H_Five&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="2" name="Stop" sid="269313911344869" type="LD_Platform_Sprite" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="804517357639839">
+                            <conditions>
+                                <condition id="-6" name="Compare height" sid="838454611874272" type="LD_Platform">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Height">32</param>
+                                </condition>
+                                <condition id="-5" name="Compare width" sid="603726366268891" type="LD_Platform">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Width">192</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="439405789377684" type="LD_Platform_Sprite">
+                                    <param id="0" name="Animation">&quot;H_Six&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="2" name="Stop" sid="168389467298233" type="LD_Platform_Sprite" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="822905580978617">
+                            <conditions>
+                                <condition id="-6" name="Compare height" sid="925174187058430" type="LD_Platform">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Height">64</param>
+                                </condition>
+                                <condition id="-5" name="Compare width" sid="173871900912206" type="LD_Platform">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Width">32</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="313815546743802" type="LD_Platform_Sprite">
+                                    <param id="0" name="Animation">&quot;V_Two&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="2" name="Stop" sid="689189413813286" type="LD_Platform_Sprite" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="797443339016390">
+                            <conditions>
+                                <condition id="-6" name="Compare height" sid="921993247241488" type="LD_Platform">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Height">96</param>
+                                </condition>
+                                <condition id="-5" name="Compare width" sid="334838426170944" type="LD_Platform">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Width">32</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="864412618968136" type="LD_Platform_Sprite">
+                                    <param id="0" name="Animation">&quot;V_Three&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="2" name="Stop" sid="348922573282676" type="LD_Platform_Sprite" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="358565557687158">
+                            <conditions>
+                                <condition id="-6" name="Compare height" sid="333001216127764" type="LD_Platform">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Height">128</param>
+                                </condition>
+                                <condition id="-5" name="Compare width" sid="431552161856552" type="LD_Platform">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Width">32</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="570042893170755" type="LD_Platform_Sprite">
+                                    <param id="0" name="Animation">&quot;V_Four&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="2" name="Stop" sid="697029865009315" type="LD_Platform_Sprite" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="960922919977079">
+                            <conditions>
+                                <condition id="-6" name="Compare height" sid="527510470963251" type="LD_Platform">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Height">160</param>
+                                </condition>
+                                <condition id="-5" name="Compare width" sid="537986085782874" type="LD_Platform">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Width">32</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="362538150280727" type="LD_Platform_Sprite">
+                                    <param id="0" name="Animation">&quot;V_Five&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="2" name="Stop" sid="649725650170837" type="LD_Platform_Sprite" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="624484437659534">
+                            <conditions>
+                                <condition id="-6" name="Compare height" sid="440416621827609" type="LD_Platform">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Height">192</param>
+                                </condition>
+                                <condition id="-5" name="Compare width" sid="401631762214056" type="LD_Platform">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Width">32</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="766850498098216" type="LD_Platform_Sprite">
+                                    <param id="0" name="Animation">&quot;V_Six&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="2" name="Stop" sid="193556990145015" type="LD_Platform_Sprite" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="388935270267356">
+                            <conditions />
+                            <actions>
+                                <action id="5" name="Set frame" sid="173599509970966" type="LD_Platform_Sprite">
+                                    <param id="0" name="Frame number">LD_Platform.AnimationFrame</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="112395478461368">
+                    <conditions>
+                        <condition id="-18" name="On created" sid="910319756168677" type="LD_Platform" />
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Stop" sid="659646503998898" type="LD_Platform" />
+                    </actions>
+                </event-block>
+                <event-block sid="433968000204034">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="466087950756173" type="Player">
+                            <param id="0" name="Object">LD_Platform</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="611233438744296">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="713991575077177" type="LD_Platform">
+                                    <param id="0" name="Instance variable">IsChanging</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Timer" id="0" name="Start timer" sid="281331592881655" type="LD_Platform">
+                                    <param id="0" name="Duration">1.0</param>
+                                    <param id="1" name="Type">0</param>
+                                    <param id="2" name="Tag">&quot;Down&quot;</param>
+                                </action>
+                                <action behavior="Sine" id="0" name="Set active" sid="343055830058473" type="LD_Platform_Sprite">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="925169691673904" type="LD_Platform">
+                                    <param id="0" name="Instance variable">IsChanging</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="116239429265721">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="982467494176734" type="Player_Animation">
+                            <param id="0" name="Object">LD_Platform</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="171503811940502">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="297243054978392" type="LD_Platform">
+                                    <param id="0" name="Instance variable">IsChanging</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Timer" id="0" name="Start timer" sid="201046631031847" type="LD_Platform">
+                                    <param id="0" name="Duration">1.0</param>
+                                    <param id="1" name="Type">0</param>
+                                    <param id="2" name="Tag">&quot;Down&quot;</param>
+                                </action>
+                                <action behavior="Sine" id="0" name="Set active" sid="731322012309664" type="LD_Platform_Sprite">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="827668010814678" type="LD_Platform">
+                                    <param id="0" name="Instance variable">IsChanging</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="524620823895197">
+                    <conditions>
+                        <condition behavior="Timer" id="0" name="On timer" sid="781532414074209" type="LD_Platform">
+                            <param id="0" name="Tag">&quot;Down&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="356294627592867" type="LD_Platform">
+                            <param id="0" name="Frame number">Self.AnimationFrame+1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="634582197722721" type="LD_Platform_Sprite">
+                            <param id="0" name="Frame number">Self.AnimationFrame+1</param>
+                        </action>
+                        <action behavior="Sine" id="0" name="Set active" sid="819747206336442" type="LD_Platform_Sprite">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="769478024853803" type="LD_Platform">
+                            <param id="0" name="Instance variable">IsChanging</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="501342447368566">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="854705707702907" type="LD_Platform">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Solid" id="0" name="Set enabled" sid="937407646647699" type="LD_Platform">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="216799454087909">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="231845780602752" type="LD_Platform_Sprite">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="234505229007709" type="LD_Platform_Sprite">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

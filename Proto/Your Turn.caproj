@@ -1,0 +1,2048 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Your Turn</name>
+    <description></description>
+    <version>1.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <app-id></app-id>
+    <unique-id>16s893k7drmxj</unique-id>
+    <saved-with-version>24400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
+        <plugin author="Scirra" id="gamepad" version="1">Gamepad</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Anchor" version="1">Anchor</behavior>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="Timer" version="1">Timer</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1920</width>
+        <height>1080</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>Intro</first-layout>
+    <use-loader-layout>1</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Hide address bar">No</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Preview browser">Chrome</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use iOS retina display">iPhone only</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-folder name="Objects">
+            <object-type name="LD_StepFloor_Sprite" sid="672266094769948">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Timer" sid="353960715740665">
+                        <behavior id="Timer" />
+                    </behavior-type>
+                    <behavior-type name="Sine" sid="630057607487572">
+                        <behavior id="Sin" />
+                    </behavior-type>
+                    <behavior-type name="Sine2" sid="452535114729349">
+                        <behavior id="Sin" />
+                    </behavior-type>
+                </behaviors>
+                <container>
+                    <type>LD_StepFloor</type>
+                    <type>LD_StepFloor_Sprite</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="4" loop="0" name="Top" pingpong="0" repeatcount="1" repeatto="0" sid="962669421080345" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break10.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break7.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break4.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break1.png" />
+                    </animation>
+                    <animation framecount="4" loop="0" name="Bot" pingpong="0" repeatcount="1" repeatto="0" sid="927804792724537" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break12.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break9.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break6.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break3.png" />
+                    </animation>
+                    <animation framecount="4" loop="0" name="Center" pingpong="0" repeatcount="1" repeatto="0" sid="756065015712574" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break11.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break8.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break5.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break2.png" />
+                    </animation>
+                    <animation framecount="4" loop="0" name="Left" pingpong="0" repeatcount="1" repeatto="0" sid="411908454935637" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break22.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break19.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break16.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break13.png" />
+                    </animation>
+                    <animation framecount="4" loop="0" name="Right" pingpong="0" repeatcount="1" repeatto="0" sid="359093504687078" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break24.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break21.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break18.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break15.png" />
+                    </animation>
+                    <animation framecount="4" loop="0" name="Middle" pingpong="0" repeatcount="1" repeatto="0" sid="702347854430932" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break23.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break20.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break17.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break14.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="LD_DeathZone" sid="237425003674832">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="759441119938489" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="1" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="LD_Start" sid="468745454758540">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="686710666380620" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="1" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="LD_Turret" sid="364793032238234">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="Direction" sid="107389469857708" type="number" />
+                    <instance-variable name="Timer" sid="317393612539094" type="number" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="626568383841997" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="1">
+                            <image-point name="Spawn" x="0.5" y="0.5" />
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="LD_TurretProjectile" sid="582500603154056">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Bullet" sid="731830354396211">
+                        <behavior id="Bullet" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="398330100301357" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="LD_Victory" sid="893365943593838">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="742106445801850" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="1" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="LD_StepFloor" sid="924222845483223">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="IsChanging" sid="685827536030332" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Timer" sid="673730716650590">
+                        <behavior id="Timer" />
+                    </behavior-type>
+                    <behavior-type name="Solid" sid="963959137787728">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <container>
+                    <type>LD_StepFloor</type>
+                    <type>LD_StepFloor_Sprite</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="5" loop="0" name="Top" pingpong="0" repeatcount="1" repeatto="0" sid="557241357885809" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break10.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break7.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break4.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break1.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                    <animation framecount="5" loop="0" name="Bot" pingpong="0" repeatcount="1" repeatto="0" sid="657863109687053" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break12.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break9.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break6.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break3.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                    <animation framecount="5" loop="0" name="Center" pingpong="0" repeatcount="1" repeatto="0" sid="694832223375306" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break11.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break8.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break5.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break2.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                    <animation framecount="5" loop="0" name="Left" pingpong="0" repeatcount="1" repeatto="0" sid="451518898066831" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break22.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break19.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break16.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break13.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                    <animation framecount="5" loop="0" name="Right" pingpong="0" repeatcount="1" repeatto="0" sid="227160616022143" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break24.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break21.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break18.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break15.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                    <animation framecount="5" loop="0" name="Middle" pingpong="0" repeatcount="1" repeatto="0" sid="460030708366538" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break23.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break20.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break17.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Break14.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="LD_Platform" sid="627146543837874">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="IsChanging" sid="713481914052589" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Timer" sid="160174266556376">
+                        <behavior id="Timer" />
+                    </behavior-type>
+                    <behavior-type name="Solid" sid="529414679198492">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <container>
+                    <type>LD_Platform</type>
+                    <type>LD_Platform_Sprite</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="273396955580446" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="LD_Platform_Sprite" sid="366348686662850">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Timer" sid="520207680501951">
+                        <behavior id="Timer" />
+                    </behavior-type>
+                    <behavior-type name="Sine" sid="802348760464624">
+                        <behavior id="Sin" />
+                    </behavior-type>
+                    <behavior-type name="Sine2" sid="641813467400545">
+                        <behavior id="Sin" />
+                    </behavior-type>
+                </behaviors>
+                <container>
+                    <type>LD_Platform</type>
+                    <type>LD_Platform_Sprite</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="5" loop="0" name="H_Two" pingpong="0" repeatcount="1" repeatto="0" sid="840921871761773" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 61.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 60.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 59.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 58.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                    <animation framecount="5" loop="0" name="H_Three" pingpong="0" repeatcount="1" repeatto="0" sid="175588530900054" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 69.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 68.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 67.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 66.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                    <animation framecount="5" loop="0" name="H_Four" pingpong="0" repeatcount="1" repeatto="0" sid="918026289031330" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 77.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 76.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 75.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 74.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                    <animation framecount="5" loop="0" name="H_Five" pingpong="0" repeatcount="1" repeatto="0" sid="980628285040828" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 85.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 84.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 83.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 82.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                    <animation framecount="5" loop="0" name="H_Six" pingpong="0" repeatcount="1" repeatto="0" sid="350168161899707" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 93.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 92.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 91.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 90.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                    <animation framecount="5" loop="0" name="V_Two" pingpong="0" repeatcount="1" repeatto="0" sid="161600936285705" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 65.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 64.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 63.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 62.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                    <animation framecount="5" loop="0" name="V_Three" pingpong="0" repeatcount="1" repeatto="0" sid="669656018913927" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 73.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 72.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 71.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 70.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                    <animation framecount="5" loop="0" name="V_Four" pingpong="0" repeatcount="1" repeatto="0" sid="903206284406927" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 73.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 72.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 71.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 70.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                    <animation framecount="5" loop="0" name="V_Five" pingpong="0" repeatcount="1" repeatto="0" sid="672413415461318" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 89.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 88.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 87.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 86.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                    <animation framecount="5" loop="0" name="V_Six" pingpong="0" repeatcount="1" repeatto="0" sid="633911523279557" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 97.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 96.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 95.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Barres\Fichier 94.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Tools">
+            <object-type name="Mouse" sid="221835031599631">
+                <plugin id="Mouse" />
+            </object-type>
+            <object-type name="Gamepad" sid="345651740473582">
+                <plugin id="gamepad" />
+            </object-type>
+            <object-type name="Keyboard" sid="6545831422668897">
+                <plugin id="Keyboard" />
+            </object-type>
+            <object-type name="Function" sid="743591701305464">
+                <plugin id="Function" />
+            </object-type>
+        </object-folder>
+        <object-folder name="Floor">
+            <object-type name="TS_Floor_01" sid="410205999171196">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="832134964947977" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\openspace\Downloads\Tileset\Tileset\Fichier 5.png">
+                            <collision-poly>
+                                <point x="0.030303" y="0.030303" />
+                                <point x="0.484848" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.484848" />
+                                <point x="0.969697" y="0.969697" />
+                                <point x="0.030303" y="0.969697" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="TS_Floor_03" sid="648569357781345">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="421305902580655" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\openspace\Downloads\Tileset\Tileset\Fichier 8.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="TS_Floor_04" sid="587464285611212">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="331292793494679" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\openspace\Downloads\Tileset\Tileset\Fichier 10.png">
+                            <collision-poly>
+                                <point x="0.030303" y="0.030303" />
+                                <point x="0.484848" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.484848" />
+                                <point x="0.969697" y="0.969697" />
+                                <point x="0.484848" y="1" />
+                                <point x="0.030303" y="0.969697" />
+                                <point x="0" y="0.484848" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="TS_Floor_06" sid="266828633838648">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="648591973354491" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\openspace\Downloads\Tileset\Tileset\Fichier 14.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.484848" />
+                                <point x="0.969697" y="0.969697" />
+                                <point x="0.484848" y="1" />
+                                <point x="0.030303" y="0.969697" />
+                                <point x="0" y="0.484848" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="TS_Floor_02" sid="887677010354957">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="905264687249265" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\openspace\Downloads\Tileset\Tileset\Fichier 6.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.484848" y="0.0606061" />
+                                <point x="0.727273" y="0.272727" />
+                                <point x="0.939394" y="0.484848" />
+                                <point x="0.969697" y="0.969697" />
+                                <point x="0.484848" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="TS_Floor_05" sid="153112515564757">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="829437889945092" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\openspace\Downloads\Tileset\Tileset\Fichier 11.png">
+                            <collision-poly>
+                                <point x="0.030303" y="0.030303" />
+                                <point x="0.484848" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.484848" />
+                                <point x="0.969697" y="0.969697" />
+                                <point x="0.484848" y="1" />
+                                <point x="0.030303" y="0.969697" />
+                                <point x="0" y="0.484848" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="TS_Floor_08" sid="208944686850357">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="299732089390982" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\openspace\Downloads\Tileset\Tileset\Fichier 16.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.484848" />
+                                <point x="0.969697" y="0.969697" />
+                                <point x="0.484848" y="0.969697" />
+                                <point x="0.272727" y="0.727273" />
+                                <point x="0.030303" y="0.484848" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="TS_Floor_07" sid="755829123188556">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="642596184524131" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\openspace\Downloads\Tileset\Tileset\Fichier 15.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.484848" y="0" />
+                                <point x="0.969697" y="0.030303" />
+                                <point x="0.969697" y="0.969697" />
+                                <point x="0.484848" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="TS_Floor_09" sid="387839073661162">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="875758697954070" speed="5">
+                        <frame duration="1" hotspotX="1" hotspotY="1" original-source="C:\Users\openspace\Downloads\Tileset\Tileset\Fichier 15.png">
+                            <collision-poly>
+                                <point x="1" y="1" />
+                                <point x="0.515152" y="1" />
+                                <point x="0.030303" y="0.969697" />
+                                <point x="0.030303" y="0.030303" />
+                                <point x="0.515152" y="0" />
+                                <point x="1" y="0" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="TXT">
+            <object-type name="TXT_Control_Runner" sid="983658742823129">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="TXT_GameOver" sid="2215063230010225">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="TXT_COntrol_Shooter" sid="182584183894370">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="TXT_Intro_Player" sid="257448022391545">
+                <plugin id="Text" />
+                <behaviors>
+                    <behavior-type name="Timer" sid="806248824056940">
+                        <behavior id="Timer" />
+                    </behavior-type>
+                </behaviors>
+            </object-type>
+            <object-type name="TXT_PlayerTurn" sid="434215532060972">
+                <plugin id="Text" />
+                <behaviors>
+                    <behavior-type name="Timer" sid="479682219601018">
+                        <behavior id="Timer" />
+                    </behavior-type>
+                    <behavior-type name="Anchor" sid="538612555209223">
+                        <behavior id="Anchor" />
+                    </behavior-type>
+                </behaviors>
+            </object-type>
+            <object-type name="TXT_Intro_Rules" sid="219936791249399">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="TXT_Timer_Level" sid="107900063520530">
+                <plugin id="Text" />
+                <behaviors>
+                    <behavior-type name="Timer" sid="930226802321198">
+                        <behavior id="Timer" />
+                    </behavior-type>
+                    <behavior-type name="Anchor" sid="802313410788602">
+                        <behavior id="Anchor" />
+                    </behavior-type>
+                </behaviors>
+            </object-type>
+            <object-type name="TXT_Intro_Chargement" sid="905112224323181">
+                <plugin id="Text" />
+                <behaviors>
+                    <behavior-type name="Flash" sid="824853777977996">
+                        <behavior id="Flash" />
+                    </behavior-type>
+                </behaviors>
+            </object-type>
+        </object-folder>
+        <object-folder name="P2_Shooter">
+            <object-type name="Corner_BottomLeft" sid="927151800038053">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="323834760892824" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Corner_BottomRight" sid="138692272153274">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="326581231030388" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Corner_TopLeft" sid="608184368563024">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="823868118233520" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Corner_TopRight" sid="870720191201043">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="852989877325148" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Player_Projectile_Damage" sid="760949644547703">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Bullet" sid="237586076525986">
+                        <behavior id="Bullet" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="112208788641986" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Player_Projectile_Slow" sid="220888631734908">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Bullet" sid="143794453281958">
+                        <behavior id="Bullet" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="897663965207560" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Player_Projectile_Vision" sid="114911209615938">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Bullet" sid="359315628091574">
+                        <behavior id="Bullet" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="769385731457131" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Player_Turret" sid="164679636010203">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="601507707860849" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <image-point name="ProjectileSpawn" x="0.5" y="0.5" />
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Smoke" sid="494747534737094">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Timer" sid="632413573465860">
+                        <behavior id="Timer" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="7" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="741330020796908" speed="80">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\openspace\Downloads\Smoke\0090.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="ViewCenter" sid="533656200378251">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="705382202837080" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Player_Cursor" sid="742739827996219">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="8Direction" sid="931139356618724">
+                        <behavior id="EightDir" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="613675022285515" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="P1_Runner">
+            <object-type name="Player" sid="101403435179678">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="State" sid="946286947713092" type="string" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Platform" sid="6198843026811634">
+                        <behavior id="Platform" />
+                    </behavior-type>
+                    <behavior-type name="ScrollTo" sid="288759680308744">
+                        <behavior id="scrollto" />
+                    </behavior-type>
+                </behaviors>
+                <container>
+                    <type>Player</type>
+                    <type>Player_Animation</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="stand" pingpong="0" repeatcount="1" repeatto="0" sid="4459791424309521" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="1">
+                            <image-point name="Sprite" x="0.5" y="0.375" />
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="duck" pingpong="0" repeatcount="1" repeatto="0" sid="9157571042165939" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="walk" pingpong="0" repeatcount="1" repeatto="0" sid="9891271817851426" speed="7">
+                        <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="skid" pingpong="0" repeatcount="1" repeatto="0" sid="4552376808871469" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="jump" pingpong="0" repeatcount="1" repeatto="0" sid="4126790286063334" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Player_Animation" sid="821382101078355">
+                <plugin id="Sprite" />
+                <container>
+                    <type>Player</type>
+                    <type>Player_Animation</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="12" loop="1" name="T_Run" pingpong="0" repeatcount="1" repeatto="0" sid="443541828289931" speed="30">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Run\TallRun_00000.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.645" y="0.265" />
+                                <point x="0.645" y="0.79" />
+                                <point x="0.415" y="0.785" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Run\TallRun_00001.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Run\TallRun_00002.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Run\TallRun_00003.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Run\TallRun_00004.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Run\TallRun_00005.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Run\TallRun_00006.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Run\TallRun_00007.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Run\TallRun_00008.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Run\TallRun_00009.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Run\TallRun_00010.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Run\TallRun_00011.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="12" loop="1" name="T_Idle" pingpong="0" repeatcount="1" repeatto="0" sid="947305373709210" speed="10">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Idle\TallIdle_00000.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.26" />
+                                <point x="0.69" y="0.29" />
+                                <point x="0.695" y="0.845" />
+                                <point x="0.41" y="0.85" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Idle\TallIdle_00001.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Idle\TallIdle_00002.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Idle\TallIdle_00003.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Idle\TallIdle_00004.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Idle\TallIdle_00005.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Idle\TallIdle_00006.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Idle\TallIdle_00007.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Idle\TallIdle_00008.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Idle\TallIdle_00009.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Idle\TallIdle_00010.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Idle\TallIdle_00011.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="12" loop="1" name="T_Jump" pingpong="0" repeatcount="1" repeatto="5" sid="749018229112912" speed="30">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\JumpStart\TallJumpStart_00000.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\JumpStart\TallJumpStart_00001.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\JumpStart\TallJumpStart_00002.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\JumpStart\TallJumpStart_00003.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\JumpStart\TallJumpStart_00004.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\JumpLoop\TallJumpLoop_00000.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\JumpLoop\TallJumpLoop_00001.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\JumpLoop\TallJumpLoop_00002.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\JumpLoop\TallJumpLoop_00003.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\JumpLoop\TallJumpLoop_00004.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\JumpLoop\TallJumpLoop_00005.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\JumpLoop\TallJumpLoop_00006.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="18" loop="1" name="T_Fall" pingpong="0" repeatcount="1" repeatto="8" sid="284063749455200" speed="30">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\FallStart\TallFallStart_00000.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\FallStart\TallFallStart_00001.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\FallStart\TallFallStart_00002.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\FallStart\TallFallStart_00003.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\FallStart\TallFallStart_00004.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\FallStart\TallFallStart_00005.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\FallStart\TallFallStart_00006.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\FallStart\TallFallStart_00007.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\FallLoop\TallFallLoop_00000.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\FallLoop\TallFallLoop_00001.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\FallLoop\TallFallLoop_00002.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\FallLoop\TallFallLoop_00003.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\FallLoop\TallFallLoop_00004.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\FallLoop\TallFallLoop_00005.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\FallLoop\TallFallLoop_00006.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\FallLoop\TallFallLoop_00007.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\FallLoop\TallFallLoop_00008.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\FallLoop\TallFallLoop_00009.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="11" loop="1" name="T_Wallslide" pingpong="0" repeatcount="1" repeatto="0" sid="238268465287855" speed="30">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Slide\TallSlide_00000.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Slide\TallSlide_00001.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Slide\TallSlide_00002.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Slide\TallSlide_00003.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Slide\TallSlide_00004.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Slide\TallSlide_00005.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Slide\TallSlide_00006.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Slide\TallSlide_00007.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Slide\TallSlide_00008.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Slide\TallSlide_00009.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Slide\TallSlide_00010.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="10" loop="1" name="S_Run" pingpong="0" repeatcount="1" repeatto="0" sid="799383924044637" speed="30">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Run\ShortRun_00000.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Run\ShortRun_00001.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Run\ShortRun_00002.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Run\ShortRun_00003.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Run\ShortRun_00004.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Run\ShortRun_00005.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Run\ShortRun_00006.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Run\ShortRun_00007.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Run\ShortRun_00008.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Run\ShortRun_00009.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="9" loop="1" name="S_Jump" pingpong="0" repeatcount="1" repeatto="4" sid="929029034747343" speed="30">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\JumpStart\ShortJumpStart_00000.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\JumpStart\ShortJumpStart_00001.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\JumpStart\ShortJumpStart_00002.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\JumpStart\ShortJumpStart_00003.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\JumpLoop\ShortJumpLoop_00004.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\JumpLoop\ShortJumpLoop_00005.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\JumpLoop\ShortJumpLoop_00006.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\JumpLoop\ShortJumpLoop_00007.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\JumpLoop\ShortJumpLoop_00008.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="11" loop="1" name="S_Fall" pingpong="0" repeatcount="1" repeatto="5" sid="620849059185626" speed="30">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\FallStart\ShortFallStart_00015.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\FallStart\ShortFallStart_00016.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\FallStart\ShortFallStart_00017.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\FallStart\ShortFallStart_00018.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\FallStart\ShortFallStart_00019.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\FallLoop\ShortFallLoop_00023.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\FallLoop\ShortFallLoop_00024.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\FallLoop\ShortFallLoop_00025.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\FallLoop\ShortFallLoop_00026.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\FallLoop\ShortFallLoop_00027.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\FallLoop\ShortFallLoop_00028.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="7" loop="1" name="S_Wallslide" pingpong="0" repeatcount="1" repeatto="0" sid="960195550626137" speed="30">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Slide\ShortSlide_00000.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Slide\ShortSlide_00001.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Slide\ShortSlide_00002.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Slide\ShortSlide_00003.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Slide\ShortSlide_00004.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Slide\ShortSlide_00005.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Slide\ShortSlide_00006.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="9" loop="1" name="S_Idle" pingpong="0" repeatcount="1" repeatto="0" sid="687611263360561" speed="7">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Idle\ShortIdle_00000.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Idle\ShortIdle_00001.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Idle\ShortIdle_00002.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Idle\ShortIdle_00003.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Idle\ShortIdle_00004.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Idle\ShortIdle_00005.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Idle\ShortIdle_00006.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Idle\ShortIdle_00007.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Idle\ShortIdle_00008.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="20" loop="0" name="T_Death" pingpong="0" repeatcount="1" repeatto="0" sid="484192705954353" speed="15">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Death\TallDeath_00000.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Death\TallDeath_00001.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Death\TallDeath_00002.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Death\TallDeath_00003.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Death\TallDeath_00004.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Death\TallDeath_00005.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Death\TallDeath_00006.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Death\TallDeath_00007.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Death\TallDeath_00008.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Death\TallDeath_00009.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Death\TallDeath_00010.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Death\TallDeath_00011.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Death\TallDeath_00012.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Death\TallDeath_00013.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Death\TallDeath_00014.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Death\TallDeath_00015.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Death\TallDeath_00016.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Death\TallDeath_00017.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Death\TallDeath_00018.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Tall\Death\TallDeath_00019.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="20" loop="0" name="S_Death" pingpong="0" repeatcount="1" repeatto="0" sid="764324888314982" speed="15">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Death\ShortDeath_00000.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Death\ShortDeath_00001.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Death\ShortDeath_00002.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Death\ShortDeath_00003.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Death\ShortDeath_00004.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Death\ShortDeath_00005.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Death\ShortDeath_00006.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Death\ShortDeath_00007.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Death\ShortDeath_00008.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Death\ShortDeath_00009.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Death\ShortDeath_00010.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Death\ShortDeath_00011.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Death\ShortDeath_00012.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Death\ShortDeath_00013.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Death\ShortDeath_00014.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Death\ShortDeath_00015.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Death\ShortDeath_00016.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Death\ShortDeath_00017.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Death\ShortDeath_00018.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\MC\Short\Death\ShortDeath_00019.png">
+                            <collision-poly>
+                                <point x="0.405" y="0.265" />
+                                <point x="0.615" y="0.27" />
+                                <point x="0.62" y="0.855" />
+                                <point x="0.425" y="0.84" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-type name="Colider" sid="6240819493895153">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="7978616089330305">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="Debug" sid="7330467655057728">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="780786443932814">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Timer" sid="346816139971948">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Timer" sid="370397909572449">
+                    <behavior id="Timer" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="358707267973343" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tilemap" sid="142319946458375">
+            <plugin id="Tilemap" />
+            <texture original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Tileset1.png" />
+            <tiles />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Sandbox.xml</layout>
+        <layout>Level 1.xml</layout>
+        <layout>Level 2.xml</layout>
+        <layout>Level 3.xml</layout>
+        <layout>Level 5.xml</layout>
+        <layout>Level 6.xml</layout>
+        <layout>Intro.xml</layout>
+        <layout>Score.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>ES_Variables.xml</event-sheet>
+        <event-sheet>ES_Intro.xml</event-sheet>
+        <event-sheet>ES_Score.xml</event-sheet>
+        <event-sheet>ES_P2_Shooter.xml</event-sheet>
+        <event-sheet>ES_P1_Runner.xml</event-sheet>
+        <event-sheet>ES_Objects.xml</event-sheet>
+        <event-sheet>ES_Main.xml</event-sheet>
+        <event-sheet>ES_LevelTimer.xml</event-sheet>
+        <event-sheet>ES_Animation.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="10" />
+        <global-instance type="Function" uid="21" />
+        <global-instance type="Gamepad" uid="110">
+            <properties>
+                <analog-deadzone>25</analog-deadzone>
+            </properties>
+        </global-instance>
+        <global-instance type="Mouse" uid="250" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="loading-logo.png" />
+            <file name="icon-256.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

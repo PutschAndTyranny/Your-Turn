@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>ES_LevelTimer</name>
+    <events>
+        <event-group description="" sid="208507418034006" title="Level Timer">
+            <sub-events>
+                <event-block sid="239835890606169">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="540159809277861" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="678832160939290" type="Function">
+                            <param id="0" name="Name">&quot;SetTimerLevel&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="599727593047938">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="850272141324402" type="System" />
+                        <condition id="-3" name="Is on-screen" sid="230456868580698" type="TXT_Timer_Level" />
+                        <condition id="-14" name="Compare variable" sid="727935194148219" type="System">
+                            <param id="0" name="Variable">Player_CanDoSometing</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="426152282961593" type="TXT_Timer_Level">
+                            <param id="0" name="Text">&quot;Temps restant : &quot; &amp; Timer_Level</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="300413177026439">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="626192533088661" type="System">
+                                    <param id="0" name="Variable">Timer_Level</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="628113294999106" type="System">
+                                    <param id="0" name="Variable">Timer_Level</param>
+                                    <param id="1" name="Value">dt</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="714770675719018" title="Function - SetTimerLevel">
+            <sub-events>
+                <event-block sid="612334486620037">
+                    <conditions>
+                        <condition id="0" name="On function" sid="339436148072033" type="Function">
+                            <param id="0" name="Name">&quot;SetTimerLevel&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="933282863863947">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="219274704059146" type="System">
+                                    <param id="0" name="First value">LayoutName</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">&quot;Level 1&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="429392845849334" type="System">
+                                    <param id="0" name="Variable">Level_Duration</param>
+                                    <param id="1" name="Value">200000</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="943368248385589">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="792628676059240" type="System">
+                                    <param id="0" name="First value">LayoutName</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">&quot;Level 2&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="576249239324871" type="System">
+                                    <param id="0" name="Variable">Level_Duration</param>
+                                    <param id="1" name="Value">2000000000000</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="980123910037600">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="567247557797742" type="System">
+                                    <param id="0" name="First value">LayoutName</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">&quot;Level 3&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="572106590849868" type="System">
+                                    <param id="0" name="Variable">Level_Duration</param>
+                                    <param id="1" name="Value">6</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="464427335880711">
+                            <conditions />
+                            <actions>
+                                <action id="-9" name="Set value" sid="509972806800554" type="System">
+                                    <param id="0" name="Variable">Timer_Level</param>
+                                    <param id="1" name="Value">Level_Duration</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

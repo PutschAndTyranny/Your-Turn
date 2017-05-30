@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>ES_Intro</name>
+    <events>
+        <event-group description="" sid="849568932867657" title="Intro">
+            <sub-events>
+                <event-block sid="338645395462228">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="478441896987145" type="System" />
+                        <condition id="-8" name="Compare two values" sid="473586679942259" type="System">
+                            <param id="0" name="First value">LayoutName</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">&quot;Intro&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="796491896765943" type="TXT_Intro_Rules">
+                            <param id="0" name="Text">&quot;Les principes du jeu :&quot; &amp; newline &amp; newline &amp;&#x0D;&#x0A;&quot;Le premier de vous deux à jouer va devoir réussir à finir le niveau dans lequel il va se retrouver.&quot; &amp; newline &amp; newline &amp;&#x0D;&#x0A;&quot;S&apos;il y arrive le second joueur devra tenter de finir le niveau à son tour. &quot; &amp; newline &amp; newline &amp;&#x0D;&#x0A;&quot;Et ainsi de suite jusqu&apos;à que l&apos;un des deux joueurs perdent.&quot; &amp; newline &amp; newline &amp;&#x0D;&#x0A;&quot;Celui qui réussit à survivre gagne un point.&quot; &amp; newline &amp; newline &amp;&#x0D;&#x0A;&quot;Mais pendant que le premier joueur parcourera le niveau le second joueur pourra le gêner en tirant divers projectile.&quot; &amp; newline &amp; newline &amp; newline &amp; newline &amp;&#x0D;&#x0A;&quot;Appuyer sur Start pour commencer.&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="910084451360161" type="TXT_Control_Runner">
+                            <param id="0" name="Text">&quot;CONTRÔLES DU PLATEFORMEUR :&quot; &amp; newline &amp; newline &amp;&#x0D;&#x0A;&quot;Manette :&quot; &amp; newline &amp;&#x0D;&#x0A;&quot;Joystick Gauche : Se déplacer.&quot; &amp; newline &amp;&#x0D;&#x0A;&quot;A : Sauter &quot; &amp; newline &amp; newline &amp;&#x0D;&#x0A;&quot;Clavier : &quot;&amp; newline &amp;&#x0D;&#x0A;&quot;Flèches directionelles : Se déplacer.&quot; &amp; newline &amp;&#x0D;&#x0A;&quot;Espace : Sauter.&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="406692568024731" type="TXT_COntrol_Shooter">
+                            <param id="0" name="Text">&quot;CONTRÔLES DU TIREUR :&quot; &amp; newline &amp; newline &amp;&#x0D;&#x0A;&quot;Manette :&quot; &amp; newline &amp;&#x0D;&#x0A;&quot;Joystick Gauche : VIser.&quot; &amp; newline &amp;&#x0D;&#x0A;&quot;A : Tirer &quot; &amp; newline &amp; newline &amp;&#x0D;&#x0A;&quot;Clavier : &quot;&amp; newline &amp;&#x0D;&#x0A;&quot;Souris : Viser.&quot; &amp; newline &amp;&#x0D;&#x0A;&quot;Clic gauche : Tirer.&quot;</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="220262194386528" type="TXT_Intro_Player">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="234531978381564">
+                    <conditions>
+                        <condition id="6" name="On button pressed" sid="833584814599614" type="Gamepad">
+                            <param id="0" name="Gamepad">0</param>
+                            <param id="1" name="Button">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Timer" id="0" name="Start timer" sid="147361496352154" type="TXT_Intro_Player">
+                            <param id="0" name="Duration">1.0</param>
+                            <param id="1" name="Type">0</param>
+                            <param id="2" name="Tag">&quot;ChoosePlayer&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="625074246403273">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="525378289603603" type="Keyboard">
+                            <param id="0" name="Key">13 (Return)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Timer" id="0" name="Start timer" sid="140643797668920" type="TXT_Intro_Player">
+                            <param id="0" name="Duration">1.0</param>
+                            <param id="1" name="Type">0</param>
+                            <param id="2" name="Tag">&quot;ChoosePlayer&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="312565328699371">
+                    <conditions>
+                        <condition behavior="Timer" id="0" name="On timer" sid="843110454963041" type="TXT_Intro_Player">
+                            <param id="0" name="Tag">&quot;ChoosePlayer&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="600762604678685" type="System">
+                            <param id="0" name="Variable">PlayerTurn</param>
+                            <param id="1" name="Value">choose(1,2)</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="935777017739166" type="TXT_Intro_Player">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="134872407897652" type="TXT_Intro_Chargement">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Flash" id="0" name="Flash" sid="358105509724355" type="TXT_Intro_Chargement">
+                            <param id="0" name="&apos;On&apos; time">0.2</param>
+                            <param id="1" name="&apos;Off&apos; time">0.2</param>
+                            <param id="2" name="Duration">60</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="277747481541610" type="System">
+                            <param id="0" name="Seconds">2.0</param>
+                        </action>
+                        <action id="-25" name="Go to layout (by name)" sid="890382333069926" type="System">
+                            <param id="0" name="Layout">&quot;Level 2&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="610100468958217">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="320762164355938" type="System">
+                            <param id="0" name="Variable">PlayerTurn</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="977526490569626" type="TXT_Intro_Player">
+                            <param id="0" name="Text">&quot;Le Joueur 1 commence !&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="842779585615999">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="251704064765213" type="System">
+                            <param id="0" name="Variable">PlayerTurn</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="499002361729114" type="TXT_Intro_Player">
+                            <param id="0" name="Text">&quot;Le Joueur 2 commence !&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="929418479208565">
+            <conditions>
+                <condition id="1" name="On any key pressed" sid="209346528216628" type="Keyboard" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="488785229550958" type="System">
+                    <param id="0" name="Variable">Control</param>
+                    <param id="1" name="Value">&quot;Keyboard&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="749670215316828">
+            <conditions>
+                <condition id="8" name="On any button pressed" sid="844178377827685" type="Gamepad">
+                    <param id="0" name="Gamepad">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="802062738827536" type="System">
+                    <param id="0" name="Variable">Control</param>
+                    <param id="1" name="Value">&quot;Gamepad&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
