@@ -10,18 +10,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="6">Intro</layout>
-        <layout order="7">Sandbox</layout>
-        <layout order="10">Level 1</layout>
-        <layout order="11">Level 2</layout>
+        <layout order="4">Intro</layout>
+        <layout order="5">Level 1</layout>
+        <layout order="6">Level 2</layout>
         <event-sheet order="0">ES_Main</event-sheet>
         <event-sheet order="1">ES_Variables</event-sheet>
-        <event-sheet order="2">ES_P1_Runner</event-sheet>
-        <event-sheet active="1" order="3">ES_P2_Shooter</event-sheet>
-        <event-sheet order="4">ES_Intro</event-sheet>
-        <event-sheet order="5">ES_Objects</event-sheet>
-        <event-sheet order="8">ES_LevelTimer</event-sheet>
-        <event-sheet order="9">ES_Score</event-sheet>
+        <event-sheet active="1" order="2">ES_P1_Runner</event-sheet>
+        <event-sheet order="3">ES_P2_Shooter</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

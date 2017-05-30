@@ -9,7 +9,7 @@
         <variable constant="0" name="Shoot_Cooldown" sid="251999843313034" static="0" type="number">1.5</variable>
         <variable constant="0" name="Move_Jump_Deceleration" sid="985942043949226" static="0" type="number">800</variable>
         <variable constant="0" name="Move_Wall_Y" sid="598378952200982" static="0" type="number">300</variable>
-        <variable constant="0" name="Move_Deceleration_StandJump" sid="986144146133620" static="0" type="number">325</variable>
+        <variable constant="0" name="Move_Deceleration_StandJump" sid="986144146133620" static="0" type="number">500</variable>
         <variable constant="0" name="Move_WallJump_Y_Down" sid="319280396149935" static="0" type="number">-700</variable>
         <variable constant="0" name="Move_WallJump_Y_NotDown" sid="176907517160769" static="0" type="number">-600</variable>
         <variable constant="0" name="Move_Basic_MaxSpeed" sid="423569910132857" static="0" type="number">800</variable>
