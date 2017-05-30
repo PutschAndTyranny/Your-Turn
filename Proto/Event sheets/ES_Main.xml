@@ -299,6 +299,10 @@
                             <param id="0" name="Variable">Timer_RestartLevel</param>
                             <param id="1" name="Value">3</param>
                         </action>
+                        <action id="0" name="Call function" sid="299898220668541" type="Function">
+                            <param id="0" name="Name">&quot;SetTimerLevel&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
                     </actions>
                     <sub-events>
                         <event-block sid="708724243861059">
