@@ -1108,8 +1108,8 @@
                                             <sub-events>
                                                 <event-block sid="669686576481791">
                                                     <conditions>
-                                                        <condition id="-8" name="Compare two values" sid="301850323177004" type="System">
-                                                            <param id="0" name="First value">Player_Turret.Angle</param>
+                                                        <condition id="-8" name="Compare two values" sid="847872889815824" type="System">
+                                                            <param id="0" name="First value">Player_Position</param>
                                                             <param id="1" name="Comparison">0</param>
                                                             <param id="2" name="Second value">0</param>
                                                         </condition>
@@ -1117,7 +1117,7 @@
                                                     <actions>
                                                         <action id="0" name="Spawn another object" sid="765888777062705" type="Player_Turret">
                                                             <param id="0" name="Object">Player_Projectile_Damage</param>
-                                                            <param id="1" name="Layer">0</param>
+                                                            <param id="1" name="Layer">&quot;Scene&quot;</param>
                                                             <param id="2" name="Image point">&quot;ProjectileSpawn&quot;</param>
                                                         </action>
                                                         <action id="-8" name="Set angle" sid="196356044006243" type="Player_Projectile_Damage">
@@ -1127,35 +1127,35 @@
                                                 </event-block>
                                                 <event-block sid="295805230712275">
                                                     <conditions>
-                                                        <condition id="-8" name="Compare two values" sid="128316578160954" type="System">
-                                                            <param id="0" name="First value">Player_Turret.Angle</param>
+                                                        <condition id="-8" name="Compare two values" sid="250786003925844" type="System">
+                                                            <param id="0" name="First value">Player_Position</param>
                                                             <param id="1" name="Comparison">0</param>
-                                                            <param id="2" name="Second value">90</param>
+                                                            <param id="2" name="Second value">1</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
                                                         <action id="0" name="Spawn another object" sid="151080099378602" type="Player_Turret">
                                                             <param id="0" name="Object">Player_Projectile_Damage</param>
-                                                            <param id="1" name="Layer">0</param>
+                                                            <param id="1" name="Layer">&quot;Scene&quot;</param>
                                                             <param id="2" name="Image point">&quot;ProjectileSpawn&quot;</param>
                                                         </action>
-                                                        <action id="-8" name="Set angle" sid="796076325676269" type="Player_Projectile_Damage">
-                                                            <param id="0" name="Angle">180</param>
+                                                        <action id="-8" name="Set angle" sid="503307356541467" type="Player_Projectile_Damage">
+                                                            <param id="0" name="Angle">0</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="899960531372406">
                                                     <conditions>
-                                                        <condition id="-8" name="Compare two values" sid="667674593056114" type="System">
-                                                            <param id="0" name="First value">Player_Turret.Angle</param>
+                                                        <condition id="-8" name="Compare two values" sid="909851119719236" type="System">
+                                                            <param id="0" name="First value">Player_Position</param>
                                                             <param id="1" name="Comparison">0</param>
-                                                            <param id="2" name="Second value">180</param>
+                                                            <param id="2" name="Second value">2</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
                                                         <action id="0" name="Spawn another object" sid="582757089237146" type="Player_Turret">
                                                             <param id="0" name="Object">Player_Projectile_Damage</param>
-                                                            <param id="1" name="Layer">0</param>
+                                                            <param id="1" name="Layer">&quot;Scene&quot;</param>
                                                             <param id="2" name="Image point">&quot;ProjectileSpawn&quot;</param>
                                                         </action>
                                                         <action id="-8" name="Set angle" sid="978644486593168" type="Player_Projectile_Damage">
@@ -1165,20 +1165,20 @@
                                                 </event-block>
                                                 <event-block sid="665384350480390">
                                                     <conditions>
-                                                        <condition id="-8" name="Compare two values" sid="569075202486690" type="System">
-                                                            <param id="0" name="First value">Player_Turret.Angle</param>
+                                                        <condition id="-8" name="Compare two values" sid="560488873155027" type="System">
+                                                            <param id="0" name="First value">Player_Position</param>
                                                             <param id="1" name="Comparison">0</param>
-                                                            <param id="2" name="Second value">270</param>
+                                                            <param id="2" name="Second value">3</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
                                                         <action id="0" name="Spawn another object" sid="886932586048644" type="Player_Turret">
                                                             <param id="0" name="Object">Player_Projectile_Damage</param>
-                                                            <param id="1" name="Layer">0</param>
+                                                            <param id="1" name="Layer">&quot;Scene&quot;</param>
                                                             <param id="2" name="Image point">&quot;ProjectileSpawn&quot;</param>
                                                         </action>
-                                                        <action id="-8" name="Set angle" sid="503307356541467" type="Player_Projectile_Damage">
-                                                            <param id="0" name="Angle">0</param>
+                                                        <action id="-8" name="Set angle" sid="796076325676269" type="Player_Projectile_Damage">
+                                                            <param id="0" name="Angle">180</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -1196,8 +1196,8 @@
                                             <sub-events>
                                                 <event-block sid="504138568360070">
                                                     <conditions>
-                                                        <condition id="-8" name="Compare two values" sid="216612102914109" type="System">
-                                                            <param id="0" name="First value">Player_Turret.Angle</param>
+                                                        <condition id="-8" name="Compare two values" sid="266137038924908" type="System">
+                                                            <param id="0" name="First value">Player_Position</param>
                                                             <param id="1" name="Comparison">0</param>
                                                             <param id="2" name="Second value">0</param>
                                                         </condition>
@@ -1205,7 +1205,7 @@
                                                     <actions>
                                                         <action id="0" name="Spawn another object" sid="273873376409865" type="Player_Turret">
                                                             <param id="0" name="Object">Player_Projectile_Slow</param>
-                                                            <param id="1" name="Layer">0</param>
+                                                            <param id="1" name="Layer">&quot;Scene&quot;</param>
                                                             <param id="2" name="Image point">&quot;ProjectileSpawn&quot;</param>
                                                         </action>
                                                         <action id="-8" name="Set angle" sid="936062378243999" type="Player_Projectile_Slow">
@@ -1215,35 +1215,35 @@
                                                 </event-block>
                                                 <event-block sid="618626045481961">
                                                     <conditions>
-                                                        <condition id="-8" name="Compare two values" sid="452117160873208" type="System">
-                                                            <param id="0" name="First value">Player_Turret.Angle</param>
+                                                        <condition id="-8" name="Compare two values" sid="854455516146425" type="System">
+                                                            <param id="0" name="First value">Player_Position</param>
                                                             <param id="1" name="Comparison">0</param>
-                                                            <param id="2" name="Second value">90</param>
+                                                            <param id="2" name="Second value">1</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
                                                         <action id="0" name="Spawn another object" sid="860038308443196" type="Player_Turret">
                                                             <param id="0" name="Object">Player_Projectile_Slow</param>
-                                                            <param id="1" name="Layer">0</param>
+                                                            <param id="1" name="Layer">&quot;Scene&quot;</param>
                                                             <param id="2" name="Image point">&quot;ProjectileSpawn&quot;</param>
                                                         </action>
-                                                        <action id="-8" name="Set angle" sid="598014146304318" type="Player_Projectile_Slow">
-                                                            <param id="0" name="Angle">180</param>
+                                                        <action id="-8" name="Set angle" sid="469087822408698" type="Player_Projectile_Slow">
+                                                            <param id="0" name="Angle">0</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="977705080658070">
                                                     <conditions>
-                                                        <condition id="-8" name="Compare two values" sid="735819913665797" type="System">
-                                                            <param id="0" name="First value">Player_Turret.Angle</param>
+                                                        <condition id="-8" name="Compare two values" sid="237648835486173" type="System">
+                                                            <param id="0" name="First value">Player_Position</param>
                                                             <param id="1" name="Comparison">0</param>
-                                                            <param id="2" name="Second value">180</param>
+                                                            <param id="2" name="Second value">2</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
                                                         <action id="0" name="Spawn another object" sid="189641136222214" type="Player_Turret">
                                                             <param id="0" name="Object">Player_Projectile_Slow</param>
-                                                            <param id="1" name="Layer">0</param>
+                                                            <param id="1" name="Layer">&quot;Scene&quot;</param>
                                                             <param id="2" name="Image point">&quot;ProjectileSpawn&quot;</param>
                                                         </action>
                                                         <action id="-8" name="Set angle" sid="677875890476620" type="Player_Projectile_Slow">
@@ -1253,20 +1253,20 @@
                                                 </event-block>
                                                 <event-block sid="988820408632755">
                                                     <conditions>
-                                                        <condition id="-8" name="Compare two values" sid="910327107125720" type="System">
-                                                            <param id="0" name="First value">Player_Turret.Angle</param>
+                                                        <condition id="-8" name="Compare two values" sid="192490271183218" type="System">
+                                                            <param id="0" name="First value">Player_Position</param>
                                                             <param id="1" name="Comparison">0</param>
-                                                            <param id="2" name="Second value">270</param>
+                                                            <param id="2" name="Second value">3</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
                                                         <action id="0" name="Spawn another object" sid="314477491479308" type="Player_Turret">
                                                             <param id="0" name="Object">Player_Projectile_Slow</param>
-                                                            <param id="1" name="Layer">0</param>
+                                                            <param id="1" name="Layer">&quot;Scene&quot;</param>
                                                             <param id="2" name="Image point">&quot;ProjectileSpawn&quot;</param>
                                                         </action>
-                                                        <action id="-8" name="Set angle" sid="469087822408698" type="Player_Projectile_Slow">
-                                                            <param id="0" name="Angle">0</param>
+                                                        <action id="-8" name="Set angle" sid="598014146304318" type="Player_Projectile_Slow">
+                                                            <param id="0" name="Angle">180</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -1285,7 +1285,7 @@
                                                 <event-block sid="671121705548893">
                                                     <conditions>
                                                         <condition id="-8" name="Compare two values" sid="327696057912056" type="System">
-                                                            <param id="0" name="First value">Player_Turret.Angle</param>
+                                                            <param id="0" name="First value">Player_Position</param>
                                                             <param id="1" name="Comparison">0</param>
                                                             <param id="2" name="Second value">0</param>
                                                         </condition>
@@ -1303,10 +1303,10 @@
                                                 </event-block>
                                                 <event-block sid="558826931097289">
                                                     <conditions>
-                                                        <condition id="-8" name="Compare two values" sid="186816602372577" type="System">
-                                                            <param id="0" name="First value">Player_Turret.Angle</param>
+                                                        <condition id="-8" name="Compare two values" sid="322480916294680" type="System">
+                                                            <param id="0" name="First value">Player_Position</param>
                                                             <param id="1" name="Comparison">0</param>
-                                                            <param id="2" name="Second value">90</param>
+                                                            <param id="2" name="Second value">1</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
@@ -1315,17 +1315,17 @@
                                                             <param id="1" name="Layer">&quot;Scene&quot;</param>
                                                             <param id="2" name="Image point">&quot;ProjectileSpawn&quot;</param>
                                                         </action>
-                                                        <action id="-8" name="Set angle" sid="935257210245321" type="Player_Projectile_Vision">
-                                                            <param id="0" name="Angle">180</param>
+                                                        <action id="-8" name="Set angle" sid="370637271109059" type="Player_Projectile_Vision">
+                                                            <param id="0" name="Angle">0</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="845257955722047">
                                                     <conditions>
-                                                        <condition id="-8" name="Compare two values" sid="852286393445553" type="System">
-                                                            <param id="0" name="First value">Player_Turret.Angle</param>
+                                                        <condition id="-8" name="Compare two values" sid="343720405578329" type="System">
+                                                            <param id="0" name="First value">Player_Position</param>
                                                             <param id="1" name="Comparison">0</param>
-                                                            <param id="2" name="Second value">180</param>
+                                                            <param id="2" name="Second value">2</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
@@ -1341,10 +1341,10 @@
                                                 </event-block>
                                                 <event-block sid="820565770542655">
                                                     <conditions>
-                                                        <condition id="-8" name="Compare two values" sid="291901034730023" type="System">
-                                                            <param id="0" name="First value">Player_Turret.Angle</param>
+                                                        <condition id="-8" name="Compare two values" sid="892857508526110" type="System">
+                                                            <param id="0" name="First value">Player_Position</param>
                                                             <param id="1" name="Comparison">0</param>
-                                                            <param id="2" name="Second value">270</param>
+                                                            <param id="2" name="Second value">3</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
@@ -1353,8 +1353,8 @@
                                                             <param id="1" name="Layer">&quot;Scene&quot;</param>
                                                             <param id="2" name="Image point">&quot;ProjectileSpawn&quot;</param>
                                                         </action>
-                                                        <action id="-8" name="Set angle" sid="370637271109059" type="Player_Projectile_Vision">
-                                                            <param id="0" name="Angle">0</param>
+                                                        <action id="-8" name="Set angle" sid="935257210245321" type="Player_Projectile_Vision">
+                                                            <param id="0" name="Angle">180</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -1368,7 +1368,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="806627912581822" title="J2 - Projectile - Vision">
+        <event-group description="" sid="806627912581822" title="J2 - Projectile - Smoke">
             <sub-events>
                 <event-block sid="633890456179511">
                     <conditions>
