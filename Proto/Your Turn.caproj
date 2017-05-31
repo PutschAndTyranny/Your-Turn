@@ -2008,6 +2008,14 @@
             <texture original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_ART\Tileset\Tileset1.png" />
             <tiles />
         </object-type>
+        <object-type name="Sprite2" sid="225389251348834">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="306696749716113" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -2015,8 +2023,8 @@
         <layout>Level 1.xml</layout>
         <layout>Level 2.xml</layout>
         <layout>Level 3.xml</layout>
+        <layout>Level 4.xml</layout>
         <layout>Level 5.xml</layout>
-        <layout>Level 6.xml</layout>
         <layout>Intro.xml</layout>
         <layout>Score.xml</layout>
     </layout-folder>

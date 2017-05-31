@@ -1065,7 +1065,7 @@
                                                     </conditions>
                                                     <actions>
                                                         <action behavior="Platform" id="1" name="Set max speed" sid="735214589139536" type="P1_Collider">
-                                                            <param id="0" name="Max Speed">1400</param>
+                                                            <param id="0" name="Max Speed">800</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -1164,7 +1164,7 @@
             <actions>
                 <action id="-4" name="Set position to another object" sid="566891588184867" type="P1_Hitbox">
                     <param id="0" name="Object">P1_Collider</param>
-                    <param id="1" name="Image point (optional)">0</param>
+                    <param id="1" name="Image point (optional)">1</param>
                 </action>
             </actions>
         </event-block>
