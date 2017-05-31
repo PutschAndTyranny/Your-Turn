@@ -605,9 +605,9 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="765523404889634" title="J2 - Moving Turret - Mouse">
+        <event-group description="" disabled="1" sid="765523404889634" title="J2 - Moving Turret - Mouse">
             <sub-events>
-                <event-block sid="384395839649623">
+                <event-block disabled="1" sid="384395839649623">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="908180336782662" type="System">
                             <param id="0" name="Variable">Player_CanDoSometing</param>
@@ -621,7 +621,7 @@
                         </action>
                     </actions>
                     <sub-events>
-                        <event-block sid="838557030732604">
+                        <event-block disabled="1" sid="838557030732604">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="226131293431058" type="System">
                                     <param id="0" name="Variable">Control</param>
@@ -638,7 +638,7 @@
                                 </action>
                             </actions>
                             <sub-events>
-                                <event-block sid="722780019358199">
+                                <event-block disabled="1" sid="722780019358199">
                                     <conditions>
                                         <condition id="-1" name="Every tick" sid="635776725794811" type="System" />
                                     </conditions>
@@ -655,7 +655,7 @@
                         </event-block>
                     </sub-events>
                 </event-block>
-                <event-block sid="864165496355688">
+                <event-block disabled="1" sid="864165496355688">
                     <conditions>
                         <condition id="-1" name="Every tick" sid="524014801858813" type="System" />
                     </conditions>
@@ -669,7 +669,7 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="623439887182494">
+                <event-block disabled="1" sid="623439887182494">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="168295105909087" type="System">
                             <param id="0" name="Variable">Control</param>
@@ -680,7 +680,7 @@
                     <actions />
                     <sub-events>
                         <comment>Define if the mouse angle is between the Top, Right, Bottom, and Left edges and center, Set position based on angle towards edge using tan()</comment>
-                        <event-block sid="538374788028746">
+                        <event-block disabled="1" sid="538374788028746">
                             <conditions>
                                 <condition id="-21" name="Is between values" sid="586078902338841" type="System">
                                     <param id="0" name="Value">angle(ViewCenter.X,ViewCenter.Y,Mouse.X,Mouse.Y)</param>
@@ -695,7 +695,7 @@
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block sid="251685244713332">
+                        <event-block disabled="1" sid="251685244713332">
                             <conditions>
                                 <condition id="-22" name="Else" sid="957480092514832" type="System" />
                                 <condition id="-21" name="Is between values" sid="459390446608562" type="System">
@@ -711,7 +711,7 @@
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block sid="237175615215687">
+                        <event-block disabled="1" sid="237175615215687">
                             <conditions>
                                 <condition id="-22" name="Else" sid="463862873067073" type="System" />
                                 <condition id="-21" name="Is between values" sid="292549493858389" type="System">
@@ -727,7 +727,7 @@
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block sid="553528477725229">
+                        <event-block disabled="1" sid="553528477725229">
                             <conditions>
                                 <condition id="-22" name="Else" sid="291109211500592" type="System" />
                             </conditions>
@@ -742,9 +742,9 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="964226289846011" title="J2 - Shooting - Keyboard">
+        <event-group description="" disabled="1" sid="964226289846011" title="J2 - Shooting - Keyboard">
             <sub-events>
-                <event-block sid="723254897216647">
+                <event-block disabled="1" sid="723254897216647">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="224715511706525" type="System">
                             <param id="0" name="Variable">Player_CanDoSometing</param>
@@ -759,7 +759,7 @@
                     </conditions>
                     <actions />
                     <sub-events>
-                        <event-block sid="179019856843107">
+                        <event-block disabled="1" sid="179019856843107">
                             <conditions>
                                 <condition id="0" name="On click" sid="827726756082688" type="Mouse">
                                     <param id="0" name="Mouse button">0</param>
@@ -768,7 +768,7 @@
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="223750509298643">
+                                <event-block disabled="1" sid="223750509298643">
                                     <conditions>
                                         <condition id="-14" name="Compare variable" sid="242623888528190" type="System">
                                             <param id="0" name="Variable">Shoot_Can</param>
@@ -783,7 +783,7 @@
                                         </action>
                                     </actions>
                                     <sub-events>
-                                        <event-block sid="241051047661632">
+                                        <event-block disabled="1" sid="241051047661632">
                                             <conditions>
                                                 <condition id="-14" name="Compare variable" sid="198302329507136" type="System">
                                                     <param id="0" name="Variable">Shoot_Type</param>
@@ -793,7 +793,7 @@
                                             </conditions>
                                             <actions />
                                             <sub-events>
-                                                <event-block sid="136466445201030">
+                                                <event-block disabled="1" sid="136466445201030">
                                                     <conditions>
                                                         <condition id="-8" name="Compare two values" sid="915751953821137" type="System">
                                                             <param id="0" name="First value">Player_Turret.Angle</param>
@@ -812,7 +812,7 @@
                                                         </action>
                                                     </actions>
                                                 </event-block>
-                                                <event-block sid="662870688653054">
+                                                <event-block disabled="1" sid="662870688653054">
                                                     <conditions>
                                                         <condition id="-8" name="Compare two values" sid="406805946701253" type="System">
                                                             <param id="0" name="First value">Player_Turret.Angle</param>
@@ -831,7 +831,7 @@
                                                         </action>
                                                     </actions>
                                                 </event-block>
-                                                <event-block sid="480217353589535">
+                                                <event-block disabled="1" sid="480217353589535">
                                                     <conditions>
                                                         <condition id="-8" name="Compare two values" sid="238171564125789" type="System">
                                                             <param id="0" name="First value">Player_Turret.Angle</param>
@@ -850,7 +850,7 @@
                                                         </action>
                                                     </actions>
                                                 </event-block>
-                                                <event-block sid="150506429650933">
+                                                <event-block disabled="1" sid="150506429650933">
                                                     <conditions>
                                                         <condition id="-8" name="Compare two values" sid="723991138601523" type="System">
                                                             <param id="0" name="First value">Player_Turret.Angle</param>
@@ -871,7 +871,7 @@
                                                 </event-block>
                                             </sub-events>
                                         </event-block>
-                                        <event-block sid="753893044359610">
+                                        <event-block disabled="1" sid="753893044359610">
                                             <conditions>
                                                 <condition id="-14" name="Compare variable" sid="306296936985271" type="System">
                                                     <param id="0" name="Variable">Shoot_Type</param>
@@ -881,7 +881,7 @@
                                             </conditions>
                                             <actions />
                                             <sub-events>
-                                                <event-block sid="465580069605610">
+                                                <event-block disabled="1" sid="465580069605610">
                                                     <conditions>
                                                         <condition id="-8" name="Compare two values" sid="427548291444935" type="System">
                                                             <param id="0" name="First value">Player_Turret.Angle</param>
@@ -900,7 +900,7 @@
                                                         </action>
                                                     </actions>
                                                 </event-block>
-                                                <event-block sid="137320403421895">
+                                                <event-block disabled="1" sid="137320403421895">
                                                     <conditions>
                                                         <condition id="-8" name="Compare two values" sid="251098868531874" type="System">
                                                             <param id="0" name="First value">Player_Turret.Angle</param>
@@ -919,7 +919,7 @@
                                                         </action>
                                                     </actions>
                                                 </event-block>
-                                                <event-block sid="563290304920291">
+                                                <event-block disabled="1" sid="563290304920291">
                                                     <conditions>
                                                         <condition id="-8" name="Compare two values" sid="383856207151323" type="System">
                                                             <param id="0" name="First value">Player_Turret.Angle</param>
@@ -938,7 +938,7 @@
                                                         </action>
                                                     </actions>
                                                 </event-block>
-                                                <event-block sid="455401386890112">
+                                                <event-block disabled="1" sid="455401386890112">
                                                     <conditions>
                                                         <condition id="-8" name="Compare two values" sid="915281191377121" type="System">
                                                             <param id="0" name="First value">Player_Turret.Angle</param>
@@ -959,7 +959,7 @@
                                                 </event-block>
                                             </sub-events>
                                         </event-block>
-                                        <event-block sid="613339006468857">
+                                        <event-block disabled="1" sid="613339006468857">
                                             <conditions>
                                                 <condition id="-14" name="Compare variable" sid="277245311525396" type="System">
                                                     <param id="0" name="Variable">Shoot_Type</param>
@@ -969,7 +969,7 @@
                                             </conditions>
                                             <actions />
                                             <sub-events>
-                                                <event-block sid="358583957795504">
+                                                <event-block disabled="1" sid="358583957795504">
                                                     <conditions>
                                                         <condition id="-8" name="Compare two values" sid="385516825927501" type="System">
                                                             <param id="0" name="First value">Player_Turret.Angle</param>
@@ -988,7 +988,7 @@
                                                         </action>
                                                     </actions>
                                                 </event-block>
-                                                <event-block sid="591038436348993">
+                                                <event-block disabled="1" sid="591038436348993">
                                                     <conditions>
                                                         <condition id="-8" name="Compare two values" sid="807254736268268" type="System">
                                                             <param id="0" name="First value">Player_Turret.Angle</param>
@@ -1007,7 +1007,7 @@
                                                         </action>
                                                     </actions>
                                                 </event-block>
-                                                <event-block sid="127074948134767">
+                                                <event-block disabled="1" sid="127074948134767">
                                                     <conditions>
                                                         <condition id="-8" name="Compare two values" sid="152610286779019" type="System">
                                                             <param id="0" name="First value">Player_Turret.Angle</param>
@@ -1026,7 +1026,7 @@
                                                         </action>
                                                     </actions>
                                                 </event-block>
-                                                <event-block sid="120876337790463">
+                                                <event-block disabled="1" sid="120876337790463">
                                                     <conditions>
                                                         <condition id="-8" name="Compare two values" sid="299568054371142" type="System">
                                                             <param id="0" name="First value">Player_Turret.Angle</param>
@@ -1293,7 +1293,7 @@
                                                     <actions>
                                                         <action id="0" name="Spawn another object" sid="758983239641826" type="Player_Turret">
                                                             <param id="0" name="Object">Player_Projectile_Vision</param>
-                                                            <param id="1" name="Layer">0</param>
+                                                            <param id="1" name="Layer">&quot;Scene&quot;</param>
                                                             <param id="2" name="Image point">&quot;ProjectileSpawn&quot;</param>
                                                         </action>
                                                         <action id="-8" name="Set angle" sid="650949661872117" type="Player_Projectile_Vision">
@@ -1312,7 +1312,7 @@
                                                     <actions>
                                                         <action id="0" name="Spawn another object" sid="826245035766016" type="Player_Turret">
                                                             <param id="0" name="Object">Player_Projectile_Vision</param>
-                                                            <param id="1" name="Layer">0</param>
+                                                            <param id="1" name="Layer">&quot;Scene&quot;</param>
                                                             <param id="2" name="Image point">&quot;ProjectileSpawn&quot;</param>
                                                         </action>
                                                         <action id="-8" name="Set angle" sid="935257210245321" type="Player_Projectile_Vision">
@@ -1331,7 +1331,7 @@
                                                     <actions>
                                                         <action id="0" name="Spawn another object" sid="227953844676369" type="Player_Turret">
                                                             <param id="0" name="Object">Player_Projectile_Vision</param>
-                                                            <param id="1" name="Layer">0</param>
+                                                            <param id="1" name="Layer">&quot;Scene&quot;</param>
                                                             <param id="2" name="Image point">&quot;ProjectileSpawn&quot;</param>
                                                         </action>
                                                         <action id="-8" name="Set angle" sid="365839440862195" type="Player_Projectile_Vision">
@@ -1350,7 +1350,7 @@
                                                     <actions>
                                                         <action id="0" name="Spawn another object" sid="489656500769531" type="Player_Turret">
                                                             <param id="0" name="Object">Player_Projectile_Vision</param>
-                                                            <param id="1" name="Layer">0</param>
+                                                            <param id="1" name="Layer">&quot;Scene&quot;</param>
                                                             <param id="2" name="Image point">&quot;ProjectileSpawn&quot;</param>
                                                         </action>
                                                         <action id="-8" name="Set angle" sid="370637271109059" type="Player_Projectile_Vision">
@@ -1383,17 +1383,6 @@
                             <param id="2" name="Image point">0</param>
                         </action>
                         <action id="-9" name="Destroy" sid="479185025980803" type="Player_Projectile_Vision" />
-                    </actions>
-                </event-block>
-                <event-block sid="559682661214785">
-                    <conditions />
-                    <actions>
-                        <action id="0" name="Spawn another object" sid="814982836627602" type="Player_Projectile_Vision">
-                            <param id="0" name="Object">Smoke</param>
-                            <param id="1" name="Layer">0</param>
-                            <param id="2" name="Image point">0</param>
-                        </action>
-                        <action id="-9" name="Destroy" sid="510137654143427" type="Player_Projectile_Vision" />
                     </actions>
                 </event-block>
                 <event-block sid="881728262553544">
@@ -1478,16 +1467,16 @@
                             <param id="0" name="Variable">Shoot_Can</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action behavior="Timer" id="0" name="Start timer" sid="741508881860687" type="Timer">
+                        <action behavior="Timer" id="0" name="Start timer" sid="741508881860687" type="Player_Turret">
                             <param id="0" name="Duration">Shoot_Cooldown</param>
-                            <param id="1" name="Type">0</param>
+                            <param id="1" name="Type">1</param>
                             <param id="2" name="Tag">&quot;Shooting_Cooldown&quot;</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block sid="211244484743582">
                     <conditions>
-                        <condition behavior="Timer" id="0" name="On timer" sid="595827981623083" type="Timer">
+                        <condition behavior="Timer" id="0" name="On timer" sid="595827981623083" type="Player_Turret">
                             <param id="0" name="Tag">&quot;Shooting_Cooldown&quot;</param>
                         </condition>
                     </conditions>
@@ -1594,7 +1583,7 @@
                 <condition id="-14" name="Compare variable" sid="531554873891558" type="System">
                     <param id="0" name="Variable">Control</param>
                     <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">&quot;Keyboard&quot;</param>
+                    <param id="2" name="Value">&quot;Gamepad&quot;</param>
                 </condition>
             </conditions>
             <actions />
