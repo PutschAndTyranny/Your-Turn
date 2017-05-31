@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>ES_Variables</name>
     <events>
+        <variable constant="0" name="GameOverBool" sid="747549794909641" static="0" type="text">ON</variable>
         <variable constant="0" name="Smoke_Duration" sid="413085061608922" static="0" type="number">2</variable>
         <variable constant="0" name="Player_Position" sid="628374906343019" static="0" type="number">0</variable>
         <variable constant="0" name="Shoot_Type" sid="819721577774365" static="0" type="number">3</variable>

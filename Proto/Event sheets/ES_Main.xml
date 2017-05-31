@@ -351,77 +351,115 @@
                             <param id="0" name="Name">&quot;GameOver&quot;</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" sid="720263032034906" type="System">
-                            <param id="0" name="Variable">Player_CanDoSometing</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                    </actions>
+                    <actions />
                     <sub-events>
-                        <event-block sid="770780487336496">
+                        <event-block sid="699224515169756">
                             <conditions>
-                                <condition id="-14" name="Compare variable" sid="445686720039178" type="System">
-                                    <param id="0" name="Variable">PlayerTurn</param>
+                                <condition id="-14" name="Compare variable" sid="409843364387624" type="System">
+                                    <param id="0" name="Variable">GameOverBool</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">1</param>
+                                    <param id="2" name="Value">&quot;ON&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="274739350711113">
+                                    <conditions />
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="720263032034906" type="System">
+                                            <param id="0" name="Variable">Player_CanDoSometing</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="770780487336496">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="445686720039178" type="System">
+                                            <param id="0" name="Variable">PlayerTurn</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="521454745907027" type="P1_Animation">
+                                            <param id="0" name="Animation">&quot;T_Death&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="124354998637527">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="255677673045420" type="System">
+                                            <param id="0" name="Variable">PlayerTurn</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="283561003350205" type="P1_Animation">
+                                            <param id="0" name="Animation">&quot;S_Death&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="790052868502992">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="420039297520787" type="System">
+                                            <param id="0" name="Variable">PlayerTurn</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="816228981951650" type="System">
+                                            <param id="0" name="Variable">Points_Player2</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="740257785063558">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="424820511473127" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="198780823512678" type="System">
+                                            <param id="0" name="Variable">Points_Player1</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="882722645340729">
+                                    <conditions />
+                                    <actions>
+                                        <action id="-16" name="Wait" sid="407071026462764" type="System">
+                                            <param id="0" name="Seconds">2.0</param>
+                                        </action>
+                                        <action id="-2" name="Go to layout" sid="276053900528957" type="System">
+                                            <param id="0" name="Layout">Score</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="287940673362744">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="519362341226229" type="System">
+                                    <param id="0" name="Variable">GameOverBool</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;OFF&quot;</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="4" name="Set animation" sid="521454745907027" type="P1_Animation">
-                                    <param id="0" name="Animation">&quot;T_Death&quot;</param>
-                                    <param id="1" name="From">1</param>
+                                <action behavior="Flash" id="0" name="Flash" sid="339947731289845" type="Debug_GameOver">
+                                    <param id="0" name="&apos;On&apos; time">0.05</param>
+                                    <param id="1" name="&apos;Off&apos; time">0.05</param>
+                                    <param id="2" name="Duration">0.25</param>
                                 </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="124354998637527">
-                            <conditions>
-                                <condition id="-14" name="Compare variable" sid="255677673045420" type="System">
-                                    <param id="0" name="Variable">PlayerTurn</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">2</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="4" name="Set animation" sid="283561003350205" type="P1_Animation">
-                                    <param id="0" name="Animation">&quot;S_Death&quot;</param>
-                                    <param id="1" name="From">1</param>
+                                <action id="-16" name="Wait" sid="948457457145706" type="System">
+                                    <param id="0" name="Seconds">0.3</param>
                                 </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="790052868502992">
-                            <conditions>
-                                <condition id="-14" name="Compare variable" sid="420039297520787" type="System">
-                                    <param id="0" name="Variable">PlayerTurn</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">1</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-10" name="Add to" sid="816228981951650" type="System">
-                                    <param id="0" name="Variable">Points_Player2</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="740257785063558">
-                            <conditions>
-                                <condition id="-22" name="Else" sid="424820511473127" type="System" />
-                            </conditions>
-                            <actions>
-                                <action id="-10" name="Add to" sid="198780823512678" type="System">
-                                    <param id="0" name="Variable">Points_Player1</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="882722645340729">
-                            <conditions />
-                            <actions>
-                                <action id="-16" name="Wait" sid="407071026462764" type="System">
-                                    <param id="0" name="Seconds">2.0</param>
-                                </action>
-                                <action id="-2" name="Go to layout" sid="276053900528957" type="System">
-                                    <param id="0" name="Layout">Score</param>
+                                <action id="-15" name="Set visible" sid="111062033527244" type="Debug_GameOver">
+                                    <param id="0" name="Visibility">0</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -506,6 +544,55 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-group description="" sid="464455708033517" title="GameOverDebug">
+                    <sub-events>
+                        <event-block sid="369333940414783">
+                            <conditions>
+                                <condition id="-2" name="On start of layout" sid="180441949096522" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="969992337580355" type="Debug_GameOver">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="0" name="Set text" sid="494636305139189" type="Debug_GameOverText">
+                                    <param id="0" name="Text">&quot;GAME OVER ON&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="757557208056764">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="412680230530067" type="Keyboard">
+                                    <param id="0" name="Key">87 (W)</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="928748146995612" type="System">
+                                    <param id="0" name="Variable">GameOverBool</param>
+                                    <param id="1" name="Value">&quot;ON&quot;</param>
+                                </action>
+                                <action id="0" name="Set text" sid="331481302785863" type="Debug_GameOverText">
+                                    <param id="0" name="Text">&quot;GAME OVER ON&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="340067244988711">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="594324978466670" type="Keyboard">
+                                    <param id="0" name="Key">88 (X)</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="249069285491431" type="System">
+                                    <param id="0" name="Variable">GameOverBool</param>
+                                    <param id="1" name="Value">&quot;OFF&quot;</param>
+                                </action>
+                                <action id="0" name="Set text" sid="235641807490568" type="Debug_GameOverText">
+                                    <param id="0" name="Text">&quot;GAME OVER OFF&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
             </sub-events>
         </event-group>
         <event-group description="" sid="512564398856531" title="Set Custom rules to test">

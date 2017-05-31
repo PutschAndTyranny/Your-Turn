@@ -2021,6 +2021,22 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Debug_GameOver" sid="761032358582480">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Flash" sid="757017112135690">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="888463467108927" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Debug_GameOverText" sid="324477815861922">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
