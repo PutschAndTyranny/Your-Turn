@@ -1391,7 +1391,7 @@
                     </conditions>
                     <actions>
                         <action behavior="Timer" id="0" name="Start timer" sid="893169688569020" type="Smoke">
-                            <param id="0" name="Duration">5</param>
+                            <param id="0" name="Duration">Smoke_Duration</param>
                             <param id="1" name="Type">0</param>
                             <param id="2" name="Tag">&quot;Duration&quot;</param>
                         </action>
