@@ -125,7 +125,7 @@
                             <param id="1" name="Value">1</param>
                         </action>
                         <action id="-25" name="Go to layout (by name)" sid="172685171774438" type="System">
-                            <param id="0" name="Layout">&quot;Level &quot; &amp; CurrentLevel</param>
+                            <param id="0" name="Layout">&quot;Level &quot; &amp; CurrentLevel+1</param>
                         </action>
                     </actions>
                 </event-block>
