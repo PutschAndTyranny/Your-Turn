@@ -5,9 +5,9 @@
     <events>
         <event-group description="" sid="392966198345263" title="Control">
             <sub-events>
-                <event-group description="" sid="667318758795421" title="Control - Keyboard">
+                <event-group description="" disabled="1" sid="667318758795421" title="Control - Keyboard">
                     <sub-events>
-                        <event-block sid="389531104505622">
+                        <event-block disabled="1" sid="389531104505622">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="828384881976300" type="System">
                                     <param id="0" name="Variable">Control</param>
@@ -17,7 +17,7 @@
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="812019893255763">
+                                <event-block disabled="1" sid="812019893255763">
                                     <conditions>
                                         <condition id="-14" name="Compare variable" sid="496302048254976" type="System">
                                             <param id="0" name="Variable">Player_CanDoSometing</param>
@@ -27,7 +27,7 @@
                                     </conditions>
                                     <actions />
                                     <sub-events>
-                                        <event-block any="1" sid="401232145484583">
+                                        <event-block any="1" disabled="1" sid="401232145484583">
                                             <conditions>
                                                 <condition id="2" name="Key is down" sid="762044091622443" type="Keyboard">
                                                     <param id="0" name="Key">39 (Right arrow)</param>
@@ -35,7 +35,7 @@
                                             </conditions>
                                             <actions />
                                             <sub-events>
-                                                <event-block sid="485910536066337">
+                                                <event-block disabled="1" sid="485910536066337">
                                                     <conditions>
                                                         <condition behavior="Platform" id="10" inverted="1" name="Is by wall" sid="311049297568239" type="P1_Collider">
                                                             <param id="0" name="Side">0</param>
@@ -47,7 +47,7 @@
                                                         </action>
                                                     </actions>
                                                 </event-block>
-                                                <event-block sid="769826400917889">
+                                                <event-block disabled="1" sid="769826400917889">
                                                     <conditions>
                                                         <condition behavior="Platform" id="10" name="Is by wall" sid="599518311873202" type="P1_Collider">
                                                             <param id="0" name="Side">0</param>
@@ -63,7 +63,7 @@
                                                         </action>
                                                     </actions>
                                                 </event-block>
-                                                <event-block sid="758372735475738">
+                                                <event-block disabled="1" sid="758372735475738">
                                                     <conditions>
                                                         <condition id="-22" name="Else" sid="813791645748916" type="System" />
                                                     </conditions>
@@ -75,7 +75,7 @@
                                                 </event-block>
                                             </sub-events>
                                         </event-block>
-                                        <event-block any="1" sid="547953431860234">
+                                        <event-block any="1" disabled="1" sid="547953431860234">
                                             <conditions>
                                                 <condition id="2" name="Key is down" sid="399703374082655" type="Keyboard">
                                                     <param id="0" name="Key">37 (Left arrow)</param>
@@ -83,7 +83,7 @@
                                             </conditions>
                                             <actions />
                                             <sub-events>
-                                                <event-block sid="353644525615563">
+                                                <event-block disabled="1" sid="353644525615563">
                                                     <conditions>
                                                         <condition behavior="Platform" id="10" inverted="1" name="Is by wall" sid="739283386846354" type="P1_Collider">
                                                             <param id="0" name="Side">1</param>
@@ -95,7 +95,7 @@
                                                         </action>
                                                     </actions>
                                                 </event-block>
-                                                <event-block sid="531254741704302">
+                                                <event-block disabled="1" sid="531254741704302">
                                                     <conditions>
                                                         <condition behavior="Platform" id="10" name="Is by wall" sid="679496895562778" type="P1_Collider">
                                                             <param id="0" name="Side">1</param>
@@ -111,7 +111,7 @@
                                                         </action>
                                                     </actions>
                                                 </event-block>
-                                                <event-block sid="712488977795855">
+                                                <event-block disabled="1" sid="712488977795855">
                                                     <conditions>
                                                         <condition id="-22" name="Else" sid="700439237289033" type="System" />
                                                     </conditions>
@@ -123,7 +123,7 @@
                                                 </event-block>
                                             </sub-events>
                                         </event-block>
-                                        <event-block any="1" sid="856463493423893">
+                                        <event-block any="1" disabled="1" sid="856463493423893">
                                             <conditions>
                                                 <condition id="2" name="Key is down" sid="371401810690128" type="Keyboard">
                                                     <param id="0" name="Key">32 (Espace)</param>
@@ -147,13 +147,13 @@
                                                 </action>
                                             </actions>
                                         </event-block>
-                                        <event-block sid="177891151640608">
+                                        <event-block disabled="1" sid="177891151640608">
                                             <conditions>
                                                 <condition behavior="Platform" id="3" name="Is jumping" sid="496620327545414" type="P1_Collider" />
                                             </conditions>
                                             <actions />
                                             <sub-events>
-                                                <event-block sid="365839360262224">
+                                                <event-block disabled="1" sid="365839360262224">
                                                     <conditions>
                                                         <condition id="2" inverted="1" name="Key is down" sid="860275987088275" type="Keyboard">
                                                             <param id="0" name="Key">32 (Espace)</param>
@@ -167,7 +167,7 @@
                                                 </event-block>
                                             </sub-events>
                                         </event-block>
-                                        <event-block sid="819638467308373">
+                                        <event-block disabled="1" sid="819638467308373">
                                             <conditions>
                                                 <condition behavior="Platform" id="10" name="Is by wall" sid="606918431874785" type="P1_Collider">
                                                     <param id="0" name="Side">1</param>
@@ -175,13 +175,13 @@
                                             </conditions>
                                             <actions />
                                             <sub-events>
-                                                <event-block sid="612578671503406">
+                                                <event-block disabled="1" sid="612578671503406">
                                                     <conditions>
                                                         <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="421762012227561" type="P1_Collider" />
                                                     </conditions>
                                                     <actions />
                                                     <sub-events>
-                                                        <event-block sid="686627556577741">
+                                                        <event-block disabled="1" sid="686627556577741">
                                                             <conditions>
                                                                 <condition id="2" name="Key is down" sid="546106603669941" type="Keyboard">
                                                                     <param id="0" name="Key">39 (Right arrow)</param>
@@ -194,7 +194,7 @@
                                                                 </action>
                                                             </actions>
                                                             <sub-events>
-                                                                <event-block any="1" sid="660254438947531">
+                                                                <event-block any="1" disabled="1" sid="660254438947531">
                                                                     <conditions>
                                                                         <condition id="0" name="On key pressed" sid="704615291628238" type="Keyboard">
                                                                             <param id="0" name="Key">32 (Espace)</param>
@@ -214,7 +214,7 @@
                                                                 </event-block>
                                                             </sub-events>
                                                         </event-block>
-                                                        <event-block sid="359632373029568">
+                                                        <event-block disabled="1" sid="359632373029568">
                                                             <conditions>
                                                                 <condition behavior="Platform" id="3" inverted="1" name="Is jumping" sid="934714883363704" type="P1_Collider" />
                                                             </conditions>
@@ -224,7 +224,7 @@
                                                                 </action>
                                                             </actions>
                                                             <sub-events>
-                                                                <event-block any="1" sid="681852329289230">
+                                                                <event-block any="1" disabled="1" sid="681852329289230">
                                                                     <conditions>
                                                                         <condition id="0" name="On key pressed" sid="968078059882369" type="Keyboard">
                                                                             <param id="0" name="Key">32 (Espace)</param>
@@ -244,7 +244,7 @@
                                                                 </event-block>
                                                             </sub-events>
                                                         </event-block>
-                                                        <event-block sid="897556204995718">
+                                                        <event-block disabled="1" sid="897556204995718">
                                                             <conditions>
                                                                 <condition id="2" inverted="1" name="Key is down" sid="742315026650969" type="Keyboard">
                                                                     <param id="0" name="Key">39 (Right arrow)</param>
@@ -252,7 +252,7 @@
                                                             </conditions>
                                                             <actions />
                                                             <sub-events>
-                                                                <event-block any="1" sid="400733793004739">
+                                                                <event-block any="1" disabled="1" sid="400733793004739">
                                                                     <conditions>
                                                                         <condition id="0" name="On key pressed" sid="428006073334787" type="Keyboard">
                                                                             <param id="0" name="Key">32 (Espace)</param>
@@ -260,7 +260,7 @@
                                                                     </conditions>
                                                                     <actions />
                                                                     <sub-events>
-                                                                        <event-block any="1" sid="527406379804621">
+                                                                        <event-block any="1" disabled="1" sid="527406379804621">
                                                                             <conditions>
                                                                                 <condition id="-7" name="Compare instance variable" sid="250363320048735" type="P1_Collider">
                                                                                     <param id="0" name="Instance variable">State</param>
@@ -280,7 +280,7 @@
                                                                                 </action>
                                                                             </actions>
                                                                         </event-block>
-                                                                        <event-block any="1" sid="350981411098065">
+                                                                        <event-block any="1" disabled="1" sid="350981411098065">
                                                                             <conditions>
                                                                                 <condition id="-7" name="Compare instance variable" sid="659934271729979" type="P1_Collider">
                                                                                     <param id="0" name="Instance variable">State</param>
@@ -308,7 +308,7 @@
                                                 </event-block>
                                             </sub-events>
                                         </event-block>
-                                        <event-block sid="382565676208504">
+                                        <event-block disabled="1" sid="382565676208504">
                                             <conditions>
                                                 <condition behavior="Platform" id="10" name="Is by wall" sid="407505408441359" type="P1_Collider">
                                                     <param id="0" name="Side">0</param>
@@ -316,13 +316,13 @@
                                             </conditions>
                                             <actions />
                                             <sub-events>
-                                                <event-block sid="216449202653484">
+                                                <event-block disabled="1" sid="216449202653484">
                                                     <conditions>
                                                         <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="895286341770427" type="P1_Collider" />
                                                     </conditions>
                                                     <actions />
                                                     <sub-events>
-                                                        <event-block sid="413256177297842">
+                                                        <event-block disabled="1" sid="413256177297842">
                                                             <conditions>
                                                                 <condition id="2" name="Key is down" sid="688753080242623" type="Keyboard">
                                                                     <param id="0" name="Key">37 (Left arrow)</param>
@@ -335,7 +335,7 @@
                                                                 </action>
                                                             </actions>
                                                             <sub-events>
-                                                                <event-block any="1" sid="356961821073271">
+                                                                <event-block any="1" disabled="1" sid="356961821073271">
                                                                     <conditions>
                                                                         <condition id="0" name="On key pressed" sid="862345715452543" type="Keyboard">
                                                                             <param id="0" name="Key">32 (Espace)</param>
@@ -355,7 +355,7 @@
                                                                 </event-block>
                                                             </sub-events>
                                                         </event-block>
-                                                        <event-block sid="354069026434901">
+                                                        <event-block disabled="1" sid="354069026434901">
                                                             <conditions>
                                                                 <condition behavior="Platform" id="3" inverted="1" name="Is jumping" sid="998434637228941" type="P1_Collider" />
                                                             </conditions>
@@ -365,7 +365,7 @@
                                                                 </action>
                                                             </actions>
                                                             <sub-events>
-                                                                <event-block any="1" sid="680279964429999">
+                                                                <event-block any="1" disabled="1" sid="680279964429999">
                                                                     <conditions>
                                                                         <condition id="0" name="On key pressed" sid="484351653505410" type="Keyboard">
                                                                             <param id="0" name="Key">32 (Espace)</param>
@@ -385,7 +385,7 @@
                                                                 </event-block>
                                                             </sub-events>
                                                         </event-block>
-                                                        <event-block sid="897676453190088">
+                                                        <event-block disabled="1" sid="897676453190088">
                                                             <conditions>
                                                                 <condition id="2" inverted="1" name="Key is down" sid="717723911290906" type="Keyboard">
                                                                     <param id="0" name="Key">37 (Left arrow)</param>
@@ -393,7 +393,7 @@
                                                             </conditions>
                                                             <actions />
                                                             <sub-events>
-                                                                <event-block any="1" sid="459059815506131">
+                                                                <event-block any="1" disabled="1" sid="459059815506131">
                                                                     <conditions>
                                                                         <condition id="0" name="On key pressed" sid="457306604333804" type="Keyboard">
                                                                             <param id="0" name="Key">32 (Espace)</param>
@@ -417,7 +417,7 @@
                                                 </event-block>
                                             </sub-events>
                                         </event-block>
-                                        <event-block sid="204724458598450">
+                                        <event-block disabled="1" sid="204724458598450">
                                             <conditions>
                                                 <condition behavior="Platform" id="2" name="Is on floor" sid="186762271674323" type="P1_Collider" />
                                             </conditions>
@@ -430,7 +430,7 @@
                                                 </action>
                                             </actions>
                                             <sub-events>
-                                                <event-block any="1" sid="503817552850544">
+                                                <event-block any="1" disabled="1" sid="503817552850544">
                                                     <conditions>
                                                         <condition id="-7" name="Compare instance variable" sid="156757466710399" type="P1_Collider">
                                                             <param id="0" name="Instance variable">State</param>
@@ -447,7 +447,7 @@
                                                         </action>
                                                     </actions>
                                                 </event-block>
-                                                <event-block any="1" sid="299427544012139">
+                                                <event-block any="1" disabled="1" sid="299427544012139">
                                                     <conditions>
                                                         <condition id="-7" name="Compare instance variable" sid="736448572412248" type="P1_Collider">
                                                             <param id="0" name="Instance variable">State</param>
@@ -466,13 +466,13 @@
                                                 </event-block>
                                             </sub-events>
                                         </event-block>
-                                        <event-block sid="355252633128884">
+                                        <event-block disabled="1" sid="355252633128884">
                                             <conditions>
                                                 <condition id="-22" name="Else" sid="587072402104401" type="System" />
                                             </conditions>
                                             <actions />
                                             <sub-events>
-                                                <event-block sid="270921283659540">
+                                                <event-block disabled="1" sid="270921283659540">
                                                     <conditions>
                                                         <condition id="-8" name="Compare two values" sid="942320017970533" type="System">
                                                             <param id="0" name="First value">abs(P1_Collider.Platform.VectorX)</param>
@@ -486,7 +486,7 @@
                                                         </action>
                                                     </actions>
                                                 </event-block>
-                                                <event-block sid="526299222021531">
+                                                <event-block disabled="1" sid="526299222021531">
                                                     <conditions>
                                                         <condition id="-8" name="Compare two values" sid="342035049745636" type="System">
                                                             <param id="0" name="First value">abs(P1_Collider.Platform.VectorX)</param>
@@ -553,7 +553,7 @@
                                                 </event-block>
                                             </sub-events>
                                         </event-block>
-                                        <event-block sid="611346841541106">
+                                        <event-block disabled="1" sid="611346841541106">
                                             <conditions>
                                                 <condition id="-8" name="Compare two values" sid="703912215746635" type="System">
                                                     <param id="0" name="First value">P1_Collider.Platform.Acceleration</param>
@@ -567,7 +567,7 @@
                                                 </action>
                                             </actions>
                                         </event-block>
-                                        <event-block sid="896179411360655">
+                                        <event-block disabled="1" sid="896179411360655">
                                             <conditions>
                                                 <condition id="-22" name="Else" sid="103371835622262" type="System" />
                                             </conditions>
@@ -577,7 +577,7 @@
                                                 </action>
                                             </actions>
                                         </event-block>
-                                        <event-block sid="534420771423170">
+                                        <event-block disabled="1" sid="534420771423170">
                                             <conditions>
                                                 <condition behavior="Platform" id="4" name="Is falling" sid="599073321580231" type="P1_Collider" />
                                             </conditions>

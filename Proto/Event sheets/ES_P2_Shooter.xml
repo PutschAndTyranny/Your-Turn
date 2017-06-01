@@ -82,7 +82,7 @@
                             <actions>
                                 <action id="-23" name="Move at angle" sid="610379079270392" type="Player_Turret">
                                     <param id="0" name="Angle">0</param>
-                                    <param id="1" name="Distance">5</param>
+                                    <param id="1" name="Distance">15</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -98,7 +98,7 @@
                             <actions>
                                 <action id="-23" name="Move at angle" sid="933080472009664" type="Player_Turret">
                                     <param id="0" name="Angle">180</param>
-                                    <param id="1" name="Distance">5</param>
+                                    <param id="1" name="Distance">15</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -141,7 +141,7 @@
                             <actions>
                                 <action id="-23" name="Move at angle" sid="671592810571241" type="Player_Turret">
                                     <param id="0" name="Angle">90</param>
-                                    <param id="1" name="Distance">5</param>
+                                    <param id="1" name="Distance">15</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -157,7 +157,7 @@
                             <actions>
                                 <action id="-23" name="Move at angle" sid="655234618819134" type="Player_Turret">
                                     <param id="0" name="Angle">270</param>
-                                    <param id="1" name="Distance">5</param>
+                                    <param id="1" name="Distance">15</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -200,7 +200,7 @@
                             <actions>
                                 <action id="-23" name="Move at angle" sid="947381781689838" type="Player_Turret">
                                     <param id="0" name="Angle">0</param>
-                                    <param id="1" name="Distance">5</param>
+                                    <param id="1" name="Distance">15</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -216,7 +216,7 @@
                             <actions>
                                 <action id="-23" name="Move at angle" sid="920701812224123" type="Player_Turret">
                                     <param id="0" name="Angle">180</param>
-                                    <param id="1" name="Distance">5</param>
+                                    <param id="1" name="Distance">15</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -259,7 +259,7 @@
                             <actions>
                                 <action id="-23" name="Move at angle" sid="585222192703206" type="Player_Turret">
                                     <param id="0" name="Angle">90</param>
-                                    <param id="1" name="Distance">5</param>
+                                    <param id="1" name="Distance">15</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -275,7 +275,7 @@
                             <actions>
                                 <action id="-23" name="Move at angle" sid="301988144686031" type="Player_Turret">
                                     <param id="0" name="Angle">270</param>
-                                    <param id="1" name="Distance">5</param>
+                                    <param id="1" name="Distance">15</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -1379,7 +1379,7 @@
                     <actions>
                         <action id="0" name="Spawn another object" sid="228241082138960" type="Player_Projectile_Vision">
                             <param id="0" name="Object">Smoke</param>
-                            <param id="1" name="Layer">0</param>
+                            <param id="1" name="Layer">&quot;Scene&quot;</param>
                             <param id="2" name="Image point">0</param>
                         </action>
                         <action id="-9" name="Destroy" sid="479185025980803" type="Player_Projectile_Vision" />
@@ -1773,6 +1773,22 @@
                     </sub-events>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="313544962808526">
+            <conditions>
+                <condition id="-18" name="On created" sid="180630931647899" type="Player_Turret" />
+            </conditions>
+            <actions>
+                <action id="-24" name="Move to top" sid="169655803195257" type="Player_Turret" />
+            </actions>
+        </event-block>
+        <event-block sid="519026622877341">
+            <conditions>
+                <condition id="-18" name="On created" sid="703613917185007" type="Smoke" />
+            </conditions>
+            <actions>
+                <action id="-24" name="Move to top" sid="743387769947596" type="Smoke" />
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>
