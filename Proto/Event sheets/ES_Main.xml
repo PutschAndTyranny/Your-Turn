@@ -544,6 +544,23 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-group description="" sid="820881847609191" title="Teleport Back To Starting Point">
+                    <sub-events>
+                        <event-block sid="486091990770885">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="758404513938553" type="Keyboard">
+                                    <param id="0" name="Key">67 (C)</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set position to another object" sid="507994226842792" type="P1_Collider">
+                                    <param id="0" name="Object">LD_Start</param>
+                                    <param id="1" name="Image point (optional)">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
                 <event-group description="" sid="464455708033517" title="GameOverDebug">
                     <sub-events>
                         <event-block sid="369333940414783">
