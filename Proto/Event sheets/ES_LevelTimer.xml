@@ -162,7 +162,22 @@
                             <actions>
                                 <action id="-9" name="Set value" sid="638960096807642" type="System">
                                     <param id="0" name="Variable">Level_Duration</param>
-                                    <param id="1" name="Value">35000</param>
+                                    <param id="1" name="Value">35</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="894924599186394">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="455703016420978" type="System">
+                                    <param id="0" name="First value">LayoutName</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">&quot;Level 8&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="526469003999823" type="System">
+                                    <param id="0" name="Variable">Level_Duration</param>
+                                    <param id="1" name="Value">45</param>
                                 </action>
                             </actions>
                         </event-block>

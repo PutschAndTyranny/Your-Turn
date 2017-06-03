@@ -2048,7 +2048,7 @@
         <layout>Level 5.xml</layout>
         <layout>Level 6.xml</layout>
         <layout>Level 7.xml</layout>
-        <layout>Level WIP.xml</layout>
+        <layout>Level 8.xml</layout>
         <layout>Intro.xml</layout>
         <layout>Score.xml</layout>
     </layout-folder>
