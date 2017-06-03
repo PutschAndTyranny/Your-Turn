@@ -20,6 +20,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="12">Level 6</layout>
         <layout order="16">Level 8</layout>
         <layout order="17">Level 7</layout>
+        <layout order="18">Level 9</layout>
         <event-sheet order="0">ES_Main</event-sheet>
         <event-sheet order="1">ES_Variables</event-sheet>
         <event-sheet order="2">ES_P1_Runner</event-sheet>
