@@ -2050,6 +2050,7 @@
         <layout>Level 7.xml</layout>
         <layout>Level 8.xml</layout>
         <layout>Level 9.xml</layout>
+        <layout>Level 10.xml</layout>
         <layout>Intro.xml</layout>
         <layout>Score.xml</layout>
     </layout-folder>
