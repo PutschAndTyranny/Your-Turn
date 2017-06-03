@@ -18,12 +18,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="10">Level 5</layout>
         <layout order="11">Sandbox</layout>
         <layout order="12">Level 6</layout>
-        <layout order="16">Level 7</layout>
+        <layout active="1" order="16">Level WIP</layout>
+        <layout order="17">Level 7</layout>
         <event-sheet order="0">ES_Main</event-sheet>
         <event-sheet order="1">ES_Variables</event-sheet>
         <event-sheet order="2">ES_P1_Runner</event-sheet>
         <event-sheet order="3">ES_P2_Shooter</event-sheet>
-        <event-sheet active="1" order="5">ES_LevelTimer</event-sheet>
+        <event-sheet order="5">ES_LevelTimer</event-sheet>
         <event-sheet order="13">ES_Intro</event-sheet>
         <event-sheet order="14">ES_Score</event-sheet>
         <event-sheet order="15">ES_P1_Animation</event-sheet>

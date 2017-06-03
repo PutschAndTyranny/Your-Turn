@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
     <name>Level 7</name>
-    <sid>764251083816140</sid>
+    <sid>300614993915035</sid>
     <event-sheet>ES_Main</event-sheet>
     <size>
         <width>4700</width>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Tileset" sid="424391315468266">
+        <layer name="Tileset" sid="151098913329100">
             <initially-visible>1</initially-visible>
             <background-color>51,255,102</background-color>
             <transparent>0</transparent>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Tilemap" uid="582">
+                <instance type="Tilemap" uid="639">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <tile-width>32</tile-width>
@@ -64,7 +64,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="Scene" sid="517500859467347">
+        <layer name="Scene" sid="694944284585317">
             <initially-visible>1</initially-visible>
             <background-color>160,192,255</background-color>
             <transparent>1</transparent>
@@ -80,7 +80,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="P1_Collider" uid="590">
+                <instance type="P1_Collider" uid="643">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -126,7 +126,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TXT_GameOver" uid="591">
+                <instance type="TXT_GameOver" uid="644">
                     <properties>
                         <text>GAME OVER</text>
                         <initial-visibility>Invisible</initial-visibility>
@@ -153,7 +153,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LD_Victory" uid="592">
+                <instance type="LD_Victory" uid="645">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -163,8 +163,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-288</x>
-                        <y>608</y>
+                        <x>-320</x>
+                        <y>1152</y>
                         <z>0</z>
                         <width>64</width>
                         <height>96</height>
@@ -175,7 +175,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LD_Start" uid="593">
+                <instance type="LD_Start" uid="646">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -197,7 +197,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="P1_Animation" uid="594">
+                <instance type="P1_Animation" uid="647">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -219,7 +219,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ViewCenter" uid="595">
+                <instance type="ViewCenter" uid="648">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -241,7 +241,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Player_Turret" uid="596">
+                <instance type="Player_Turret" uid="649">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -266,7 +266,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Player_Cursor" uid="597">
+                <instance type="Player_Cursor" uid="650">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -301,7 +301,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Colider" uid="598">
+                <instance type="Colider" uid="651">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -319,7 +319,7 @@
                         <x>192</x>
                         <y>800</y>
                         <z>0</z>
-                        <width>928</width>
+                        <width>576</width>
                         <height>128</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -328,7 +328,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Colider" uid="599">
+                <instance type="Colider" uid="652">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -355,7 +355,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="P1_Hitbox" uid="600">
+                <instance type="P1_Hitbox" uid="653">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -377,7 +377,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Corner_BottomLeft" uid="601">
+                <instance type="Corner_BottomLeft" uid="654">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -399,7 +399,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Corner_BottomRight" uid="602">
+                <instance type="Corner_BottomRight" uid="655">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -421,7 +421,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Corner_TopLeft" uid="603">
+                <instance type="Corner_TopLeft" uid="656">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -443,7 +443,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Corner_TopRight" uid="604">
+                <instance type="Corner_TopRight" uid="657">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -465,7 +465,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite2" uid="605">
+                <instance type="Sprite2" uid="662">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -487,40 +487,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LD_Platform" uid="617">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>2</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <IsChanging>0</IsChanging>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Timer" />
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>640</x>
-                        <y>288</y>
-                        <z>0</z>
-                        <width>32</width>
-                        <height>96</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Colider" uid="620">
+                <instance type="Colider" uid="677">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -536,10 +503,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>192</x>
-                        <y>320</y>
+                        <y>480</y>
                         <z>0</z>
                         <width>64</width>
-                        <height>480</height>
+                        <height>320</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -547,7 +514,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LD_DeathZone" uid="621">
+                <instance type="LD_DeathZone" uid="678">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -558,83 +525,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>256</x>
-                        <y>352</y>
-                        <z>0</z>
-                        <width>128</width>
-                        <height>32</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>1</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Colider" uid="606">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1664</x>
-                        <y>0</y>
-                        <z>0</z>
-                        <width>480</width>
-                        <height>128</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Colider" uid="607">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>672</x>
-                        <y>576</y>
-                        <z>0</z>
-                        <width>672</width>
-                        <height>128</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="LD_DeathZone" uid="608">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>640</x>
-                        <y>576</y>
+                        <y>448</y>
                         <z>0</z>
                         <width>128</width>
                         <height>32</height>
@@ -645,70 +536,26 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LD_DeathZone" uid="609">
+                <instance type="Colider" uid="663">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
+                        <hotspot>Top-left</hotspot>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1120</x>
+                        <x>1280</x>
                         <y>800</y>
                         <z>0</z>
-                        <width>128</width>
-                        <height>32</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>1</hotspotY>
-                        <angle>1.570796371</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="LD_DeathZone" uid="610">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1312</x>
-                        <y>704</y>
-                        <z>0</z>
-                        <width>288</width>
-                        <height>32</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>1</hotspotY>
-                        <angle>1.570796371</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Colider" uid="611">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1344</x>
-                        <y>576</y>
-                        <z>0</z>
-                        <width>64</width>
-                        <height>576</height>
+                        <width>576</width>
+                        <height>128</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -719,7 +566,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="HUD" sid="662487624536983">
+        <layer name="HUD" sid="681766022544393">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -735,7 +582,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="TXT_PlayerTurn" uid="658">
+                <instance type="TXT_PlayerTurn" uid="715">
                     <properties>
                         <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -774,7 +621,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TXT_Timer_Level" uid="659">
+                <instance type="TXT_Timer_Level" uid="716">
                     <properties>
                         <text></text>
                         <initial-visibility>Visible</initial-visibility>
@@ -813,7 +660,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Debug_GameOver" uid="660">
+                <instance type="Debug_GameOver" uid="717">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -838,7 +685,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Debug_GameOverText" uid="661">
+                <instance type="Debug_GameOverText" uid="718">
                     <properties>
                         <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>
