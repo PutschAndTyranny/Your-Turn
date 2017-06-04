@@ -2037,6 +2037,37 @@
         <object-type name="Debug_GameOverText" sid="324477815861922">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Collectible" sid="826343805931016">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="385277957743951" speed="5">
+                    <frame duration="1" hotspotX="0.493421" hotspotY="0.532895" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Collectible_Count" sid="253410713855562">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Collectible_HUD" sid="272062878749780">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="837719072566028" speed="5">
+                    <frame duration="1" hotspotX="0.493421" hotspotY="0.532895" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Collectible_Spawner" sid="499438541204939">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Collectible_Number" sid="914487092634119" type="number" />
+                <instance-variable name="hasSpawned" sid="767066394628866" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="606744361440853" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -2051,6 +2082,7 @@
         <layout>Level 8.xml</layout>
         <layout>Level 9.xml</layout>
         <layout>Level 10.xml</layout>
+        <layout>CollectibleTest.xml</layout>
         <layout>Intro.xml</layout>
         <layout>Score.xml</layout>
     </layout-folder>

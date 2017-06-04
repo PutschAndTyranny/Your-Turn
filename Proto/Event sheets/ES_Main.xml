@@ -102,18 +102,93 @@
         </event-block>
         <event-group description="" sid="956427736712917" title="Game Over">
             <sub-events>
-                <event-block sid="782003249820944">
+                <event-block sid="812066963294185">
                     <conditions>
-                        <condition id="0" name="On collision with another object" sid="790910837260643" type="P1_Hitbox">
+                        <condition id="0" name="On collision with another object" sid="400014034490255" type="P1_Hitbox">
                             <param id="0" name="Object">LD_Victory</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="0" name="Call function" sid="726499237443368" type="Function">
-                            <param id="0" name="Name">&quot;RestartLevel&quot;</param>
-                            <param id="1" name="Parameter {n}"></param>
-                        </action>
-                    </actions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="454485359870288">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="780213805906680" type="System">
+                                    <param id="0" name="Variable">PlayerTurn</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="359852590686479">
+                                    <conditions>
+                                        <condition id="-8" name="Compare two values" sid="189147382173299" type="System">
+                                            <param id="0" name="First value">int(Level_CurrentTry/2)</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Second value">CollectiblesJ1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Call function" sid="789349305167216" type="Function">
+                                            <param id="0" name="Name">&quot;CheckVictory&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="496213472769426">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="400320501529594" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Spawn another object" sid="722440312819652" type="P1_Collider">
+                                            <param id="0" name="Object">Sprite2</param>
+                                            <param id="1" name="Layer">&quot;Scene&quot;</param>
+                                            <param id="2" name="Image point">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block disabled="1" sid="767198637241983">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="112689794995439" type="System">
+                                    <param id="0" name="Variable">PlayerTurn</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block disabled="1" sid="987662466333650">
+                                    <conditions>
+                                        <condition id="-8" name="Compare two values" sid="358713318056794" type="System">
+                                            <param id="0" name="First value">int(Level_CurrentTry/2)</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Second value">CollectiblesJ2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Call function" sid="868625902723402" type="Function">
+                                            <param id="0" name="Name">&quot;CheckVictory&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block disabled="1" sid="873361531413315">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="921866840469146" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Spawn another object" sid="413888831549410" type="P1_Collider">
+                                            <param id="0" name="Object">Collectible_Spawner</param>
+                                            <param id="1" name="Layer">&quot;Scene&quot;</param>
+                                            <param id="2" name="Image point">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
                 </event-block>
                 <event-block sid="640045014251470">
                     <conditions>
@@ -251,6 +326,113 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-group description="" sid="403429660026518" title="Function - Check Victory">
+            <sub-events>
+                <event-block sid="213495550467824">
+                    <conditions>
+                        <condition id="0" name="On function" sid="814995682189427" type="Function">
+                            <param id="0" name="Name">&quot;CheckVictory&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="257482277814308">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="352478122710621" type="System">
+                                    <param id="0" name="Variable">Level_CurrentTry</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="993172473015569">
+                                    <conditions>
+                                        <condition id="-8" name="Compare two values" sid="515924504676094" type="System">
+                                            <param id="0" name="First value">abs(Level_CurrentTry/2)</param>
+                                            <param id="1" name="Comparison">5</param>
+                                            <param id="2" name="Second value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="659463691579495">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="399577092071144" type="System">
+                                                    <param id="0" name="First value">Level_CurrentTry%2</param>
+                                                    <param id="1" name="Comparison">1</param>
+                                                    <param id="2" name="Second value">0</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="865345604147616">
+                                                    <conditions>
+                                                        <condition id="-8" name="Compare two values" sid="729990012191723" type="System">
+                                                            <param id="0" name="First value">CollectiblesJ1</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Second value">CollectiblesJ2</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-9" name="Set value" sid="782058718682614" type="System">
+                                                            <param id="0" name="Variable">CollectiblesJ1</param>
+                                                            <param id="1" name="Value">0</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="197706167799219" type="System">
+                                                            <param id="0" name="Variable">CollectiblesJ2</param>
+                                                            <param id="1" name="Value">0</param>
+                                                        </action>
+                                                        <action id="0" name="Call function" sid="597486032136853" type="Function">
+                                                            <param id="0" name="Name">&quot;RestartLevel&quot;</param>
+                                                            <param id="1" name="Parameter {n}"></param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="454477628063464">
+                                                    <conditions>
+                                                        <condition id="-22" name="Else" sid="153748504526988" type="System" />
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="0" name="Spawn another object" sid="621784139832425" type="P1_Hitbox">
+                                                            <param id="0" name="Object">Smoke</param>
+                                                            <param id="1" name="Layer">&quot;Scene&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                        <event-block sid="410499956579866">
+                                            <conditions>
+                                                <condition id="-22" name="Else" sid="728917159126239" type="System" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Call function" sid="266345498368531" type="Function">
+                                                    <param id="0" name="Name">&quot;RestartLevel&quot;</param>
+                                                    <param id="1" name="Parameter {n}"></param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="735896112290505">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="344254891991105" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Call function" sid="435064790939041" type="Function">
+                                    <param id="0" name="Name">&quot;RestartLevel&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
         <event-group description="" sid="320977274048208" title="Function - Restart Level">
             <sub-events>
                 <event-block sid="370761229419954">
@@ -298,6 +480,10 @@
                         <action id="-9" name="Set value" sid="202250768749859" type="System">
                             <param id="0" name="Variable">Timer_RestartLevel</param>
                             <param id="1" name="Value">3</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="637865434380096" type="Collectible_Spawner">
+                            <param id="0" name="Instance variable">hasSpawned</param>
+                            <param id="1" name="Value">0</param>
                         </action>
                         <action id="0" name="Call function" sid="299898220668541" type="Function">
                             <param id="0" name="Name">&quot;SetTimerLevel&quot;</param>
@@ -513,7 +699,7 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Set text" sid="762736731466475" type="Debug">
-                            <param id="0" name="Text">&quot;Acceleration : &quot; &amp; P1_Collider.Platform.Acceleration &amp; &#x0D;&#x0A;&quot;   -   MaxSpeed : &quot; &amp; P1_Collider.Platform.MaxSpeed &amp; &#x0D;&#x0A;&quot;   -   Deceleration : &quot; &amp; P1_Collider.Platform.Deceleration &amp; &#x0D;&#x0A;&quot;   -   Gravity : &quot; &amp; P1_Collider.Platform.Gravity &amp; &#x0D;&#x0A;&quot;   -   Speed : &quot; &amp; P1_Collider.Platform.Speed </param>
+                            <param id="0" name="Text">&quot;J1 : &quot;&amp;CollectiblesJ1 &amp;&quot;  J2 : &quot; &amp;CollectiblesJ2&#x0D;&#x0A;&amp;newline&#x0D;&#x0A;&amp;&quot;Run #&quot;&amp;Level_CurrentTry&#x0D;&#x0A;&amp;newline&#x0D;&#x0A;&amp;&quot;Nombre Collectible à récupérer : &quot;&amp;int(Level_CurrentTry/2)</param>
                         </action>
                         <action disabled="1" id="0" name="Set text" sid="199919937133147" type="Debug">
                             <param id="0" name="Text">P1_Collider.Platform.MaxSpeed &amp; P1_Collider.Platform.Speed &amp; P1_Collider.Platform.VectorX</param>
@@ -541,6 +727,9 @@
                         </action>
                         <action disabled="1" id="0" name="Set text" sid="564980100163043" type="Debug">
                             <param id="0" name="Text">&quot;Top : &quot; &amp; Player_Turret.X</param>
+                        </action>
+                        <action disabled="1" id="0" name="Set text" sid="517761255525680" type="Debug">
+                            <param id="0" name="Text">&quot;Acceleration : &quot; &amp; P1_Collider.Platform.Acceleration &amp; &#x0D;&#x0A;&quot;   -   MaxSpeed : &quot; &amp; P1_Collider.Platform.MaxSpeed &amp; &#x0D;&#x0A;&quot;   -   Deceleration : &quot; &amp; P1_Collider.Platform.Deceleration &amp; &#x0D;&#x0A;&quot;   -   Gravity : &quot; &amp; P1_Collider.Platform.Gravity &amp; &#x0D;&#x0A;&quot;   -   Speed : &quot; &amp; P1_Collider.Platform.Speed </param>
                         </action>
                     </actions>
                 </event-block>
@@ -663,6 +852,98 @@
                             <param id="1" name="Value">2</param>
                         </action>
                     </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="282955618094379" title="Collectibles">
+            <sub-events>
+                <event-block sid="181464424434082">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="795221261899085" type="System">
+                            <param id="0" name="Object">Collectible_Spawner</param>
+                        </condition>
+                        <condition id="-8" name="Compare two values" sid="574137249726065" type="System">
+                            <param id="0" name="First value">abs(Level_CurrentTry/2)</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Second value">Collectible_Spawner.Collectible_Number</param>
+                        </condition>
+                        <condition id="-8" name="Compare two values" sid="999807708838767" type="System">
+                            <param id="0" name="First value">Collectible_Spawner.hasSpawned</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="371193553896863" type="Collectible_Spawner">
+                            <param id="0" name="Object">Collectible</param>
+                            <param id="1" name="Layer">&quot;Scene&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="623944647430322" type="Collectible_Spawner">
+                            <param id="0" name="Instance variable">hasSpawned</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="904663805523654">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="717389698275837" type="System">
+                            <param id="0" name="Variable">PlayerTurn</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="133911887682798" type="Collectible_Count">
+                            <param id="0" name="Text">CollectiblesJ1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="847989336667031">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="791767904053317" type="P1_Collider">
+                                    <param id="0" name="Object">Collectible</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="366157469420661" type="Collectible" />
+                                <action id="-10" name="Add to" sid="612637436763304" type="System">
+                                    <param id="0" name="Variable">CollectiblesJ1</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="199620685197500">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="713895740821043" type="System">
+                            <param id="0" name="Variable">PlayerTurn</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="301956244463385" type="Collectible_Count">
+                            <param id="0" name="Text">CollectiblesJ2</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="360686073468147">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="628102478650136" type="P1_Collider">
+                                    <param id="0" name="Object">Collectible</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="777400980663427" type="Collectible" />
+                                <action id="-10" name="Add to" sid="982967857033194" type="System">
+                                    <param id="0" name="Variable">CollectiblesJ2</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
             </sub-events>
         </event-group>
