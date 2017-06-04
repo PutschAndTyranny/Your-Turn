@@ -1708,6 +1708,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <Parent>0</Parent>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
                         <behavior-instance type="Sine">
@@ -1762,6 +1765,7 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
+                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
