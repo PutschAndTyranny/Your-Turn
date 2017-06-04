@@ -22,7 +22,6 @@
     <used-behaviors>
         <behavior author="Scirra" id="Anchor" version="1">Anchor</behavior>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
-        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
@@ -558,134 +557,6 @@
                         <behavior id="Flash" />
                     </behavior-type>
                 </behaviors>
-            </object-type>
-        </object-folder>
-        <object-folder name="P2_Shooter">
-            <object-type name="Corner_BottomLeft" sid="927151800038053">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="323834760892824" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="Corner_BottomRight" sid="138692272153274">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="326581231030388" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="Corner_TopLeft" sid="608184368563024">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="823868118233520" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="Corner_TopRight" sid="870720191201043">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="852989877325148" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="Player_Projectile_Damage" sid="760949644547703">
-                <plugin id="Sprite" />
-                <behaviors>
-                    <behavior-type name="Bullet" sid="237586076525986">
-                        <behavior id="Bullet" />
-                    </behavior-type>
-                </behaviors>
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="112208788641986" speed="5">
-                        <frame duration="1" hotspotX="0" hotspotY="0.5" />
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="Player_Projectile_Slow" sid="220888631734908">
-                <plugin id="Sprite" />
-                <behaviors>
-                    <behavior-type name="Bullet" sid="143794453281958">
-                        <behavior id="Bullet" />
-                    </behavior-type>
-                </behaviors>
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="897663965207560" speed="5">
-                        <frame duration="1" hotspotX="0" hotspotY="0.5" />
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="Player_Projectile_Vision" sid="114911209615938">
-                <plugin id="Sprite" />
-                <behaviors>
-                    <behavior-type name="Bullet" sid="359315628091574">
-                        <behavior id="Bullet" />
-                    </behavior-type>
-                </behaviors>
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="769385731457131" speed="5">
-                        <frame duration="1" hotspotX="0" hotspotY="0.5" />
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="Player_Turret" sid="164679636010203">
-                <plugin id="Sprite" />
-                <behaviors>
-                    <behavior-type name="Timer" sid="409944667415675">
-                        <behavior id="Timer" />
-                    </behavior-type>
-                </behaviors>
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="601507707860849" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <image-point name="ProjectileSpawn" x="0.5" y="0.5" />
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="Smoke" sid="494747534737094">
-                <plugin id="Sprite" />
-                <behaviors>
-                    <behavior-type name="Timer" sid="632413573465860">
-                        <behavior id="Timer" />
-                    </behavior-type>
-                </behaviors>
-                <animation-folder>
-                    <animation framecount="7" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="741330020796908" speed="80">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\openspace\Downloads\Smoke\0090.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="ViewCenter" sid="533656200378251">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="705382202837080" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="Player_Cursor" sid="742739827996219">
-                <plugin id="Sprite" />
-                <behaviors>
-                    <behavior-type name="8Direction" sid="931139356618724">
-                        <behavior id="EightDir" />
-                    </behavior-type>
-                </behaviors>
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="613675022285515" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    </animation>
-                </animation-folder>
             </object-type>
         </object-folder>
         <object-folder name="P1_Runner">
@@ -2090,7 +1961,6 @@
         <event-sheet>ES_Variables.xml</event-sheet>
         <event-sheet>ES_Intro.xml</event-sheet>
         <event-sheet>ES_Score.xml</event-sheet>
-        <event-sheet>ES_P2_Shooter.xml</event-sheet>
         <event-sheet>ES_P1_Runner.xml</event-sheet>
         <event-sheet>ES_Objects.xml</event-sheet>
         <event-sheet>ES_Main.xml</event-sheet>

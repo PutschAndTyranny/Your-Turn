@@ -10,7 +10,6 @@
         <include>ES_LevelTimer</include>
         <include>ES_Objects</include>
         <include>ES_Score</include>
-        <include>ES_P2_Shooter</include>
         <include>ES_Variables</include>
         <event-block sid="733919869561663">
             <conditions>
@@ -153,11 +152,6 @@
                         <event-block sid="767198637241983">
                             <conditions>
                                 <condition id="-22" name="Else" sid="687523624897869" type="System" />
-                                <condition disabled="1" id="-14" name="Compare variable" sid="112689794995439" type="System">
-                                    <param id="0" name="Variable">PlayerTurn</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">2</param>
-                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
@@ -242,42 +236,29 @@
                     </conditions>
                     <actions />
                     <sub-events>
-                        <event-block sid="922628567058523">
+                        <event-block sid="189590788148659">
                             <conditions>
-                                <condition id="-1" name="Every tick" sid="269364773505287" type="System" />
+                                <condition id="-14" name="Compare variable" sid="356654459251905" type="System">
+                                    <param id="0" name="Variable">PlayerTurn</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
                             </conditions>
                             <actions>
-                                <action disabled="1" id="-11" name="Subtract from" sid="967479294985012" type="System">
-                                    <param id="0" name="Variable">Timer_RestartLevel</param>
-                                    <param id="1" name="Value">dt</param>
+                                <action id="0" name="Set text" sid="613068322597644" type="TXT_GameOver">
+                                    <param id="0" name="Text">&quot;C&apos;est au tour du joueur 2 de courrir.&quot; &amp; newline &amp; &quot;Appuyer sur start pour continuer.&quot;</param>
                                 </action>
                             </actions>
-                            <sub-events>
-                                <event-block sid="189590788148659">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="356654459251905" type="System">
-                                            <param id="0" name="Variable">PlayerTurn</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">1</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="0" name="Set text" sid="613068322597644" type="TXT_GameOver">
-                                            <param id="0" name="Text">&quot;C&apos;est au tour du joueur 2 de courrir.&quot; &amp; newline &amp; &quot;Appuyer sur start pour continuer.&quot;</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="873304196607141">
-                                    <conditions>
-                                        <condition id="-22" name="Else" sid="760340812676384" type="System" />
-                                    </conditions>
-                                    <actions>
-                                        <action id="0" name="Set text" sid="671407863825468" type="TXT_GameOver">
-                                            <param id="0" name="Text">&quot;C&apos;est au tour du joueur 1 de courrir.&quot; &amp; newline &amp; &quot;Appuyer sur start pour continuer.&quot;</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                            </sub-events>
+                        </event-block>
+                        <event-block sid="873304196607141">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="760340812676384" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="671407863825468" type="TXT_GameOver">
+                                    <param id="0" name="Text">&quot;C&apos;est au tour du joueur 1 de courrir.&quot; &amp; newline &amp; &quot;Appuyer sur start pour continuer.&quot;</param>
+                                </action>
+                            </actions>
                         </event-block>
                     </sub-events>
                 </event-block>
@@ -294,7 +275,7 @@
                         <event-block sid="806147266852901">
                             <conditions>
                                 <condition id="6" name="On button pressed" sid="217953151759298" type="Gamepad">
-                                    <param id="0" name="Gamepad">0</param>
+                                    <param id="0" name="Gamepad">Gamepad_P1</param>
                                     <param id="1" name="Button">9</param>
                                 </condition>
                             </conditions>
@@ -308,10 +289,6 @@
                                         <action id="-9" name="Set value" sid="405042155128341" type="System">
                                             <param id="0" name="Variable">Player_CanDoSometing</param>
                                             <param id="1" name="Value">0</param>
-                                        </action>
-                                        <action id="0" name="Call function" sid="776915424652332" type="Function">
-                                            <param id="0" name="Name">&quot;SetTimerLevel&quot;</param>
-                                            <param id="1" name="Parameter {n}"></param>
                                         </action>
                                         <action id="-9" name="Set value" sid="427942031921346" type="System">
                                             <param id="0" name="Variable">Timer_RestartLevel</param>
@@ -400,13 +377,7 @@
                                                     <conditions>
                                                         <condition id="-22" name="Else" sid="153748504526988" type="System" />
                                                     </conditions>
-                                                    <actions>
-                                                        <action id="0" name="Spawn another object" sid="621784139832425" type="P1_Hitbox">
-                                                            <param id="0" name="Object">Smoke</param>
-                                                            <param id="1" name="Layer">&quot;Scene&quot;</param>
-                                                            <param id="2" name="Image point">0</param>
-                                                        </action>
-                                                    </actions>
+                                                    <actions />
                                                 </event-block>
                                             </sub-events>
                                         </event-block>
@@ -727,9 +698,6 @@
                         </action>
                         <action disabled="1" id="0" name="Set text" sid="112418444459290" type="Debug">
                             <param id="0" name="Text">&quot;Top : &quot; &amp; round(ViewportTop(0)) &amp; &#x0D;&#x0A;&quot;   -   Left : &quot; &amp; round(ViewportLeft(0)) &amp; &#x0D;&#x0A;&quot;   -   Right : &quot; &amp; round(ViewportRight(0))  &amp;&#x0D;&#x0A;&quot;   -   Bottom : &quot; &amp; round(ViewportBottom(0))</param>
-                        </action>
-                        <action disabled="1" id="0" name="Set text" sid="564980100163043" type="Debug">
-                            <param id="0" name="Text">&quot;Top : &quot; &amp; Player_Turret.X</param>
                         </action>
                         <action disabled="1" id="0" name="Set text" sid="517761255525680" type="Debug">
                             <param id="0" name="Text">&quot;Acceleration : &quot; &amp; P1_Collider.Platform.Acceleration &amp; &#x0D;&#x0A;&quot;   -   MaxSpeed : &quot; &amp; P1_Collider.Platform.MaxSpeed &amp; &#x0D;&#x0A;&quot;   -   Deceleration : &quot; &amp; P1_Collider.Platform.Deceleration &amp; &#x0D;&#x0A;&quot;   -   Gravity : &quot; &amp; P1_Collider.Platform.Gravity &amp; &#x0D;&#x0A;&quot;   -   Speed : &quot; &amp; P1_Collider.Platform.Speed </param>

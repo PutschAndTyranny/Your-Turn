@@ -11,7 +11,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="1">CollectibleTest</layout>
-        <event-sheet active="1" order="0">ES_Main</event-sheet>
+        <event-sheet order="0">ES_Main</event-sheet>
+        <event-sheet order="2">ES_Intro</event-sheet>
+        <event-sheet active="1" order="3">ES_P1_Runner</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -26,8 +28,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Tools/" />
         <folder expanded="0" path="object-folder/Floor/" />
         <folder expanded="0" path="object-folder/TXT/" />
-        <folder expanded="1" path="object-folder/P2_Shooter/" />
-        <folder expanded="1" path="object-folder/P1_Runner/" />
+        <folder expanded="0" path="object-folder/P1_Runner/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="file-folder/" />
@@ -52,17 +53,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/TS_Floor_08/" />
         <folder expanded="1" path="animation-folder/TS_Floor_07/" />
         <folder expanded="1" path="animation-folder/TS_Floor_09/" />
-        <folder expanded="1" path="animation-folder/Corner_BottomLeft/" />
-        <folder expanded="1" path="animation-folder/Corner_BottomRight/" />
-        <folder expanded="1" path="animation-folder/Corner_TopLeft/" />
-        <folder expanded="1" path="animation-folder/Corner_TopRight/" />
-        <folder expanded="1" path="animation-folder/Player_Projectile_Damage/" />
-        <folder expanded="1" path="animation-folder/Player_Projectile_Slow/" />
-        <folder expanded="1" path="animation-folder/Player_Projectile_Vision/" />
-        <folder expanded="1" path="animation-folder/Player_Turret/" />
-        <folder expanded="1" path="animation-folder/Smoke/" />
-        <folder expanded="1" path="animation-folder/ViewCenter/" />
-        <folder expanded="1" path="animation-folder/Player_Cursor/" />
         <folder expanded="1" path="animation-folder/P1_Collider/" />
         <folder expanded="1" path="animation-folder/P1_Animation/" />
         <folder expanded="1" path="animation-folder/P1_Hitbox/" />
