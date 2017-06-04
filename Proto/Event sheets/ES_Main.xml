@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>ES_Main</name>
     <events>
+        <variable constant="0" name="Test" sid="572484471268772" static="0" type="number">0</variable>
         <include>ES_P1_Animation</include>
         <include>ES_P1_Runner</include>
         <include>ES_Intro</include>
@@ -149,9 +150,10 @@
                                 </event-block>
                             </sub-events>
                         </event-block>
-                        <event-block disabled="1" sid="767198637241983">
+                        <event-block sid="767198637241983">
                             <conditions>
-                                <condition id="-14" name="Compare variable" sid="112689794995439" type="System">
+                                <condition id="-22" name="Else" sid="687523624897869" type="System" />
+                                <condition disabled="1" id="-14" name="Compare variable" sid="112689794995439" type="System">
                                     <param id="0" name="Variable">PlayerTurn</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">2</param>
@@ -159,7 +161,7 @@
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block disabled="1" sid="987662466333650">
+                                <event-block sid="987662466333650">
                                     <conditions>
                                         <condition id="-8" name="Compare two values" sid="358713318056794" type="System">
                                             <param id="0" name="First value">int(Level_CurrentTry/2)</param>
@@ -174,7 +176,7 @@
                                         </action>
                                     </actions>
                                 </event-block>
-                                <event-block disabled="1" sid="873361531413315">
+                                <event-block sid="873361531413315">
                                     <conditions>
                                         <condition id="-22" name="Else" sid="921866840469146" type="System" />
                                     </conditions>
@@ -334,7 +336,12 @@
                             <param id="0" name="Name">&quot;CheckVictory&quot;</param>
                         </condition>
                     </conditions>
-                    <actions />
+                    <actions>
+                        <action id="-10" name="Add to" sid="560520945394647" type="System">
+                            <param id="0" name="Variable">Test</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
                     <sub-events>
                         <event-block sid="257482277814308">
                             <conditions>
@@ -450,6 +457,10 @@
                             <param id="0" name="Object">LD_Start</param>
                             <param id="1" name="Image point (optional)">0</param>
                         </action>
+                        <action id="-4" name="Set position to another object" sid="720695371396859" type="P1_Hitbox">
+                            <param id="0" name="Object">LD_Start</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
                         <action behavior="Platform" id="8" name="Set vector X" sid="192823551499793" type="P1_Collider">
                             <param id="0" name="Vector X">0</param>
                         </action>
@@ -457,14 +468,6 @@
                             <param id="0" name="Vector Y">0</param>
                         </action>
                         <action id="2" name="Stop" sid="330372061067471" type="P1_Animation" />
-                        <action id="-3" name="Set position" sid="800565961778600" type="ViewCenter">
-                            <param id="0" name="X">(ViewportLeft(0)+ViewportRight(0))/2</param>
-                            <param id="1" name="Y">(ViewportTop(0)+ViewportBottom(0))/2</param>
-                        </action>
-                        <action id="-3" name="Set position" sid="638280023361049" type="Player_Cursor">
-                            <param id="0" name="X">(ViewportLeft(0)+ViewportRight(0))/2</param>
-                            <param id="1" name="Y">(ViewportTop(0)+ViewportBottom(0))/2</param>
-                        </action>
                         <action id="-15" name="Set visible" sid="920715272328119" type="TXT_GameOver">
                             <param id="0" name="Visibility">1</param>
                         </action>
@@ -699,7 +702,7 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Set text" sid="762736731466475" type="Debug">
-                            <param id="0" name="Text">&quot;J1 : &quot;&amp;CollectiblesJ1 &amp;&quot;  J2 : &quot; &amp;CollectiblesJ2&#x0D;&#x0A;&amp;newline&#x0D;&#x0A;&amp;&quot;Run #&quot;&amp;Level_CurrentTry&#x0D;&#x0A;&amp;newline&#x0D;&#x0A;&amp;&quot;Nombre Collectible à récupérer : &quot;&amp;int(Level_CurrentTry/2)</param>
+                            <param id="0" name="Text">&quot;J1 : &quot;&amp;CollectiblesJ1 &amp;&quot;  J2 : &quot; &amp;CollectiblesJ2&#x0D;&#x0A;&amp;newline&#x0D;&#x0A;&amp;&quot;Run #&quot;&amp;Level_CurrentTry&#x0D;&#x0A;&amp;newline&#x0D;&#x0A;&amp;&quot;Nombre Collectible à récupérer : &quot;&amp;int(Level_CurrentTry/2)&#x0D;&#x0A;&amp;newline&#x0D;&#x0A;&amp;Test</param>
                         </action>
                         <action disabled="1" id="0" name="Set text" sid="199919937133147" type="Debug">
                             <param id="0" name="Text">P1_Collider.Platform.MaxSpeed &amp; P1_Collider.Platform.Speed &amp; P1_Collider.Platform.VectorX</param>
