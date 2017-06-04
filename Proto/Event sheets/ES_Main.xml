@@ -3,7 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>ES_Main</name>
     <events>
-        <variable constant="0" name="Test" sid="572484471268772" static="0" type="number">0</variable>
         <include>ES_P1_Animation</include>
         <include>ES_P1_Runner</include>
         <include>ES_Intro</include>
@@ -313,12 +312,7 @@
                             <param id="0" name="Name">&quot;CheckVictory&quot;</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="-10" name="Add to" sid="560520945394647" type="System">
-                            <param id="0" name="Variable">Test</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                    </actions>
+                    <actions />
                     <sub-events>
                         <event-block sid="257482277814308">
                             <conditions>
@@ -673,7 +667,7 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Set text" sid="762736731466475" type="Debug">
-                            <param id="0" name="Text">&quot;J1 : &quot;&amp;CollectiblesJ1 &amp;&quot;  J2 : &quot; &amp;CollectiblesJ2&#x0D;&#x0A;&amp;newline&#x0D;&#x0A;&amp;&quot;Run #&quot;&amp;Level_CurrentTry&#x0D;&#x0A;&amp;newline&#x0D;&#x0A;&amp;&quot;Nombre Collectible à récupérer : &quot;&amp;int(Level_CurrentTry/2)&#x0D;&#x0A;&amp;newline&#x0D;&#x0A;&amp;Test</param>
+                            <param id="0" name="Text">&quot;J1 : &quot;&amp;CollectiblesJ1 &amp;&quot;  J2 : &quot; &amp;CollectiblesJ2&#x0D;&#x0A;&amp;newline&#x0D;&#x0A;&amp;&quot;Run #&quot;&amp;Level_CurrentTry&#x0D;&#x0A;&amp;newline&#x0D;&#x0A;&amp;&quot;Nombre Collectible à récupérer : &quot;&amp;int(Level_CurrentTry/2)&#x0D;&#x0A;&amp;newline&#x0D;&#x0A;&amp;TESTMODE</param>
                         </action>
                         <action disabled="1" id="0" name="Set text" sid="199919937133147" type="Debug">
                             <param id="0" name="Text">P1_Collider.Platform.MaxSpeed &amp; P1_Collider.Platform.Speed &amp; P1_Collider.Platform.VectorX</param>
