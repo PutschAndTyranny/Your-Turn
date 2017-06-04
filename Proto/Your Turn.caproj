@@ -226,6 +226,7 @@
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable name="IsChanging" sid="713481914052589" type="number" />
+                    <instance-variable name="Orientation" sid="890672341932872" type="number" />
                 </instance-variables>
                 <behaviors>
                     <behavior-type name="Timer" sid="160174266556376">
@@ -577,11 +578,14 @@
                     <type>P1_Collider</type>
                     <type>P1_Animation</type>
                     <type>P1_Hitbox</type>
+                    <type>P1_Hitbox_Foot</type>
+                    <type>P1_Hitbox_Arms</type>
                 </container>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="stand" pingpong="0" repeatcount="1" repeatto="0" sid="4459791424309521" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="1">
                             <image-point name="Sprite" x="0.5" y="0.375" />
+                            <image-point name="Arms" x="1" y="0.5" />
                         </frame>
                     </animation>
                 </animation-folder>
@@ -592,6 +596,8 @@
                     <type>P1_Collider</type>
                     <type>P1_Animation</type>
                     <type>P1_Hitbox</type>
+                    <type>P1_Hitbox_Foot</type>
+                    <type>P1_Hitbox_Arms</type>
                 </container>
                 <animation-folder>
                     <animation framecount="12" loop="1" name="T_Run" pingpong="0" repeatcount="1" repeatto="0" sid="443541828289931" speed="30">
@@ -1834,6 +1840,8 @@
                     <type>P1_Collider</type>
                     <type>P1_Animation</type>
                     <type>P1_Hitbox</type>
+                    <type>P1_Hitbox_Foot</type>
+                    <type>P1_Hitbox_Arms</type>
                 </container>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="608289205877230" speed="5">
@@ -1939,6 +1947,36 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="P1_Hitbox_Foot" sid="601915158460746">
+            <plugin id="Sprite" />
+            <container>
+                <type>P1_Collider</type>
+                <type>P1_Animation</type>
+                <type>P1_Hitbox</type>
+                <type>P1_Hitbox_Foot</type>
+                <type>P1_Hitbox_Arms</type>
+            </container>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="837235709051643" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="P1_Hitbox_Arms" sid="223681474495104">
+            <plugin id="Sprite" />
+            <container>
+                <type>P1_Collider</type>
+                <type>P1_Animation</type>
+                <type>P1_Hitbox</type>
+                <type>P1_Hitbox_Foot</type>
+                <type>P1_Hitbox_Arms</type>
+            </container>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="148562915212170" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1954,6 +1992,7 @@
         <layout>Level 9.xml</layout>
         <layout>Level 10.xml</layout>
         <layout>CollectibleTest.xml</layout>
+        <layout>Test_Doc.xml</layout>
         <layout>Intro.xml</layout>
         <layout>Score.xml</layout>
     </layout-folder>

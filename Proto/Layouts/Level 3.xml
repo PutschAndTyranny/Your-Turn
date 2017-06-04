@@ -54,7 +54,7 @@
                         <opacity>1</opacity>
                     </world>
                     <tilemap-data>
-                        <width>94</width>
+                        <width>93</width>
                         <height>44</height>
                         <max-width>94</max-width>
                         <max-height>44</max-height>
@@ -823,6 +823,7 @@
                     </properties>
                     <instance-variables>
                         <IsChanging>0</IsChanging>
+                        <Orientation>0</Orientation>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -856,6 +857,7 @@
                     </properties>
                     <instance-variables>
                         <IsChanging>0</IsChanging>
+                        <Orientation>0</Orientation>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1271,6 +1273,7 @@
                     </properties>
                     <instance-variables>
                         <IsChanging>0</IsChanging>
+                        <Orientation>0</Orientation>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1304,6 +1307,7 @@
                     </properties>
                     <instance-variables>
                         <IsChanging>0</IsChanging>
+                        <Orientation>0</Orientation>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1337,6 +1341,7 @@
                     </properties>
                     <instance-variables>
                         <IsChanging>0</IsChanging>
+                        <Orientation>0</Orientation>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1370,6 +1375,7 @@
                     </properties>
                     <instance-variables>
                         <IsChanging>0</IsChanging>
+                        <Orientation>0</Orientation>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />

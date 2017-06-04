@@ -1136,6 +1136,14 @@
                     <param id="0" name="Object">P1_Collider</param>
                     <param id="1" name="Image point (optional)">1</param>
                 </action>
+                <action id="-4" name="Set position to another object" sid="363204976237622" type="P1_Hitbox_Foot">
+                    <param id="0" name="Object">P1_Collider</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+                <action id="-4" name="Set position to another object" sid="295303357497097" type="P1_Hitbox_Arms">
+                    <param id="0" name="Object">P1_Collider</param>
+                    <param id="1" name="Image point (optional)">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="808047967593721">

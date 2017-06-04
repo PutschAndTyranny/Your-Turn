@@ -149,6 +149,32 @@
                     </conditions>
                     <actions />
                     <sub-events>
+                        <event-block sid="404515361819008">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="962623201456159" type="System">
+                                    <param id="0" name="First value">LD_Platform.Width</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Second value">LD_Platform.Height</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="972683347518136" type="LD_Platform">
+                                    <param id="0" name="Instance variable">Orientation</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="722751915916492">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="821815707680937" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="853842004647418" type="LD_Platform">
+                                    <param id="0" name="Instance variable">Orientation</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
                         <event-block sid="263251787375970">
                             <conditions>
                                 <condition id="-6" name="Compare height" sid="812556985732681" type="LD_Platform">
@@ -357,32 +383,37 @@
                         <action id="2" name="Stop" sid="659646503998898" type="LD_Platform" />
                     </actions>
                 </event-block>
-                <event-block sid="433968000204034">
+                <event-block sid="945424265359870">
                     <conditions>
-                        <condition id="0" name="On collision with another object" sid="466087950756173" type="P1_Collider">
+                        <condition id="1" name="Is overlapping another object" sid="826495910693083" type="P1_Hitbox_Foot">
                             <param id="0" name="Object">LD_Platform</param>
                         </condition>
                     </conditions>
                     <actions />
                     <sub-events>
-                        <event-block sid="611233438744296">
+                        <event-block sid="687289203475394">
                             <conditions>
-                                <condition id="-7" name="Compare instance variable" sid="713991575077177" type="LD_Platform">
+                                <condition id="-7" name="Compare instance variable" sid="995116135897307" type="LD_Platform">
                                     <param id="0" name="Instance variable">IsChanging</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="714041134138072" type="LD_Platform">
+                                    <param id="0" name="Instance variable">Orientation</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">0</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action behavior="Timer" id="0" name="Start timer" sid="281331592881655" type="LD_Platform">
+                                <action behavior="Timer" id="0" name="Start timer" sid="230429381428931" type="LD_Platform">
                                     <param id="0" name="Duration">1.0</param>
                                     <param id="1" name="Type">0</param>
                                     <param id="2" name="Tag">&quot;Down&quot;</param>
                                 </action>
-                                <action behavior="Sine" id="0" name="Set active" sid="343055830058473" type="LD_Platform_Sprite">
+                                <action behavior="Sine" id="0" name="Set active" sid="700481287983883" type="LD_Platform_Sprite">
                                     <param id="0" name="State">1</param>
                                 </action>
-                                <action id="-10" name="Set value" sid="925169691673904" type="LD_Platform">
+                                <action id="-10" name="Set value" sid="869310084524000" type="LD_Platform">
                                     <param id="0" name="Instance variable">IsChanging</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
@@ -392,7 +423,7 @@
                 </event-block>
                 <event-block sid="116239429265721">
                     <conditions>
-                        <condition id="1" name="Is overlapping another object" sid="982467494176734" type="P1_Animation">
+                        <condition id="1" name="Is overlapping another object" sid="982467494176734" type="P1_Hitbox_Arms">
                             <param id="0" name="Object">LD_Platform</param>
                         </condition>
                     </conditions>
@@ -404,6 +435,11 @@
                                     <param id="0" name="Instance variable">IsChanging</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="436007450359682" type="LD_Platform">
+                                    <param id="0" name="Instance variable">Orientation</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
                                 </condition>
                             </conditions>
                             <actions>
