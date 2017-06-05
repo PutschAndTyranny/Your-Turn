@@ -163,7 +163,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>18656</x>
+                        <x>18624</x>
                         <y>1344</y>
                         <z>0</z>
                         <width>64</width>
@@ -185,7 +185,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>224</x>
+                        <x>96</x>
                         <y>768</y>
                         <z>0</z>
                         <width>32</width>
@@ -435,6 +435,7 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
+                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -469,6 +470,7 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
+                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -503,6 +505,7 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
+                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -537,6 +540,7 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
+                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -571,6 +575,7 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
+                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -605,6 +610,7 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
+                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -639,6 +645,7 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
+                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -673,6 +680,7 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
+                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1070,6 +1078,7 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
+                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1104,6 +1113,7 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
+                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1138,6 +1148,7 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
+                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1172,6 +1183,7 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
+                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1206,6 +1218,7 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
+                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1240,6 +1253,7 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
+                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1252,8 +1266,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>10336</x>
-                        <y>992</y>
+                        <x>10528</x>
+                        <y>928</y>
                         <z>0</z>
                         <width>192</width>
                         <height>32</height>
@@ -1274,6 +1288,7 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
+                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1308,6 +1323,7 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
+                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1342,6 +1358,7 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
+                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1376,6 +1393,7 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
+                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1410,6 +1428,7 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
+                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1444,6 +1463,7 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
+                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1698,6 +1718,7 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
+                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1737,14 +1758,63 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>17312</x>
+                        <x>17184</x>
                         <y>992</y>
                         <z>0</z>
-                        <width>576</width>
+                        <width>672</width>
                         <height>96</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Colider" uid="191">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>18208</x>
+                        <y>992</y>
+                        <z>0</z>
+                        <width>608</width>
+                        <height>96</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="LD_DeathZone" uid="192">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>18208</x>
+                        <y>992</y>
+                        <z>0</z>
+                        <width>608</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>1</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1759,10 +1829,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>17216</x>
+                        <x>17184</x>
                         <y>992</y>
                         <z>0</z>
-                        <width>96</width>
+                        <width>672</width>
                         <height>32</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -1786,7 +1856,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>17888</x>
+                        <x>17856</x>
                         <y>1344</y>
                         <z>0</z>
                         <width>960</width>
@@ -1795,6 +1865,238 @@
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
                         <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="LD_Platform" uid="197">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>3</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <IsChanging>0</IsChanging>
+                        <Orientation>0</Orientation>
+                        <Size>0</Size>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Timer" />
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>17664</x>
+                        <y>928</y>
+                        <z>0</z>
+                        <width>192</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="LD_Platform" uid="198">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>3</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <IsChanging>0</IsChanging>
+                        <Orientation>0</Orientation>
+                        <Size>0</Size>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Timer" />
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>17472</x>
+                        <y>928</y>
+                        <z>0</z>
+                        <width>192</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="LD_Platform" uid="199">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>3</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <IsChanging>0</IsChanging>
+                        <Orientation>0</Orientation>
+                        <Size>0</Size>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Timer" />
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>17280</x>
+                        <y>928</y>
+                        <z>0</z>
+                        <width>192</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="LD_Platform" uid="200">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>3</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <IsChanging>0</IsChanging>
+                        <Orientation>0</Orientation>
+                        <Size>0</Size>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Timer" />
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>18592</x>
+                        <y>928</y>
+                        <z>0</z>
+                        <width>192</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="LD_Platform" uid="201">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>3</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <IsChanging>0</IsChanging>
+                        <Orientation>0</Orientation>
+                        <Size>0</Size>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Timer" />
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>18400</x>
+                        <y>928</y>
+                        <z>0</z>
+                        <width>192</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="LD_Platform" uid="205">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>3</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <IsChanging>0</IsChanging>
+                        <Orientation>0</Orientation>
+                        <Size>0</Size>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Timer" />
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>18208</x>
+                        <y>928</y>
+                        <z>0</z>
+                        <width>192</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="LD_DeathZone" uid="209">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>18784</x>
+                        <y>352</y>
+                        <z>0</z>
+                        <width>608</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>1</hotspotY>
+                        <angle>1.570796371</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -1813,7 +2115,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>18848</x>
+                        <x>18816</x>
                         <y>992</y>
                         <z>0</z>
                         <width>96</width>
@@ -1840,7 +2142,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>17792</x>
+                        <x>17760</x>
                         <y>1088</y>
                         <z>0</z>
                         <width>96</width>
@@ -1862,6 +2164,7 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
+                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1904,445 +2207,6 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Collectible_Spawner" uid="305">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <Collectible_Number>2</Collectible_Number>
-                        <hasSpawned>0</hasSpawned>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>2880</x>
-                        <y>320</y>
-                        <z>0</z>
-                        <width>32</width>
-                        <height>32</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Collectible_Spawner" uid="306">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <Collectible_Number>7</Collectible_Number>
-                        <hasSpawned>0</hasSpawned>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>7328</x>
-                        <y>576</y>
-                        <z>0</z>
-                        <width>32</width>
-                        <height>32</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Collectible_Spawner" uid="310">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <Collectible_Number>8</Collectible_Number>
-                        <hasSpawned>0</hasSpawned>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>8224</x>
-                        <y>448</y>
-                        <z>0</z>
-                        <width>32</width>
-                        <height>32</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Collectible_Spawner" uid="313">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <Collectible_Number>1</Collectible_Number>
-                        <hasSpawned>0</hasSpawned>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>928</x>
-                        <y>576</y>
-                        <z>0</z>
-                        <width>32</width>
-                        <height>32</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Colider" uid="314">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>16480</x>
-                        <y>416</y>
-                        <z>0</z>
-                        <width>96</width>
-                        <height>96</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Collectible_Spawner" uid="315">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <Collectible_Number>9</Collectible_Number>
-                        <hasSpawned>0</hasSpawned>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>16640</x>
-                        <y>448</y>
-                        <z>0</z>
-                        <width>32</width>
-                        <height>32</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Collectible_Spawner" uid="197">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <Collectible_Number>3</Collectible_Number>
-                        <hasSpawned>0</hasSpawned>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>4736</x>
-                        <y>736</y>
-                        <z>0</z>
-                        <width>32</width>
-                        <height>32</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Collectible_Spawner" uid="320">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <Collectible_Number>6</Collectible_Number>
-                        <hasSpawned>0</hasSpawned>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>8736</x>
-                        <y>1024</y>
-                        <z>0</z>
-                        <width>32</width>
-                        <height>32</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Colider" uid="321">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>8672</x>
-                        <y>1056</y>
-                        <z>0</z>
-                        <width>96</width>
-                        <height>96</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Colider" uid="324">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>9440</x>
-                        <y>1088</y>
-                        <z>0</z>
-                        <width>96</width>
-                        <height>64</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Collectible_Spawner" uid="388">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <Collectible_Number>10</Collectible_Number>
-                        <hasSpawned>0</hasSpawned>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>17152</x>
-                        <y>1056</y>
-                        <z>0</z>
-                        <width>32</width>
-                        <height>32</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Colider" uid="390">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>10656</x>
-                        <y>1248</y>
-                        <z>0</z>
-                        <width>128</width>
-                        <height>64</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Collectible_Spawner" uid="438">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <Collectible_Number>5</Collectible_Number>
-                        <hasSpawned>0</hasSpawned>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>10720</x>
-                        <y>1184</y>
-                        <z>0</z>
-                        <width>32</width>
-                        <height>32</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Collectible_Spawner" uid="191">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <Collectible_Number>4</Collectible_Number>
-                        <hasSpawned>0</hasSpawned>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>18880</x>
-                        <y>960</y>
-                        <z>0</z>
-                        <width>32</width>
-                        <height>32</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="LD_DeathZone" uid="192">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>18944</x>
-                        <y>704</y>
-                        <z>0</z>
-                        <width>288</width>
-                        <height>32</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>1</hotspotY>
-                        <angle>1.570796371</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="LD_DeathZone" uid="198">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>15680</x>
-                        <y>1504</y>
-                        <z>0</z>
-                        <width>2272</width>
-                        <height>32</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>1</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Colider" uid="199">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>17216</x>
-                        <y>992</y>
-                        <z>0</z>
-                        <width>96</width>
-                        <height>160</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
