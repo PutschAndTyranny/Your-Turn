@@ -698,6 +698,36 @@
                         </action>
                     </actions>
                 </event-block>
+                <comment>Debug restart le timer du niveau quand on appuie sur Start.</comment>
+                <event-block sid="252811368262534">
+                    <conditions>
+                        <condition id="6" name="On button pressed" sid="430582217559218" type="Gamepad">
+                            <param id="0" name="Gamepad">0</param>
+                            <param id="1" name="Button">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="784535662389220" type="Function">
+                            <param id="0" name="Name">&quot;SetTimerLevel&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Debug valide la run quand on appuie sur Select.</comment>
+                <event-block sid="136698682854231">
+                    <conditions>
+                        <condition id="6" name="On button pressed" sid="841607068630825" type="Gamepad">
+                            <param id="0" name="Gamepad">0</param>
+                            <param id="1" name="Button">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="198976136203487" type="Function">
+                            <param id="0" name="Name">&quot;RestartLevel&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-group description="" sid="820881847609191" title="Teleport Back To Starting Point">
                     <sub-events>
                         <event-block sid="486091990770885">
