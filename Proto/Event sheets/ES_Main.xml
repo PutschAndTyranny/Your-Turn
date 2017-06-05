@@ -698,6 +698,34 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="490747041839289">
+                    <conditions>
+                        <condition id="6" name="On button pressed" sid="982433998268799" type="Gamepad">
+                            <param id="0" name="Gamepad">0</param>
+                            <param id="1" name="Button">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="462974438297510" type="System">
+                            <param id="0" name="Variable">Timer_Level</param>
+                            <param id="1" name="Value">Level_Duration</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="936834276907533">
+                    <conditions>
+                        <condition id="6" name="On button pressed" sid="684660612689645" type="Gamepad">
+                            <param id="0" name="Gamepad">0</param>
+                            <param id="1" name="Button">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="222044062459663" type="Function">
+                            <param id="0" name="Name">&quot;RestartLevel&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-group description="" sid="820881847609191" title="Teleport Back To Starting Point">
                     <sub-events>
                         <event-block sid="486091990770885">
