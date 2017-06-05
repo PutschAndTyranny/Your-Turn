@@ -471,7 +471,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -506,7 +505,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -541,7 +539,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -576,7 +573,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -605,13 +601,12 @@
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
-                        <initial-frame>2</initial-frame>
+                        <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -625,10 +620,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>192</x>
-                        <y>1504</y>
+                        <y>1408</y>
                         <z>0</z>
                         <width>32</width>
-                        <height>96</height>
+                        <height>192</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -640,13 +635,12 @@
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
-                        <initial-frame>1</initial-frame>
+                        <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -660,10 +654,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>160</x>
-                        <y>1440</y>
+                        <y>1408</y>
                         <z>0</z>
                         <width>32</width>
-                        <height>160</height>
+                        <height>192</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -675,13 +669,12 @@
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
-                        <initial-frame>3</initial-frame>
+                        <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />

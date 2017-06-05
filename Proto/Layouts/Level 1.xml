@@ -435,7 +435,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -470,7 +469,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -505,7 +503,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -540,7 +537,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -575,7 +571,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -610,7 +605,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -645,7 +639,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -680,7 +673,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1078,7 +1070,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1113,7 +1104,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1148,7 +1138,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1183,7 +1172,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1218,7 +1206,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1253,7 +1240,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1288,7 +1274,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1323,7 +1308,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1358,7 +1342,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1393,7 +1376,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1428,7 +1410,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1463,7 +1444,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1718,7 +1698,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1883,7 +1862,6 @@
                     <instance-variables>
                         <IsChanging>0</IsChanging>
                         <Orientation>0</Orientation>
-                        <Size>0</Size>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Timer" />
@@ -1938,17 +1916,8 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-<<<<<<< HEAD
                         <Collectible_Number>2</Collectible_Number>
                         <hasSpawned>0</hasSpawned>
-=======
-                        <IsChanging>0</IsChanging>
-                        <Orientation>0</Orientation>
-                        <Size>0</Size>
-<<<<<<< HEAD
->>>>>>> 176721fa867b476cffa1472db0ade127fc770361
-=======
->>>>>>> 176721fa867b476cffa1472db0ade127fc770361
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1973,17 +1942,8 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-<<<<<<< HEAD
                         <Collectible_Number>7</Collectible_Number>
                         <hasSpawned>0</hasSpawned>
-=======
-                        <IsChanging>0</IsChanging>
-                        <Orientation>0</Orientation>
-                        <Size>0</Size>
-<<<<<<< HEAD
->>>>>>> 176721fa867b476cffa1472db0ade127fc770361
-=======
->>>>>>> 176721fa867b476cffa1472db0ade127fc770361
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -2008,17 +1968,8 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-<<<<<<< HEAD
                         <Collectible_Number>8</Collectible_Number>
                         <hasSpawned>0</hasSpawned>
-=======
-                        <IsChanging>0</IsChanging>
-                        <Orientation>0</Orientation>
-                        <Size>0</Size>
-<<<<<<< HEAD
->>>>>>> 176721fa867b476cffa1472db0ade127fc770361
-=======
->>>>>>> 176721fa867b476cffa1472db0ade127fc770361
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -2043,17 +1994,8 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-<<<<<<< HEAD
                         <Collectible_Number>1</Collectible_Number>
                         <hasSpawned>0</hasSpawned>
-=======
-                        <IsChanging>0</IsChanging>
-                        <Orientation>0</Orientation>
-                        <Size>0</Size>
-<<<<<<< HEAD
->>>>>>> 176721fa867b476cffa1472db0ade127fc770361
-=======
->>>>>>> 176721fa867b476cffa1472db0ade127fc770361
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -2105,17 +2047,8 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-<<<<<<< HEAD
                         <Collectible_Number>9</Collectible_Number>
                         <hasSpawned>0</hasSpawned>
-=======
-                        <IsChanging>0</IsChanging>
-                        <Orientation>0</Orientation>
-                        <Size>0</Size>
-<<<<<<< HEAD
->>>>>>> 176721fa867b476cffa1472db0ade127fc770361
-=======
->>>>>>> 176721fa867b476cffa1472db0ade127fc770361
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -2246,17 +2179,8 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-<<<<<<< HEAD
                         <Collectible_Number>10</Collectible_Number>
                         <hasSpawned>0</hasSpawned>
-=======
-                        <IsChanging>0</IsChanging>
-                        <Orientation>0</Orientation>
-                        <Size>0</Size>
-<<<<<<< HEAD
->>>>>>> 176721fa867b476cffa1472db0ade127fc770361
-=======
->>>>>>> 176721fa867b476cffa1472db0ade127fc770361
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
