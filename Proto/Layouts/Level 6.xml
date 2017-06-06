@@ -1556,7 +1556,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Collectible_Number>0</Collectible_Number>
+                        <Collectible_Number>6</Collectible_Number>
                         <hasSpawned>0</hasSpawned>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
@@ -1582,7 +1582,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Collectible_Number>0</Collectible_Number>
+                        <Collectible_Number>9</Collectible_Number>
                         <hasSpawned>0</hasSpawned>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
@@ -1635,7 +1635,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Collectible_Number>0</Collectible_Number>
+                        <Collectible_Number>7</Collectible_Number>
                         <hasSpawned>0</hasSpawned>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
@@ -1661,7 +1661,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Collectible_Number>0</Collectible_Number>
+                        <Collectible_Number>5</Collectible_Number>
                         <hasSpawned>0</hasSpawned>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
@@ -1687,7 +1687,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Collectible_Number>0</Collectible_Number>
+                        <Collectible_Number>3</Collectible_Number>
                         <hasSpawned>0</hasSpawned>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
@@ -1713,7 +1713,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Collectible_Number>0</Collectible_Number>
+                        <Collectible_Number>2</Collectible_Number>
                         <hasSpawned>0</hasSpawned>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
@@ -1739,7 +1739,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Collectible_Number>0</Collectible_Number>
+                        <Collectible_Number>1</Collectible_Number>
                         <hasSpawned>0</hasSpawned>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
@@ -1765,7 +1765,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Collectible_Number>0</Collectible_Number>
+                        <Collectible_Number>8</Collectible_Number>
                         <hasSpawned>0</hasSpawned>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
@@ -1818,7 +1818,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Collectible_Number>0</Collectible_Number>
+                        <Collectible_Number>10</Collectible_Number>
                         <hasSpawned>0</hasSpawned>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
@@ -1915,7 +1915,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Collectible_Number>0</Collectible_Number>
+                        <Collectible_Number>4</Collectible_Number>
                         <hasSpawned>0</hasSpawned>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
