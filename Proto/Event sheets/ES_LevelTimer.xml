@@ -207,7 +207,7 @@
                             <actions>
                                 <action id="-9" name="Set value" sid="994501289386495" type="System">
                                     <param id="0" name="Variable">Level_Duration</param>
-                                    <param id="1" name="Value">35</param>
+                                    <param id="1" name="Value">52</param>
                                 </action>
                             </actions>
                         </event-block>
