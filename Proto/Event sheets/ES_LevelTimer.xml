@@ -211,6 +211,21 @@
                                 </action>
                             </actions>
                         </event-block>
+                        <event-block sid="312122647678075">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="931657950464067" type="System">
+                                    <param id="0" name="First value">LayoutName</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">&quot;Level 11&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="416627250572107" type="System">
+                                    <param id="0" name="Variable">Level_Duration</param>
+                                    <param id="1" name="Value">3500000</param>
+                                </action>
+                            </actions>
+                        </event-block>
                         <event-block sid="730119772719432">
                             <conditions>
                                 <condition id="-8" name="Compare two values" sid="398885976129764" type="System">
