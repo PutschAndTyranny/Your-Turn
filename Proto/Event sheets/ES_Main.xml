@@ -192,9 +192,14 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Call function" sid="937504989284168" type="Function">
+                        <action disabled="1" id="0" name="Call function" sid="937504989284168" type="Function">
                             <param id="0" name="Name">&quot;GameOver&quot;</param>
                             <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="556773393892666" type="P1_Collider">
+                            <param id="0" name="Object">Sprite2</param>
+                            <param id="1" name="Layer">&quot;Scene&quot;</param>
+                            <param id="2" name="Image point">0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -844,6 +849,29 @@
                             <param id="0" name="Variable">PlayerTurn</param>
                             <param id="1" name="Value">2</param>
                         </action>
+                    </actions>
+                </event-block>
+                <event-block sid="168886795856998">
+                    <conditions>
+                        <condition id="6" name="On button pressed" sid="500109712423454" type="Gamepad">
+                            <param id="0" name="Gamepad">0</param>
+                            <param id="1" name="Button">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action disabled="1" id="-9" name="Set value" sid="927234900717880" type="System">
+                            <param id="0" name="Variable">Move_Basic_MaxSpeed</param>
+                            <param id="1" name="Value">650</param>
+                        </action>
+                        <action disabled="1" id="-9" name="Set value" sid="408536927178375" type="System">
+                            <param id="0" name="Variable">Move_Jump_Deceleration</param>
+                            <param id="1" name="Value">700</param>
+                        </action>
+                        <action disabled="1" id="-9" name="Set value" sid="712462090791602" type="System">
+                            <param id="0" name="Variable">Move_Wall_Y</param>
+                            <param id="1" name="Value">200</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="233253613436192" type="Sprite2" />
                     </actions>
                 </event-block>
             </sub-events>

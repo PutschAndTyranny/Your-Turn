@@ -216,7 +216,7 @@
                                 <condition id="-8" name="Compare two values" sid="931657950464067" type="System">
                                     <param id="0" name="First value">LayoutName</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Second value">&quot;Level 11&quot;</param>
+                                    <param id="2" name="Second value">&quot;Level_Doc_1&quot;</param>
                                 </condition>
                             </conditions>
                             <actions>

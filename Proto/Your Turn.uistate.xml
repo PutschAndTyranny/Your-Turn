@@ -11,8 +11,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="2">Test_Doc</layout>
+        <layout active="1" order="3">Level_Doc_1</layout>
+        <layout order="4">Level 2</layout>
+        <layout order="5">Level 3</layout>
+        <layout order="6">Level 4</layout>
+        <layout order="7">Level 5</layout>
+        <layout order="8">Level 6</layout>
+        <layout order="9">Level 7</layout>
         <event-sheet order="0">ES_Variables</event-sheet>
-        <event-sheet active="1" order="1">ES_Objects</event-sheet>
+        <event-sheet order="1">ES_Objects</event-sheet>
+        <event-sheet order="10">ES_Main</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

@@ -2576,6 +2576,7 @@
     <layout-folder>
         <layout>Sandbox.xml</layout>
         <layout>Level 1.xml</layout>
+        <layout>Level_Doc_1.xml</layout>
         <layout>Level 2.xml</layout>
         <layout>Level 3.xml</layout>
         <layout>Level 4.xml</layout>
