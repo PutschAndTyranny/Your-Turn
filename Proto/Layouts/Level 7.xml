@@ -393,7 +393,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LD_Platform" uid="637">
+                <instance type="LD_PF_Immo" uid="637">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -818,7 +818,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LD_Platform" uid="681">
+                <instance type="LD_PF_Immo" uid="681">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -853,7 +853,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LD_Platform" uid="682">
+                <instance type="LD_PF_Immo" uid="682">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -888,7 +888,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LD_Platform" uid="683">
+                <instance type="LD_PF_Immo" uid="683">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -923,7 +923,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LD_Platform" uid="684">
+                <instance type="LD_PF_Immo" uid="684">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1051,7 +1051,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LD_Platform" uid="689">
+                <instance type="LD_PF_Immo" uid="689">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1135,7 +1135,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LD_Platform" uid="692">
+                <instance type="LD_PF_Immo" uid="692">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1170,7 +1170,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LD_Platform" uid="693">
+                <instance type="LD_PF_Immo" uid="693">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>

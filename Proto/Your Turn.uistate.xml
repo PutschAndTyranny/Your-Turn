@@ -10,19 +10,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="5">Test_Doc</layout>
-        <layout order="7">Level 4</layout>
-        <layout order="8">Level 6</layout>
-        <layout order="9">Level 7</layout>
-        <layout order="10">Level 8</layout>
-        <layout order="11">Level 9</layout>
-        <layout active="1" order="12">Level 10</layout>
-        <event-sheet order="0">ES_Main</event-sheet>
-        <event-sheet order="1">ES_Intro</event-sheet>
-        <event-sheet order="2">ES_P1_Runner</event-sheet>
-        <event-sheet order="3">ES_Variables</event-sheet>
-        <event-sheet order="4">ES_Objects</event-sheet>
-        <event-sheet order="6">ES_LevelTimer</event-sheet>
+        <layout order="2">Test_Doc</layout>
+        <event-sheet order="0">ES_Variables</event-sheet>
+        <event-sheet active="1" order="1">ES_Objects</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -51,8 +41,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/LD_TurretProjectile/" />
         <folder expanded="1" path="animation-folder/LD_Victory/" />
         <folder expanded="1" path="animation-folder/LD_StepFloor/" />
-        <folder expanded="1" path="animation-folder/LD_Platform/" />
-        <folder expanded="1" path="animation-folder/LD_Platform_Sprite/" />
+        <folder expanded="1" path="animation-folder/LD_PF_Immo/" />
+        <folder expanded="1" path="animation-folder/LD_PF_Immo_Sprite/" />
+        <folder expanded="1" path="animation-folder/LD_PF_Move/" />
+        <folder expanded="1" path="animation-folder/LD_PF_Move_Sprite/" />
         <folder expanded="1" path="animation-folder/TS_Floor_01/" />
         <folder expanded="1" path="animation-folder/TS_Floor_03/" />
         <folder expanded="1" path="animation-folder/TS_Floor_04/" />

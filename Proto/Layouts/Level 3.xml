@@ -54,7 +54,7 @@
                         <opacity>1</opacity>
                     </world>
                     <tilemap-data>
-                        <width>93</width>
+                        <width>94</width>
                         <height>44</height>
                         <max-width>94</max-width>
                         <max-height>44</max-height>
@@ -814,7 +814,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LD_Platform" uid="213">
+                <instance type="LD_PF_Immo" uid="213">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -849,7 +849,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LD_Platform" uid="214">
+                <instance type="LD_PF_Immo" uid="214">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1266,7 +1266,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LD_Platform" uid="307">
+                <instance type="LD_PF_Immo" uid="307">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1301,7 +1301,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LD_Platform" uid="309">
+                <instance type="LD_PF_Immo" uid="309">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1336,7 +1336,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LD_Platform" uid="311">
+                <instance type="LD_PF_Immo" uid="311">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>

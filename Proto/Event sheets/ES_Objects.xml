@@ -142,42 +142,26 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="761168398005521" title="Platform2">
+        <event-group description="" sid="761168398005521" title="Platform Destructible - Immobile">
             <sub-events>
-                <event-block sid="191584422682221">
-                    <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="469911366946270" type="LD_Platform">
-                            <param id="0" name="Instance variable">Orientation</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                    <sub-events>
-                        <event-block sid="393828474334651">
-                            <conditions />
-                            <actions />
-                        </event-block>
-                    </sub-events>
-                </event-block>
                 <event-block sid="892590661523881">
                     <conditions>
-                        <condition id="-18" name="On created" sid="162165537355460" type="LD_Platform" />
+                        <condition id="-18" name="On created" sid="162165537355460" type="LD_PF_Immo" />
                     </conditions>
                     <actions>
-                        <action id="2" name="Stop" sid="586942130006451" type="LD_Platform" />
+                        <action id="2" name="Stop" sid="586942130006451" type="LD_PF_Immo" />
                     </actions>
                     <sub-events>
                         <event-block sid="747910904586439">
                             <conditions>
                                 <condition id="-8" name="Compare two values" sid="739674062220483" type="System">
-                                    <param id="0" name="First value">LD_Platform.Width</param>
+                                    <param id="0" name="First value">LD_PF_Immo.Width</param>
                                     <param id="1" name="Comparison">4</param>
-                                    <param id="2" name="Second value">LD_Platform.Height</param>
+                                    <param id="2" name="Second value">LD_PF_Immo.Height</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-10" name="Set value" sid="375554755223897" type="LD_Platform">
+                                <action id="-10" name="Set value" sid="375554755223897" type="LD_PF_Immo">
                                     <param id="0" name="Instance variable">Orientation</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
@@ -188,7 +172,7 @@
                                 <condition id="-22" name="Else" sid="670698925830732" type="System" />
                             </conditions>
                             <actions>
-                                <action id="-10" name="Set value" sid="541781072130078" type="LD_Platform">
+                                <action id="-10" name="Set value" sid="541781072130078" type="LD_PF_Immo">
                                     <param id="0" name="Instance variable">Orientation</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
@@ -196,14 +180,14 @@
                         </event-block>
                         <event-block sid="227599160210568">
                             <conditions>
-                                <condition id="-7" name="Compare instance variable" sid="952139659264676" type="LD_Platform">
+                                <condition id="-7" name="Compare instance variable" sid="952139659264676" type="LD_PF_Immo">
                                     <param id="0" name="Instance variable">Orientation</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">0</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-10" name="Set value" sid="975217800097924" type="LD_Platform">
+                                <action id="-10" name="Set value" sid="975217800097924" type="LD_PF_Immo">
                                     <param id="0" name="Instance variable">Size</param>
                                     <param id="1" name="Value">Self.Width/32</param>
                                 </action>
@@ -214,7 +198,7 @@
                                         <condition id="-10" name="For" sid="453981743423949" type="System">
                                             <param id="0" name="Name">&quot;CreateSprite&quot;</param>
                                             <param id="1" name="Start index">1</param>
-                                            <param id="2" name="End index">LD_Platform.Size</param>
+                                            <param id="2" name="End index">LD_PF_Immo.Size</param>
                                         </condition>
                                     </conditions>
                                     <actions />
@@ -229,22 +213,22 @@
                                             </conditions>
                                             <actions>
                                                 <action id="-3" name="Create object" sid="964142976416199" type="System">
-                                                    <param id="0" name="Object to create">LD_Platform_Sprite</param>
+                                                    <param id="0" name="Object to create">LD_PF_Immo_Sprite</param>
                                                     <param id="1" name="Layer">&quot;Scene&quot;</param>
-                                                    <param id="2" name="X">LD_Platform.X+(32*(loopindex-1))+16</param>
-                                                    <param id="3" name="Y">LD_Platform.Y+16</param>
+                                                    <param id="2" name="X">LD_PF_Immo.X+(32*(loopindex-1))+16</param>
+                                                    <param id="3" name="Y">LD_PF_Immo.Y+16</param>
                                                 </action>
-                                                <action id="4" name="Set animation" sid="255837152592494" type="LD_Platform_Sprite">
+                                                <action id="4" name="Set animation" sid="255837152592494" type="LD_PF_Immo_Sprite">
                                                     <param id="0" name="Animation">&quot;Left&quot;</param>
                                                     <param id="1" name="From">1</param>
                                                 </action>
-                                                <action id="2" name="Stop" sid="113837375670304" type="LD_Platform_Sprite" />
-                                                <action id="5" name="Set frame" sid="175461381847971" type="LD_Platform_Sprite">
-                                                    <param id="0" name="Frame number">LD_Platform.AnimationFrame</param>
+                                                <action id="2" name="Stop" sid="113837375670304" type="LD_PF_Immo_Sprite" />
+                                                <action id="5" name="Set frame" sid="175461381847971" type="LD_PF_Immo_Sprite">
+                                                    <param id="0" name="Frame number">LD_PF_Immo.AnimationFrame</param>
                                                 </action>
-                                                <action id="-10" name="Set value" sid="894462906516022" type="LD_Platform_Sprite">
+                                                <action id="-10" name="Set value" sid="894462906516022" type="LD_PF_Immo_Sprite">
                                                     <param id="0" name="Instance variable">Parent</param>
-                                                    <param id="1" name="Value">LD_Platform.UID</param>
+                                                    <param id="1" name="Value">LD_PF_Immo.UID</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -253,27 +237,27 @@
                                                 <condition id="-21" name="Is between values" sid="705351780037040" type="System">
                                                     <param id="0" name="Value">loopindex</param>
                                                     <param id="1" name="Lower bound">2</param>
-                                                    <param id="2" name="Upper bound">LD_Platform.Size-1</param>
+                                                    <param id="2" name="Upper bound">LD_PF_Immo.Size-1</param>
                                                 </condition>
                                             </conditions>
                                             <actions>
                                                 <action id="-3" name="Create object" sid="372236855302486" type="System">
-                                                    <param id="0" name="Object to create">LD_Platform_Sprite</param>
+                                                    <param id="0" name="Object to create">LD_PF_Immo_Sprite</param>
                                                     <param id="1" name="Layer">&quot;Scene&quot;</param>
-                                                    <param id="2" name="X">LD_Platform.X+(32*(loopindex-1))+16</param>
-                                                    <param id="3" name="Y">LD_Platform.Y+16</param>
+                                                    <param id="2" name="X">LD_PF_Immo.X+(32*(loopindex-1))+16</param>
+                                                    <param id="3" name="Y">LD_PF_Immo.Y+16</param>
                                                 </action>
-                                                <action id="4" name="Set animation" sid="263794171897215" type="LD_Platform_Sprite">
+                                                <action id="4" name="Set animation" sid="263794171897215" type="LD_PF_Immo_Sprite">
                                                     <param id="0" name="Animation">&quot;Middle&quot;</param>
                                                     <param id="1" name="From">1</param>
                                                 </action>
-                                                <action id="2" name="Stop" sid="734494759985439" type="LD_Platform_Sprite" />
-                                                <action id="5" name="Set frame" sid="463920460429935" type="LD_Platform_Sprite">
-                                                    <param id="0" name="Frame number">LD_Platform.AnimationFrame</param>
+                                                <action id="2" name="Stop" sid="734494759985439" type="LD_PF_Immo_Sprite" />
+                                                <action id="5" name="Set frame" sid="463920460429935" type="LD_PF_Immo_Sprite">
+                                                    <param id="0" name="Frame number">LD_PF_Immo.AnimationFrame</param>
                                                 </action>
-                                                <action id="-10" name="Set value" sid="860760490236120" type="LD_Platform_Sprite">
+                                                <action id="-10" name="Set value" sid="860760490236120" type="LD_PF_Immo_Sprite">
                                                     <param id="0" name="Instance variable">Parent</param>
-                                                    <param id="1" name="Value">LD_Platform.UID</param>
+                                                    <param id="1" name="Value">LD_PF_Immo.UID</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -282,27 +266,27 @@
                                                 <condition id="-8" name="Compare two values" sid="449580590393260" type="System">
                                                     <param id="0" name="First value">loopindex</param>
                                                     <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Second value">LD_Platform.Size</param>
+                                                    <param id="2" name="Second value">LD_PF_Immo.Size</param>
                                                 </condition>
                                             </conditions>
                                             <actions>
                                                 <action id="-3" name="Create object" sid="116530421087402" type="System">
-                                                    <param id="0" name="Object to create">LD_Platform_Sprite</param>
+                                                    <param id="0" name="Object to create">LD_PF_Immo_Sprite</param>
                                                     <param id="1" name="Layer">&quot;Scene&quot;</param>
-                                                    <param id="2" name="X">LD_Platform.X+(32*(loopindex-1))+16</param>
-                                                    <param id="3" name="Y">LD_Platform.Y+16</param>
+                                                    <param id="2" name="X">LD_PF_Immo.X+(32*(loopindex-1))+16</param>
+                                                    <param id="3" name="Y">LD_PF_Immo.Y+16</param>
                                                 </action>
-                                                <action id="4" name="Set animation" sid="261277663805482" type="LD_Platform_Sprite">
+                                                <action id="4" name="Set animation" sid="261277663805482" type="LD_PF_Immo_Sprite">
                                                     <param id="0" name="Animation">&quot;Right&quot;</param>
                                                     <param id="1" name="From">1</param>
                                                 </action>
-                                                <action id="2" name="Stop" sid="620614675021643" type="LD_Platform_Sprite" />
-                                                <action id="5" name="Set frame" sid="910315626877720" type="LD_Platform_Sprite">
-                                                    <param id="0" name="Frame number">LD_Platform.AnimationFrame</param>
+                                                <action id="2" name="Stop" sid="620614675021643" type="LD_PF_Immo_Sprite" />
+                                                <action id="5" name="Set frame" sid="910315626877720" type="LD_PF_Immo_Sprite">
+                                                    <param id="0" name="Frame number">LD_PF_Immo.AnimationFrame</param>
                                                 </action>
-                                                <action id="-10" name="Set value" sid="845349013421471" type="LD_Platform_Sprite">
+                                                <action id="-10" name="Set value" sid="845349013421471" type="LD_PF_Immo_Sprite">
                                                     <param id="0" name="Instance variable">Parent</param>
-                                                    <param id="1" name="Value">LD_Platform.UID</param>
+                                                    <param id="1" name="Value">LD_PF_Immo.UID</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -315,7 +299,7 @@
                                 <condition id="-22" name="Else" sid="751245181725377" type="System" />
                             </conditions>
                             <actions>
-                                <action id="-10" name="Set value" sid="694608311466270" type="LD_Platform">
+                                <action id="-10" name="Set value" sid="694608311466270" type="LD_PF_Immo">
                                     <param id="0" name="Instance variable">Size</param>
                                     <param id="1" name="Value">Self.Height/32</param>
                                 </action>
@@ -326,7 +310,7 @@
                                         <condition id="-10" name="For" sid="906952525670089" type="System">
                                             <param id="0" name="Name">&quot;CreateSprite&quot;</param>
                                             <param id="1" name="Start index">1</param>
-                                            <param id="2" name="End index">LD_Platform.Size</param>
+                                            <param id="2" name="End index">LD_PF_Immo.Size</param>
                                         </condition>
                                     </conditions>
                                     <actions />
@@ -341,22 +325,22 @@
                                             </conditions>
                                             <actions>
                                                 <action id="-3" name="Create object" sid="433920159483100" type="System">
-                                                    <param id="0" name="Object to create">LD_Platform_Sprite</param>
+                                                    <param id="0" name="Object to create">LD_PF_Immo_Sprite</param>
                                                     <param id="1" name="Layer">&quot;Scene&quot;</param>
-                                                    <param id="2" name="X">LD_Platform.X+16</param>
-                                                    <param id="3" name="Y">LD_Platform.Y+(32*(loopindex-1))+16</param>
+                                                    <param id="2" name="X">LD_PF_Immo.X+16</param>
+                                                    <param id="3" name="Y">LD_PF_Immo.Y+(32*(loopindex-1))+16</param>
                                                 </action>
-                                                <action id="4" name="Set animation" sid="871107387002855" type="LD_Platform_Sprite">
+                                                <action id="4" name="Set animation" sid="871107387002855" type="LD_PF_Immo_Sprite">
                                                     <param id="0" name="Animation">&quot;Top&quot;</param>
                                                     <param id="1" name="From">1</param>
                                                 </action>
-                                                <action id="2" name="Stop" sid="651400510231031" type="LD_Platform_Sprite" />
-                                                <action id="5" name="Set frame" sid="373073856474199" type="LD_Platform_Sprite">
-                                                    <param id="0" name="Frame number">LD_Platform.AnimationFrame</param>
+                                                <action id="2" name="Stop" sid="651400510231031" type="LD_PF_Immo_Sprite" />
+                                                <action id="5" name="Set frame" sid="373073856474199" type="LD_PF_Immo_Sprite">
+                                                    <param id="0" name="Frame number">LD_PF_Immo.AnimationFrame</param>
                                                 </action>
-                                                <action id="-10" name="Set value" sid="746406132668531" type="LD_Platform_Sprite">
+                                                <action id="-10" name="Set value" sid="746406132668531" type="LD_PF_Immo_Sprite">
                                                     <param id="0" name="Instance variable">Parent</param>
-                                                    <param id="1" name="Value">LD_Platform.UID</param>
+                                                    <param id="1" name="Value">LD_PF_Immo.UID</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -365,27 +349,27 @@
                                                 <condition id="-21" name="Is between values" sid="459246955349256" type="System">
                                                     <param id="0" name="Value">loopindex</param>
                                                     <param id="1" name="Lower bound">2</param>
-                                                    <param id="2" name="Upper bound">LD_Platform.Size-1</param>
+                                                    <param id="2" name="Upper bound">LD_PF_Immo.Size-1</param>
                                                 </condition>
                                             </conditions>
                                             <actions>
                                                 <action id="-3" name="Create object" sid="745822060636350" type="System">
-                                                    <param id="0" name="Object to create">LD_Platform_Sprite</param>
+                                                    <param id="0" name="Object to create">LD_PF_Immo_Sprite</param>
                                                     <param id="1" name="Layer">&quot;Scene&quot;</param>
-                                                    <param id="2" name="X">LD_Platform.X+16</param>
-                                                    <param id="3" name="Y">LD_Platform.Y+(32*(loopindex-1))+16</param>
+                                                    <param id="2" name="X">LD_PF_Immo.X+16</param>
+                                                    <param id="3" name="Y">LD_PF_Immo.Y+(32*(loopindex-1))+16</param>
                                                 </action>
-                                                <action id="4" name="Set animation" sid="919335064836476" type="LD_Platform_Sprite">
+                                                <action id="4" name="Set animation" sid="919335064836476" type="LD_PF_Immo_Sprite">
                                                     <param id="0" name="Animation">&quot;Center&quot;</param>
                                                     <param id="1" name="From">1</param>
                                                 </action>
-                                                <action id="2" name="Stop" sid="369747269521451" type="LD_Platform_Sprite" />
-                                                <action id="5" name="Set frame" sid="140207738691582" type="LD_Platform_Sprite">
-                                                    <param id="0" name="Frame number">LD_Platform.AnimationFrame</param>
+                                                <action id="2" name="Stop" sid="369747269521451" type="LD_PF_Immo_Sprite" />
+                                                <action id="5" name="Set frame" sid="140207738691582" type="LD_PF_Immo_Sprite">
+                                                    <param id="0" name="Frame number">LD_PF_Immo.AnimationFrame</param>
                                                 </action>
-                                                <action id="-10" name="Set value" sid="163395970340859" type="LD_Platform_Sprite">
+                                                <action id="-10" name="Set value" sid="163395970340859" type="LD_PF_Immo_Sprite">
                                                     <param id="0" name="Instance variable">Parent</param>
-                                                    <param id="1" name="Value">LD_Platform.UID</param>
+                                                    <param id="1" name="Value">LD_PF_Immo.UID</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -394,27 +378,27 @@
                                                 <condition id="-8" name="Compare two values" sid="948428405280762" type="System">
                                                     <param id="0" name="First value">loopindex</param>
                                                     <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Second value">LD_Platform.Size</param>
+                                                    <param id="2" name="Second value">LD_PF_Immo.Size</param>
                                                 </condition>
                                             </conditions>
                                             <actions>
                                                 <action id="-3" name="Create object" sid="778397233590007" type="System">
-                                                    <param id="0" name="Object to create">LD_Platform_Sprite</param>
+                                                    <param id="0" name="Object to create">LD_PF_Immo_Sprite</param>
                                                     <param id="1" name="Layer">&quot;Scene&quot;</param>
-                                                    <param id="2" name="X">LD_Platform.X+16</param>
-                                                    <param id="3" name="Y">LD_Platform.Y+(32*(loopindex-1))+16</param>
+                                                    <param id="2" name="X">LD_PF_Immo.X+16</param>
+                                                    <param id="3" name="Y">LD_PF_Immo.Y+(32*(loopindex-1))+16</param>
                                                 </action>
-                                                <action id="4" name="Set animation" sid="873123894754521" type="LD_Platform_Sprite">
+                                                <action id="4" name="Set animation" sid="873123894754521" type="LD_PF_Immo_Sprite">
                                                     <param id="0" name="Animation">&quot;Bot&quot;</param>
                                                     <param id="1" name="From">1</param>
                                                 </action>
-                                                <action id="2" name="Stop" sid="433240478070128" type="LD_Platform_Sprite" />
-                                                <action id="5" name="Set frame" sid="104445722965639" type="LD_Platform_Sprite">
-                                                    <param id="0" name="Frame number">LD_Platform.AnimationFrame</param>
+                                                <action id="2" name="Stop" sid="433240478070128" type="LD_PF_Immo_Sprite" />
+                                                <action id="5" name="Set frame" sid="104445722965639" type="LD_PF_Immo_Sprite">
+                                                    <param id="0" name="Frame number">LD_PF_Immo.AnimationFrame</param>
                                                 </action>
-                                                <action id="-10" name="Set value" sid="254624886714629" type="LD_Platform_Sprite">
+                                                <action id="-10" name="Set value" sid="254624886714629" type="LD_PF_Immo_Sprite">
                                                     <param id="0" name="Instance variable">Parent</param>
-                                                    <param id="1" name="Value">LD_Platform.UID</param>
+                                                    <param id="1" name="Value">LD_PF_Immo.UID</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -427,31 +411,31 @@
                 <event-block sid="441513321298796">
                     <conditions>
                         <condition id="1" name="Is overlapping another object" sid="739059024370665" type="P1_Hitbox_Foot">
-                            <param id="0" name="Object">LD_Platform</param>
+                            <param id="0" name="Object">LD_PF_Immo</param>
                         </condition>
                     </conditions>
                     <actions />
                     <sub-events>
                         <event-block sid="710181662441438">
                             <conditions>
-                                <condition id="-7" name="Compare instance variable" sid="615098760972700" type="LD_Platform">
+                                <condition id="-7" name="Compare instance variable" sid="615098760972700" type="LD_PF_Immo">
                                     <param id="0" name="Instance variable">IsChanging</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">0</param>
                                 </condition>
-                                <condition id="-7" name="Compare instance variable" sid="589834650742284" type="LD_Platform">
+                                <condition id="-7" name="Compare instance variable" sid="589834650742284" type="LD_PF_Immo">
                                     <param id="0" name="Instance variable">Orientation</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">0</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action behavior="Timer" id="0" name="Start timer" sid="754572064402012" type="LD_Platform">
+                                <action behavior="Timer" id="0" name="Start timer" sid="754572064402012" type="LD_PF_Immo">
                                     <param id="0" name="Duration">1.0</param>
                                     <param id="1" name="Type">0</param>
                                     <param id="2" name="Tag">&quot;Down&quot;</param>
                                 </action>
-                                <action id="-10" name="Set value" sid="927738418676208" type="LD_Platform">
+                                <action id="-10" name="Set value" sid="927738418676208" type="LD_PF_Immo">
                                     <param id="0" name="Instance variable">IsChanging</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
@@ -459,12 +443,15 @@
                             <sub-events>
                                 <event-block sid="279540607584208">
                                     <conditions>
-                                        <condition id="1" name="Is overlapping another object" sid="302748366883295" type="LD_Platform_Sprite">
-                                            <param id="0" name="Object">LD_Platform</param>
+                                        <condition id="1" name="Is overlapping another object" sid="302748366883295" type="LD_PF_Immo_Sprite">
+                                            <param id="0" name="Object">LD_PF_Immo</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action behavior="Sine" id="0" name="Set active" sid="149141885540900" type="LD_Platform_Sprite">
+                                        <action behavior="Sine" id="0" name="Set active" sid="149141885540900" type="LD_PF_Immo_Sprite">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                        <action behavior="Sine2" id="0" name="Set active" sid="953518854852533" type="LD_PF_Immo_Sprite">
                                             <param id="0" name="State">1</param>
                                         </action>
                                     </actions>
@@ -476,31 +463,31 @@
                 <event-block sid="382839354621939">
                     <conditions>
                         <condition id="1" name="Is overlapping another object" sid="531372151107999" type="P1_Hitbox_Arms">
-                            <param id="0" name="Object">LD_Platform</param>
+                            <param id="0" name="Object">LD_PF_Immo</param>
                         </condition>
                     </conditions>
                     <actions />
                     <sub-events>
                         <event-block sid="501537317753367">
                             <conditions>
-                                <condition id="-7" name="Compare instance variable" sid="708880704715790" type="LD_Platform">
+                                <condition id="-7" name="Compare instance variable" sid="708880704715790" type="LD_PF_Immo">
                                     <param id="0" name="Instance variable">IsChanging</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">0</param>
                                 </condition>
-                                <condition id="-7" name="Compare instance variable" sid="261000028528812" type="LD_Platform">
+                                <condition id="-7" name="Compare instance variable" sid="261000028528812" type="LD_PF_Immo">
                                     <param id="0" name="Instance variable">Orientation</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">1</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action behavior="Timer" id="0" name="Start timer" sid="976885627966622" type="LD_Platform">
+                                <action behavior="Timer" id="0" name="Start timer" sid="976885627966622" type="LD_PF_Immo">
                                     <param id="0" name="Duration">1.0</param>
                                     <param id="1" name="Type">0</param>
                                     <param id="2" name="Tag">&quot;Down&quot;</param>
                                 </action>
-                                <action id="-10" name="Set value" sid="760333208922992" type="LD_Platform">
+                                <action id="-10" name="Set value" sid="760333208922992" type="LD_PF_Immo">
                                     <param id="0" name="Instance variable">IsChanging</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
@@ -508,12 +495,15 @@
                             <sub-events>
                                 <event-block sid="522110631335402">
                                     <conditions>
-                                        <condition id="1" name="Is overlapping another object" sid="884418268479372" type="LD_Platform_Sprite">
-                                            <param id="0" name="Object">LD_Platform</param>
+                                        <condition id="1" name="Is overlapping another object" sid="884418268479372" type="LD_PF_Immo_Sprite">
+                                            <param id="0" name="Object">LD_PF_Immo</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action behavior="Sine" id="0" name="Set active" sid="960212188330493" type="LD_Platform_Sprite">
+                                        <action behavior="Sine" id="0" name="Set active" sid="960212188330493" type="LD_PF_Immo_Sprite">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                        <action behavior="Sine2" id="0" name="Set active" sid="505748354776563" type="LD_PF_Immo_Sprite">
                                             <param id="0" name="State">1</param>
                                         </action>
                                     </actions>
@@ -524,15 +514,15 @@
                 </event-block>
                 <event-block sid="277082260193773">
                     <conditions>
-                        <condition behavior="Timer" id="0" name="On timer" sid="491820388642840" type="LD_Platform">
+                        <condition behavior="Timer" id="0" name="On timer" sid="491820388642840" type="LD_PF_Immo">
                             <param id="0" name="Tag">&quot;Down&quot;</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="743856873357104" type="LD_Platform">
+                        <action id="5" name="Set frame" sid="743856873357104" type="LD_PF_Immo">
                             <param id="0" name="Frame number">Self.AnimationFrame+1</param>
                         </action>
-                        <action id="-10" name="Set value" sid="709919873295947" type="LD_Platform">
+                        <action id="-10" name="Set value" sid="709919873295947" type="LD_PF_Immo">
                             <param id="0" name="Instance variable">IsChanging</param>
                             <param id="1" name="Value">0</param>
                         </action>
@@ -540,15 +530,18 @@
                     <sub-events>
                         <event-block sid="650203678219283">
                             <conditions>
-                                <condition id="1" name="Is overlapping another object" sid="766146156899285" type="LD_Platform_Sprite">
-                                    <param id="0" name="Object">LD_Platform</param>
+                                <condition id="1" name="Is overlapping another object" sid="766146156899285" type="LD_PF_Immo_Sprite">
+                                    <param id="0" name="Object">LD_PF_Immo</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action behavior="Sine" id="0" name="Set active" sid="315383309455996" type="LD_Platform_Sprite">
+                                <action behavior="Sine" id="0" name="Set active" sid="315383309455996" type="LD_PF_Immo_Sprite">
                                     <param id="0" name="State">0</param>
                                 </action>
-                                <action id="5" name="Set frame" sid="166015597899815" type="LD_Platform_Sprite">
+                                <action behavior="Sine2" id="0" name="Set active" sid="450686389120562" type="LD_PF_Immo_Sprite">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="166015597899815" type="LD_PF_Immo_Sprite">
                                     <param id="0" name="Frame number">Self.AnimationFrame+1</param>
                                 </action>
                             </actions>
@@ -557,26 +550,496 @@
                 </event-block>
                 <event-block sid="910144164659565">
                     <conditions>
-                        <condition id="3" name="Compare frame" sid="476376871069198" type="LD_Platform">
+                        <condition id="3" name="Compare frame" sid="476376871069198" type="LD_PF_Immo">
                             <param id="0" name="Comparison">0</param>
                             <param id="1" name="Number">4</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="Solid" id="0" name="Set enabled" sid="328498796104111" type="LD_Platform">
+                        <action behavior="Solid" id="0" name="Set enabled" sid="328498796104111" type="LD_PF_Immo">
                             <param id="0" name="State">0</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block sid="399673778957826">
                     <conditions>
-                        <condition id="3" name="Compare frame" sid="179627944621227" type="LD_Platform_Sprite">
+                        <condition id="3" name="Compare frame" sid="179627944621227" type="LD_PF_Immo_Sprite">
                             <param id="0" name="Comparison">0</param>
                             <param id="1" name="Number">4</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="296820098979509" type="LD_Platform_Sprite">
+                        <action id="-15" name="Set visible" sid="296820098979509" type="LD_PF_Immo_Sprite">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="755392478782301" title="Platform Destructible - Moving">
+            <sub-events>
+                <event-block sid="260053983191660">
+                    <conditions>
+                        <condition id="-18" name="On created" sid="741854459370196" type="LD_PF_Move" />
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Stop" sid="405065050981785" type="LD_PF_Move" />
+                    </actions>
+                    <sub-events>
+                        <event-block sid="995858846163301">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="537121790891968" type="System">
+                                    <param id="0" name="First value">LD_PF_Move.Width</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Second value">LD_PF_Move.Height</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="427499087898042" type="LD_PF_Move">
+                                    <param id="0" name="Instance variable">Orientation</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="967506716922125">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="640231265565646" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="407053286993807" type="LD_PF_Move">
+                                    <param id="0" name="Instance variable">Orientation</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="991112641144750">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="503698838960339" type="LD_PF_Move">
+                                    <param id="0" name="Instance variable">Orientation</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="416825459306959" type="LD_PF_Move">
+                                    <param id="0" name="Instance variable">Size</param>
+                                    <param id="1" name="Value">Self.Width/32</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="481848437058506">
+                                    <conditions>
+                                        <condition id="-10" name="For" sid="520416174606749" type="System">
+                                            <param id="0" name="Name">&quot;CreateSprite&quot;</param>
+                                            <param id="1" name="Start index">1</param>
+                                            <param id="2" name="End index">LD_PF_Move.Size</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="495207293566184">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="566957961441283" type="System">
+                                                    <param id="0" name="First value">loopindex</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Second value">1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-3" name="Create object" sid="189878535972709" type="System">
+                                                    <param id="0" name="Object to create">LD_PF_Move_Sprite</param>
+                                                    <param id="1" name="Layer">&quot;Scene&quot;</param>
+                                                    <param id="2" name="X">LD_PF_Move.ImagePointX(&quot;Topleft&quot;)+(32*(loopindex-1))+16</param>
+                                                    <param id="3" name="Y">LD_PF_Move.ImagePointY(&quot;Topleft&quot;)+16</param>
+                                                </action>
+                                                <action id="4" name="Set animation" sid="591644156650296" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Animation">&quot;Left&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                                <action id="2" name="Stop" sid="405560493902367" type="LD_PF_Move_Sprite" />
+                                                <action id="5" name="Set frame" sid="567499428160477" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Frame number">LD_PF_Move.AnimationFrame</param>
+                                                </action>
+                                                <action id="-10" name="Set value" sid="146236687542746" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Instance variable">Parent</param>
+                                                    <param id="1" name="Value">LD_PF_Move.UID</param>
+                                                </action>
+                                                <action behavior="Sine" id="3" name="Set movement" sid="992377367237998" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Movement">0</param>
+                                                </action>
+                                                <action behavior="Sine" id="1" name="Set period" sid="103120798215033" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Period">LD_PF_Move.Sine.Period</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="458915195731103">
+                                            <conditions>
+                                                <condition id="-21" name="Is between values" sid="528255790950309" type="System">
+                                                    <param id="0" name="Value">loopindex</param>
+                                                    <param id="1" name="Lower bound">2</param>
+                                                    <param id="2" name="Upper bound">LD_PF_Move.Size-1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-3" name="Create object" sid="844499576432693" type="System">
+                                                    <param id="0" name="Object to create">LD_PF_Move_Sprite</param>
+                                                    <param id="1" name="Layer">&quot;Scene&quot;</param>
+                                                    <param id="2" name="X">LD_PF_Move.ImagePointX(&quot;Topleft&quot;)+(32*(loopindex-1))+16</param>
+                                                    <param id="3" name="Y">LD_PF_Move.ImagePointY(&quot;Topleft&quot;)+16</param>
+                                                </action>
+                                                <action id="4" name="Set animation" sid="997959536914285" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Animation">&quot;Middle&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                                <action id="2" name="Stop" sid="457211094306963" type="LD_PF_Move_Sprite" />
+                                                <action id="5" name="Set frame" sid="206029627356277" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Frame number">LD_PF_Move.AnimationFrame</param>
+                                                </action>
+                                                <action id="-10" name="Set value" sid="883040581436384" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Instance variable">Parent</param>
+                                                    <param id="1" name="Value">LD_PF_Move.UID</param>
+                                                </action>
+                                                <action behavior="Sine" id="3" name="Set movement" sid="701226272255535" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Movement">0</param>
+                                                </action>
+                                                <action behavior="Sine" id="1" name="Set period" sid="491746160497616" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Period">LD_PF_Move.Sine.Period</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="700512594673439">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="340679037596342" type="System">
+                                                    <param id="0" name="First value">loopindex</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Second value">LD_PF_Move.Size</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-3" name="Create object" sid="704069141833988" type="System">
+                                                    <param id="0" name="Object to create">LD_PF_Move_Sprite</param>
+                                                    <param id="1" name="Layer">&quot;Scene&quot;</param>
+                                                    <param id="2" name="X">LD_PF_Move.ImagePointX(&quot;Topleft&quot;)+(32*(loopindex-1))+16</param>
+                                                    <param id="3" name="Y">LD_PF_Move.ImagePointY(&quot;Topleft&quot;)+16</param>
+                                                </action>
+                                                <action id="4" name="Set animation" sid="898958119377635" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Animation">&quot;Right&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                                <action id="2" name="Stop" sid="721542627408792" type="LD_PF_Move_Sprite" />
+                                                <action id="5" name="Set frame" sid="256616269690350" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Frame number">LD_PF_Move.AnimationFrame</param>
+                                                </action>
+                                                <action id="-10" name="Set value" sid="172579629748189" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Instance variable">Parent</param>
+                                                    <param id="1" name="Value">LD_PF_Move.UID</param>
+                                                </action>
+                                                <action behavior="Sine" id="3" name="Set movement" sid="253142154560457" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Movement">0</param>
+                                                </action>
+                                                <action behavior="Sine" id="1" name="Set period" sid="121386844321703" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Period">LD_PF_Move.Sine.Period</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="324839518945594">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="188390294186134" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="179313029135345" type="LD_PF_Move">
+                                    <param id="0" name="Instance variable">Size</param>
+                                    <param id="1" name="Value">Self.Height/32</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="879671417091466">
+                                    <conditions>
+                                        <condition id="-10" name="For" sid="258645889535811" type="System">
+                                            <param id="0" name="Name">&quot;CreateSprite&quot;</param>
+                                            <param id="1" name="Start index">1</param>
+                                            <param id="2" name="End index">LD_PF_Move.Size</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="363839087089540">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="503801991306139" type="System">
+                                                    <param id="0" name="First value">loopindex</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Second value">1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-3" name="Create object" sid="193234608231819" type="System">
+                                                    <param id="0" name="Object to create">LD_PF_Move_Sprite</param>
+                                                    <param id="1" name="Layer">&quot;Scene&quot;</param>
+                                                    <param id="2" name="X">LD_PF_Move.ImagePointX(&quot;Topleft&quot;)+16</param>
+                                                    <param id="3" name="Y">LD_PF_Move.ImagePointY(&quot;Topleft&quot;)+(32*(loopindex-1))+16</param>
+                                                </action>
+                                                <action id="4" name="Set animation" sid="691729039868742" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Animation">&quot;Top&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                                <action id="2" name="Stop" sid="238102503758225" type="LD_PF_Move_Sprite" />
+                                                <action id="5" name="Set frame" sid="312136485432088" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Frame number">LD_PF_Move.AnimationFrame</param>
+                                                </action>
+                                                <action id="-10" name="Set value" sid="713656493344334" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Instance variable">Parent</param>
+                                                    <param id="1" name="Value">LD_PF_Move.UID</param>
+                                                </action>
+                                                <action behavior="Sine" id="3" name="Set movement" sid="943074394585716" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Movement">1</param>
+                                                </action>
+                                                <action behavior="Sine" id="1" name="Set period" sid="855390821189529" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Period">LD_PF_Move.Sine.Period</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="227736576459176">
+                                            <conditions>
+                                                <condition id="-21" name="Is between values" sid="872200457990502" type="System">
+                                                    <param id="0" name="Value">loopindex</param>
+                                                    <param id="1" name="Lower bound">2</param>
+                                                    <param id="2" name="Upper bound">LD_PF_Move.Size-1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-3" name="Create object" sid="247920020712815" type="System">
+                                                    <param id="0" name="Object to create">LD_PF_Move_Sprite</param>
+                                                    <param id="1" name="Layer">&quot;Scene&quot;</param>
+                                                    <param id="2" name="X">LD_PF_Move.ImagePointX(&quot;Topleft&quot;)+16</param>
+                                                    <param id="3" name="Y">LD_PF_Move.ImagePointY(&quot;Topleft&quot;)+(32*(loopindex-1))+16</param>
+                                                </action>
+                                                <action id="4" name="Set animation" sid="401955524132527" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Animation">&quot;Center&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                                <action id="2" name="Stop" sid="102719685433362" type="LD_PF_Move_Sprite" />
+                                                <action id="5" name="Set frame" sid="704485047464005" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Frame number">LD_PF_Move.AnimationFrame</param>
+                                                </action>
+                                                <action id="-10" name="Set value" sid="785710947616821" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Instance variable">Parent</param>
+                                                    <param id="1" name="Value">LD_PF_Move.UID</param>
+                                                </action>
+                                                <action behavior="Sine" id="3" name="Set movement" sid="485533951003333" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Movement">1</param>
+                                                </action>
+                                                <action behavior="Sine" id="1" name="Set period" sid="740297512029241" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Period">LD_PF_Move.Sine.Period</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="431781506699006">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="547691729909843" type="System">
+                                                    <param id="0" name="First value">loopindex</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Second value">LD_PF_Move.Size</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-3" name="Create object" sid="858275512403532" type="System">
+                                                    <param id="0" name="Object to create">LD_PF_Move_Sprite</param>
+                                                    <param id="1" name="Layer">&quot;Scene&quot;</param>
+                                                    <param id="2" name="X">LD_PF_Move.ImagePointX(&quot;Topleft&quot;)+16</param>
+                                                    <param id="3" name="Y">LD_PF_Move.ImagePointY(&quot;Topleft&quot;)+(32*(loopindex-1))+16</param>
+                                                </action>
+                                                <action id="4" name="Set animation" sid="234418093317825" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Animation">&quot;Bot&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                                <action id="2" name="Stop" sid="444315202260565" type="LD_PF_Move_Sprite" />
+                                                <action id="5" name="Set frame" sid="985668271294133" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Frame number">LD_PF_Move.AnimationFrame</param>
+                                                </action>
+                                                <action id="-10" name="Set value" sid="924691879135905" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Instance variable">Parent</param>
+                                                    <param id="1" name="Value">LD_PF_Move.UID</param>
+                                                </action>
+                                                <action behavior="Sine" id="3" name="Set movement" sid="605110082482492" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Movement">1</param>
+                                                </action>
+                                                <action behavior="Sine" id="1" name="Set period" sid="672326927039710" type="LD_PF_Move_Sprite">
+                                                    <param id="0" name="Period">LD_PF_Move.Sine.Period</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="835782611686847">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="829052334415252" type="P1_Hitbox_Foot">
+                            <param id="0" name="Object">LD_PF_Move</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="881074805164068">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="513472371739177" type="LD_PF_Move">
+                                    <param id="0" name="Instance variable">IsChanging</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="364265420077167" type="LD_PF_Move">
+                                    <param id="0" name="Instance variable">Orientation</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Timer" id="0" name="Start timer" sid="347219702941214" type="LD_PF_Move">
+                                    <param id="0" name="Duration">1.0</param>
+                                    <param id="1" name="Type">0</param>
+                                    <param id="2" name="Tag">&quot;Down&quot;</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="150141944980847" type="LD_PF_Move">
+                                    <param id="0" name="Instance variable">IsChanging</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="828978051124553">
+                                    <conditions>
+                                        <condition id="1" name="Is overlapping another object" sid="496256928944839" type="LD_PF_Move_Sprite">
+                                            <param id="0" name="Object">LD_PF_Move</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Shaking1" id="0" name="Set active" sid="235872035538270" type="LD_PF_Move_Sprite">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                        <action behavior="Shaking2" id="0" name="Set active" sid="891570948173203" type="LD_PF_Move_Sprite">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="772348206115549">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="929888216489834" type="P1_Hitbox_Arms">
+                            <param id="0" name="Object">LD_PF_Move</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="795696320836222">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="377407658409078" type="LD_PF_Move">
+                                    <param id="0" name="Instance variable">IsChanging</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="795845821858122" type="LD_PF_Move">
+                                    <param id="0" name="Instance variable">Orientation</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Timer" id="0" name="Start timer" sid="208313512654080" type="LD_PF_Move">
+                                    <param id="0" name="Duration">1.0</param>
+                                    <param id="1" name="Type">0</param>
+                                    <param id="2" name="Tag">&quot;Down&quot;</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="943226999413722" type="LD_PF_Move">
+                                    <param id="0" name="Instance variable">IsChanging</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="831918928242907">
+                                    <conditions>
+                                        <condition id="1" name="Is overlapping another object" sid="174364967683301" type="LD_PF_Move_Sprite">
+                                            <param id="0" name="Object">LD_PF_Move</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Shaking1" id="0" name="Set active" sid="127618204618995" type="LD_PF_Move_Sprite">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                        <action behavior="Shaking2" id="0" name="Set active" sid="335658515744804" type="LD_PF_Move_Sprite">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="199459729071967">
+                    <conditions>
+                        <condition behavior="Timer" id="0" name="On timer" sid="390633284031791" type="LD_PF_Move">
+                            <param id="0" name="Tag">&quot;Down&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="489244557030600" type="LD_PF_Move">
+                            <param id="0" name="Frame number">Self.AnimationFrame+1</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="582698544577579" type="LD_PF_Move">
+                            <param id="0" name="Instance variable">IsChanging</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="322458772732320">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="990307682005634" type="LD_PF_Move_Sprite">
+                                    <param id="0" name="Object">LD_PF_Move</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Shaking1" id="0" name="Set active" sid="940569809394457" type="LD_PF_Move_Sprite">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action behavior="Shaking2" id="0" name="Set active" sid="459976197410421" type="LD_PF_Move_Sprite">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="139819164381594" type="LD_PF_Move_Sprite">
+                                    <param id="0" name="Frame number">Self.AnimationFrame+1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="588451403418958">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="929417138614654" type="LD_PF_Move">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Solid" id="0" name="Set enabled" sid="249105071983350" type="LD_PF_Move">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="517633888914070">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="266525638353050" type="LD_PF_Move_Sprite">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="309993453050007" type="LD_PF_Move_Sprite">
                             <param id="0" name="Visibility">0</param>
                         </action>
                     </actions>

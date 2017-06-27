@@ -1701,7 +1701,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LD_Platform_Sprite" uid="26">
+                <instance type="LD_PF_Immo_Sprite" uid="26">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation></initial-animation>
@@ -1755,7 +1755,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LD_Platform" uid="33">
+                <instance type="LD_PF_Immo" uid="33">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>

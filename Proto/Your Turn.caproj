@@ -222,7 +222,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="LD_Platform" sid="627146543837874">
+            <object-type name="LD_PF_Immo" sid="627146543837874">
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable name="IsChanging" sid="713481914052589" type="number" />
@@ -247,7 +247,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="LD_Platform_Sprite" sid="366348686662850">
+            <object-type name="LD_PF_Immo_Sprite" sid="366348686662850">
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable name="Parent" sid="130124223969884" type="number" />
@@ -604,6 +604,318 @@
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.652344" y="0" />
+                                <point x="0.671875" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.652344" y="0" />
+                                <point x="0.671875" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="LD_PF_Move" sid="101399731335141">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="IsChanging" sid="195392839603399" type="number" />
+                    <instance-variable name="Orientation" sid="472615111141120" type="number" />
+                    <instance-variable name="Size" sid="947462776737395" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Timer" sid="256603644527417">
+                        <behavior id="Timer" />
+                    </behavior-type>
+                    <behavior-type name="Solid" sid="649164205383657">
+                        <behavior id="solid" />
+                    </behavior-type>
+                    <behavior-type name="Sine" sid="822129097057469">
+                        <behavior id="Sin" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="163418820156378" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <image-point name="TopLeft" x="0" y="0" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <image-point name="TopLeft" x="0" y="0" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <image-point name="TopLeft" x="0" y="0" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <image-point name="TopLeft" x="0" y="0" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <image-point name="TopLeft" x="0" y="0" />
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="LD_PF_Move_Sprite" sid="267095320664046">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="Parent" sid="375868521240759" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Timer" sid="542084806973048">
+                        <behavior id="Timer" />
+                    </behavior-type>
+                    <behavior-type name="Sine" sid="731593396479371">
+                        <behavior id="Sin" />
+                    </behavior-type>
+                    <behavior-type name="Shaking1" sid="541740715201593">
+                        <behavior id="Sin" />
+                    </behavior-type>
+                    <behavior-type name="Shaking2" sid="869369657584141">
+                        <behavior id="Sin" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="5" loop="0" name="Bot" pingpong="0" repeatcount="1" repeatto="0" sid="165178257150429" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_PROTO\Your Turn - 30\Animations\LD_StepFloor_Sprite\Bot\000.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.671875" y="0" />
+                                <point x="0.671875" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_PROTO\Your Turn - 30\Animations\LD_StepFloor_Sprite\Bot\001.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.671875" y="0" />
+                                <point x="0.671875" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_PROTO\Your Turn - 30\Animations\LD_StepFloor_Sprite\Bot\002.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.671875" y="0" />
+                                <point x="0.671875" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_PROTO\Your Turn - 30\Animations\LD_StepFloor_Sprite\Bot\003.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.671875" y="0" />
+                                <point x="0.671875" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.671875" y="0" />
+                                <point x="0.671875" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="5" loop="0" name="Center" pingpong="0" repeatcount="1" repeatto="0" sid="716772740869063" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_PROTO\Your Turn - 30\Animations\LD_StepFloor_Sprite\Center\000.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.6875" y="0" />
+                                <point x="0.691406" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_PROTO\Your Turn - 30\Animations\LD_StepFloor_Sprite\Center\001.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.6875" y="0" />
+                                <point x="0.691406" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_PROTO\Your Turn - 30\Animations\LD_StepFloor_Sprite\Center\002.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.6875" y="0" />
+                                <point x="0.691406" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_PROTO\Your Turn - 30\Animations\LD_StepFloor_Sprite\Center\003.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.6875" y="0" />
+                                <point x="0.691406" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.6875" y="0" />
+                                <point x="0.691406" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="5" loop="0" name="Left" pingpong="0" repeatcount="1" repeatto="0" sid="283846280213877" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_PROTO\Your Turn - 30\Animations\LD_StepFloor_Sprite\Left\000.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.714844" />
+                                <point x="0" y="0.71875" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_PROTO\Your Turn - 30\Animations\LD_StepFloor_Sprite\Left\001.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.714844" />
+                                <point x="0" y="0.71875" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_PROTO\Your Turn - 30\Animations\LD_StepFloor_Sprite\Left\002.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.714844" />
+                                <point x="0" y="0.71875" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_PROTO\Your Turn - 30\Animations\LD_StepFloor_Sprite\Left\003.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.714844" />
+                                <point x="0" y="0.71875" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.714844" />
+                                <point x="0" y="0.71875" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="5" loop="0" name="Middle" pingpong="0" repeatcount="1" repeatto="0" sid="654937713561517" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_PROTO\Your Turn - 30\Animations\LD_StepFloor_Sprite\Middle\000.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.730469" />
+                                <point x="0" y="0.710938" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_PROTO\Your Turn - 30\Animations\LD_StepFloor_Sprite\Middle\001.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.730469" />
+                                <point x="0" y="0.710938" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_PROTO\Your Turn - 30\Animations\LD_StepFloor_Sprite\Middle\002.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.730469" />
+                                <point x="0" y="0.710938" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_PROTO\Your Turn - 30\Animations\LD_StepFloor_Sprite\Middle\003.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.730469" />
+                                <point x="0" y="0.710938" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.730469" />
+                                <point x="0" y="0.710938" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="5" loop="0" name="Right" pingpong="0" repeatcount="1" repeatto="0" sid="674371269110260" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_PROTO\Your Turn - 30\Animations\LD_StepFloor_Sprite\Right\000.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.71875" />
+                                <point x="0" y="0.734375" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_PROTO\Your Turn - 30\Animations\LD_StepFloor_Sprite\Right\001.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.71875" />
+                                <point x="0" y="0.734375" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_PROTO\Your Turn - 30\Animations\LD_StepFloor_Sprite\Right\002.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.71875" />
+                                <point x="0" y="0.734375" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_PROTO\Your Turn - 30\Animations\LD_StepFloor_Sprite\Right\003.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.71875" />
+                                <point x="0" y="0.734375" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.71875" />
+                                <point x="0" y="0.734375" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="5" loop="0" name="Top" pingpong="0" repeatcount="1" repeatto="0" sid="773249831032875" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_PROTO\Your Turn - 30\Animations\LD_StepFloor_Sprite\Top\000.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.652344" y="0" />
+                                <point x="0.671875" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_PROTO\Your Turn - 30\Animations\LD_StepFloor_Sprite\Top\001.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.652344" y="0" />
+                                <point x="0.671875" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_PROTO\Your Turn - 30\Animations\LD_StepFloor_Sprite\Top\002.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.652344" y="0" />
+                                <point x="0.671875" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\SOFT\Dropbox\Putsch And Tyranny\_PROJET\Your Turn\_PROTO\Your Turn - 30\Animations\LD_StepFloor_Sprite\Top\003.png">
                             <collision-poly>
                                 <point x="0" y="0" />
                                 <point x="0.652344" y="0" />
